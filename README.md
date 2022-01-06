@@ -16,7 +16,7 @@ This dashboard is designed to provide a clean, accessible, hyper-focused interfa
 
 Currently, the dashboard includes the following tabs and features:
 
-- &#x1F4C8; **Frame ML Problems** 
+- **Frame ML Problems** 
 
     The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
     
@@ -26,11 +26,11 @@ Currently, the dashboard includes the following tabs and features:
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
     
-- &#x1F3C6; **Architect & Train** 
+- **Architect & Train** 
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
     
-- &#x1F3C6; **Staged Deployment** 
+- **Staged Deployment** 
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
         
