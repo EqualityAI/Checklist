@@ -8,7 +8,7 @@ We are dedicated to making progress in the development of Responsible AI standar
 ## What is Responsible AI?
 Responsible AI is a governance framework that guides how organizations address challenges around AI from an ethical and legal perspective. 
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="left" alt="" width="900" />
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
 
 ## What does the AI Checklist do?
