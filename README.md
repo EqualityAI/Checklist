@@ -41,6 +41,13 @@ run_CaPO4Sim(context = "introduction")
 run_CaPO4Sim(context = "virtual-patient")
 ```
 
+## Development
+
+Contributions are welcome\! This application uses the
+[`renv`](https://rstudio.github.io/renv/) package to manage the versions
+of dependencies. After cloning the repository, launch a new session in
+the repository root directory and execute `renv::restore()` to download
+the package library.
 
 ## Contributors
 
