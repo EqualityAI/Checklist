@@ -10,6 +10,7 @@ Responsible AI is a governance framework that guides how organizations address c
 
 <img src="https://github.com/EqualityAI/responsibleAI/blob/main/img/frameworkprojectside.PNG" align="left" alt="" width="900" />
 
+
 ## What does the AI Checklist do?
 
 In brief, **iSEE** can be your best friend for interactive and reproducible exploration and visualization of genomics data.
