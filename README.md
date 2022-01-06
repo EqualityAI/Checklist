@@ -111,7 +111,4 @@ the package library.
 
 ## Contributors
 
-- Kevin Rue-Albrecht (https://github.com/kevinrue)
-- Charlotte Soneson (https://github.com/csoneson)
-- Federico Marini (https://github.com/federicomarini)
-- Aaron Lun (https://github.com/LTLA)
+- Equality AI (https://equality-ai.com/)
