@@ -64,6 +64,33 @@ run_CaPO4Sim(context = "introduction")
 run_CaPO4Sim(context = "virtual-patient")
 ```
 
+## Connect to a database
+
+Edit this in the global.R
+
+```r
+options(mysql = list(
+  "host" = "127.0.0.1",
+  "port" = 3306,
+  "user" = "myuser",
+  "password" = "mypassword"
+))
+databaseName <- "myshinydatabase"
+table <- "responses"
+```
+
+Specify which inputs, the table, and structure of the data in the server.R
+
+```r
+query <- sprintf(
+      "INSERT INTO %s (%s) VALUES ('%s')",
+      table, 
+      paste(names(data), collapse = ", "),
+      paste(data, collapse = "', '")
+    )
+```
+
+
 ## Development
 
 Contributions are welcome\! This application uses the
