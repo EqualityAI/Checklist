@@ -1,6 +1,6 @@
 <img src="https://github.com/EqualityAI/responsibleAI/blob/main/img/collogo.PNG" align="right" alt="" width="120" />
 
-# Shiny Contest Submission: _iSEE_, the interactive SummarizedExperiment Explorer
+# Responsible AI Checklist
 
 This is the repository for our submission to the [RStudio Shiny Contest](https://community.rstudio.com/t/take-part-in-the-shiny-contest/22445).
 
