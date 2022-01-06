@@ -1,4 +1,4 @@
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.PNG" align="right" alt="" width="120" />
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
 # Responsible AI Checklist
 Equality AI is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community! 
@@ -8,7 +8,7 @@ We are dedicated to making progress in the development of Responsible AI standar
 ## What is Responsible AI?
 Responsible AI is a governance framework that guides how organizations address challenges around AI from an ethical and legal perspective. 
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.PNG" align="left" alt="" width="900" />
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="left" alt="" width="900" />
 
 
 ## What does the AI Checklist do?
