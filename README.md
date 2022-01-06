@@ -1,4 +1,4 @@
-<img src="https://github.com/csoneson/iSEE/raw/master/inst/www/iSEE.png" align="right" alt="" width="120" />
+<img src="https://github.com/EqualityAI/responsibleAI/blob/main/img/collogo.PNG" align="right" alt="" width="120" />
 
 # Shiny Contest Submission: _iSEE_, the interactive SummarizedExperiment Explorer
 
