@@ -1,12 +1,16 @@
 <img src="https://github.com/EqualityAI/responsibleAI/blob/main/img/collogo.PNG" align="right" alt="" width="120" />
 
 # Responsible AI Checklist
+Equality AI is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community! 
 
-This is the repository for our submission to the [RStudio Shiny Contest](https://community.rstudio.com/t/take-part-in-the-shiny-contest/22445).
+We are dedicated to making progress in the development of Responsible AI standards by providing trustworthy services and a collection of open source resources and tools for the ML Healthcare community, starting with our Responsible AI Checklist.
 
-We are happy to present you **iSEE**, the interactive SummarizedExperiment Explorer!
+## What is Responsible AI?
+Responsible AI is a governance framework that guides how organizations address challenges around AI from an ethical and legal perspective. 
 
-## What does _iSEE_ do?
+<img src="https://github.com/EqualityAI/responsibleAI/blob/main/img/frameworkprojectside.PNG" align="left" alt="" width="900" />
+
+## What does the AI Checklist do?
 
 In brief, **iSEE** can be your best friend for interactive and reproducible exploration and visualization of genomics data.
 
