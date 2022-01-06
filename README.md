@@ -12,11 +12,26 @@ Responsible AI is a governance framework that guides how organizations address c
 
 ## What does the AI Checklist do?
 
-In brief, **iSEE** can be your best friend for interactive and reproducible exploration and visualization of genomics data.
+This dashboard is designed to provide a clean, accessible, hyper-focused interface to explore and monitor tweets sent during a conference, event, or gathering (IRL or online).
 
-**iSEE** (interactive SummarizedExperiment Explorer) is designed for interactive exploration of high-throughput biological data sets stored in the SummarizedExperiment S4 class. 
-It enables simultaneous visualisation of experimental data, associated metadata and analysis results, empowering users to discover new relationships in their data. 
-**iSEE** combines shiny with other packages designed for interactive user interfaces (e.g., shinydashboard, shinjs, shinyAce, colourpicker, htmltools), with further extensions to deliver a full-featured application accessible to both novice users and experienced developers.
+Currently, the dashboard includes the following tabs and features:
+
+- &#x1F4C8; **Dashboard** <img src="man/tweet-dash-all.png" align="right" width="40%"  />
+
+    The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
+    
+    The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
+    
+- &#x1F3C6; **High Score** 
+
+    The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
+
+## Try the AI Checklist for yourself
+
+You can find our post in the RStudio Community [here](https://community.rstudio.com/t/shiny-contest-submission-isee-interactive-and-reproducible-exploration-and-visualization-of-genomics-data/25136).
+From there, you can reach all the related links:
+
+- Live app: https://kevinrue.shinyapps.io/isee-shiny-contest/ 
 
 ## Installation
 
