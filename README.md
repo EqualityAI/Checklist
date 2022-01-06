@@ -35,12 +35,12 @@ Currently, the dashboard includes the following tabs and features:
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
         
 ## What questions can you answer, if you save the data?
-1. **Suggest metrics from the description text alone.** From the description, use NLP AI to suggest the metrics that suit the situation (is a positive model prediction assistive? Then we should use a metric focusing on false negative parity. With NLP we can suggest this from just the text).  
-2. **Predict model deployment probability bias.** If we collect information about the models that are actually deployed (we should!) we can predict the probability that a model will be deployed, using the checklist contents as covariates. 
-3. **Forecast the model deployment bias.** We can also use that same checklist information to forecast the model deployment bias. 
-4. **Suggest the impact of the model on the real world.** If a model is likely to be deployed, based on the metrics selected, we can determine the real world impact. (We can do this for incorrectly selected metrics as well). 
-5. **Determine what metrics are most likely to be successfully deployed.** Maybe some model metrics are associated with successful deployment (low deployment bias), and others are not.  We can learn this from the data. 
-6. **Determine what the "true" barriers are to model success.** Generic scientific questions can be answered using this data. Someone may answer the question "What models are most likely to be deployed successfully" 
+1. **Suggest metrics from the description text alone.** From the description, use NLP AI to suggest the metrics that suit the situation (is a positive model prediction assistive? Then we should use a metric focusing on false negative parity. With NLP we can suggest this from just the text).<br />
+2. **Predict model deployment probability bias.** If we collect information about the models that are actually deployed (we should!) we can predict the probability that a model will be deployed, using the checklist contents as covariates.<br /> 
+3. **Forecast the model deployment bias.** We can also use that same checklist information to forecast the model deployment bias.<br /> 
+4. **Suggest the impact of the model on the real world.** If a model is likely to be deployed, based on the metrics selected, we can determine the real world impact. (We can do this for incorrectly selected metrics as well).<br /> 
+5. **Determine what metrics are most likely to be successfully deployed.** Maybe some model metrics are associated with successful deployment (low deployment bias), and others are not.  We can learn this from the data.<br /> 
+6. **Determine what the "true" barriers are to model success.** Generic scientific questions can be answered using this data. Someone may answer the question "What models are most likely to be deployed successfully?"<br /> 
 
 
         
