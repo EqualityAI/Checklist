@@ -1,4 +1,4 @@
-<img src="https://github.com/EqualityAI/responsibleAI/blob/main/img/collogo.PNG" align="right" alt="" width="120" />
+<img src="https://github.com/EqualityAI/responsibleAI/blob/main/img/collogostacked.PNG" align="right" alt="" width="120" />
 
 # Responsible AI Checklist
 
