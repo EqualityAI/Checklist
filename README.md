@@ -10,8 +10,6 @@ Responsible AI is a governance framework that guides how organizations address c
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/checklist.png" align="right" alt="" width="250" /><br />
-
 ## What does the AI Checklist do?
 
 In brief, **iSEE** can be your best friend for interactive and reproducible exploration and visualization of genomics data.
@@ -20,20 +18,29 @@ In brief, **iSEE** can be your best friend for interactive and reproducible expl
 It enables simultaneous visualisation of experimental data, associated metadata and analysis results, empowering users to discover new relationships in their data. 
 **iSEE** combines shiny with other packages designed for interactive user interfaces (e.g., shinydashboard, shinjs, shinyAce, colourpicker, htmltools), with further extensions to deliver a full-featured application accessible to both novice users and experienced developers.
 
-## Links for the Shiny Contest
+## Installation
 
-You can find our post in the RStudio Community [here](https://community.rstudio.com/t/shiny-contest-submission-isee-interactive-and-reproducible-exploration-and-visualization-of-genomics-data/25136).
-From there, you can reach all the related links:
+As this package is not currently on CRAN, install it via devtools:
 
-- RStudio Cloud project: https://rstudio.cloud/project/230765
-- Live app: https://kevinrue.shinyapps.io/isee-shiny-contest/
-- GitHub repository: https://github.com/kevinrue/isee-shiny-contest 
+```r
+devtools::install_github("")
+```
 
-Want to discover more about **iSEE**? 
+## Access Apps
 
-- Source code for the iSEE package: https://github.com/csoneson/iSEE
-- Documentation and vignettes: http://bioconductor.org/packages/release/bioc/html/iSEE.html
-- Published article: https://f1000research.com/articles/7-741/v1 
+There are two ways to run these apps:
+
+- access the [Apps.Physiol](http://physiol-seafile.uzh.ch) RStudio Connect server and selected the relevant app
+- from the package (see below)
+
+```r
+library(CaPO4Sim)
+# entry level app
+run_CaPO4Sim(context = "introduction")
+# virtual patient Bootstrap 4
+run_CaPO4Sim(context = "virtual-patient")
+```
+
 
 ## Contributors
 
