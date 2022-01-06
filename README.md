@@ -10,7 +10,7 @@ Responsible AI is a governance framework that guides how organizations address c
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/checklist.png" align="right" alt="" width="120" /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/checklist.png" align="right" alt="" width="250" /><br />
 
 ## What does the AI Checklist do?
 
