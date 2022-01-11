@@ -118,7 +118,7 @@ the package library.
 
 
 
-## Example
+# Example
 ## Example2
 ## Third Example
 ## [Fourth Example](http://www.fourthexample.com)
