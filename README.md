@@ -1,7 +1,6 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
 # Responsible AI Checklist
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 1. [Frame ML Problems](#frame-ml-problems)
 2. [Acquire & Explore Data](#acquire-&-explore-data)
 3. [Architect & Train](#architect-&-train)
