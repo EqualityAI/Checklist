@@ -1,10 +1,10 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
 # Responsible AI Checklist
-1. [Frame ML Problems](#Frame ML Problems)
-2. [Acquire & Explore Data](#Acquire & Explore Data)
-3. [Architect & Train](#Architect & Train)
-4. [Staged Deployment](#Staged Deployment)
+1. [Frame ML Problems](#frame-ml-problems)
+2. [Acquire & Explore Data](#Acquire)
+3. [Architect & Train](#Architect)
+4. [Staged Deployment](#Staged)
 
 
 
@@ -19,7 +19,7 @@ Responsible AI is a governance framework that guides how organizations address c
 
 ## What does the AI Checklist do?
 
-### Frame ML Problems 
+### Frame ML Problems<a name="frame-ml-problems" />
 
     The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
     
