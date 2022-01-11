@@ -6,8 +6,6 @@
 3. [Architect & Train](#architect-&-train)
 4. [Staged Deployment](#staged-deployment)
 
-
-
 [Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community! 
 
 We are dedicated to making progress in the development of Responsible AI standards by providing trustworthy services and a collection of open source resources and tools for the ML Healthcare community, starting with our Responsible AI Checklist.
@@ -116,9 +114,3 @@ the package library.
 
 - Equality AI (https://equality-ai.com/)
 
-
-
-# Example
-## Example2
-## Third Example
-## [Fourth Example](http://www.fourthexample.com)
