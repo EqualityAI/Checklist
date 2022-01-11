@@ -46,10 +46,6 @@ The EAI checklist provides an easy to use Responsible GUI tool for executives an
 The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
 The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
 
-A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
-
-The Acquire & Explore Data, Data bias scanner (specifically the patient demographic characteristics), Architect & train, and Staged deployment sections of the checklist are anchored in MINIMAR (MINimum Information for Medical AI Reporting) feeding into ongoing initiatives such as CONSORT, SPIRIT (11), and TRIPOD-ML(1) to include an ML or AI component.
-
 ### Acquire & Explore Data<a name="acquire-&-explore-data" />
 #### Population <a name="population"></a> | Study setting <a name="study-setting"></a> | Data source <a name="data-source"></a> | Cohort selection <a name="cohort-selection"></a>
 
@@ -60,7 +56,11 @@ The Acquire & Explore Data, Data bias scanner (specifically the patient demograp
 
 ### Staged Deployment <a name="staged-deployment" />
 #### Optimization<a name="optimization"></a> | Internal model validation <a name="internal-model-validation"></a> | External model validation <a name="external-model-validation"></a> | Transparency <a name="transparency"></a> 
-    
+
+A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
+
+The Acquire & Explore Data, Data bias scanner (specifically the patient demographic characteristics), Architect & train, and Staged deployment sections of the checklist are anchored in MINIMAR (MINimum Information for Medical AI Reporting) feeding into ongoing initiatives such as CONSORT, SPIRIT (11), and TRIPOD-ML(1) to include an ML or AI component.
+
 ## Try the checklist for yourself
 There are two ways to run these apps:
 
