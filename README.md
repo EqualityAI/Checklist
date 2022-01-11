@@ -1,8 +1,14 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
+# Table of contents
+1. [Introduction](#introduction)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+
+
 # Responsible AI Checklist
 1. [Frame ML Problems](#frame-ml-problems)
-    1. Project Title or Objective (#project-title-or-objective)
+    1. [Project Title or Objective] (#project-title-or-objective)
     2. Expected Stakeholders
     3. Types of Harm
     4. Trade Offs (expected benefits and potential harms)
