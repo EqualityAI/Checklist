@@ -56,13 +56,12 @@ The high score tab gives a "leaderboard" for users, hashtags, words, and emojis 
 ### Architect & Train<a name="architect-&-train" />
 #### Model output<a name="model-output"></a> | Target user <a name="target-user"></a> | Data splitting <a name="data-splitting"></a> | Gold standard <a name="gold-standard"></a> | Model task <a name="model-task"></a> | Model architecture <a name="model-architecture"></a> | Features <a name="features"></a> | Missingness <a name="missingness"></a> 
 
-    The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
+The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
     
-- **Staged Deployment** <a name="staged-deployment" />
-
+### Staged Deployment <a name="staged-deployment" />
 #### Optimization<a name="optimization"></a> | Internal model validation <a name="internal-model-validation"></a> | External model validation <a name="external-model-validation"></a> | Transparency <a name="transparency"></a> 
 
-    The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
+The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
         
 ## What questions can you answer, if you save the data?
 1. **Suggest metrics from the description text alone.** From the description, use NLP AI to suggest the metrics that suit the situation (is a positive model prediction assistive? Then we should use a metric focusing on false negative parity. With NLP we can suggest this from just the text).<br /><br />
