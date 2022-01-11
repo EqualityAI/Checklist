@@ -40,7 +40,7 @@ Responsible AI is a governance framework that guides how organizations address c
 ## What does the AI Checklist do?
 
 ### Frame ML Problems<a name="frame-ml-problems" />
-#### Project title or objective<a name="#project-title-or-objective"></a>
+#### Project title or objective<a name="#project-title-or-objective"></a> | #### Project title or objective<a name="#project-title-or-objective"></a> |
 The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
 The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
     
