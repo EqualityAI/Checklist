@@ -41,19 +41,26 @@ Responsible AI is a governance framework that guides how organizations address c
 ## What does the AI Checklist do?
 
 ### Frame ML Problems<a name="frame-ml-problems" />
-#### Project title or objective<a name="#project-title-or-objective"></a> | Expected Stakeholders <a name="expected-stakeholders"></a> | Types of harm <a name="types-of-harm"></a> | Trade offs <a name="#trade-offs"></a> | Team members <a name="team-members"></a> | 
+#### Project title or objective<a name="project-title-or-objective"></a> | Expected Stakeholders <a name="expected-stakeholders"></a> | Types of harm <a name="types-of-harm"></a> | Trade offs <a name="trade-offs"></a> | Team members <a name="team-members"></a> 
 
 The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
 The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
     
 ### Acquire & Explore Data<a name="acquire-&-explore-data" />
+#### Population <a name="population"></a> | Study setting <a name="study-setting"></a> | Data source <a name="data-source"></a> | Cohort selection <a name="cohort-selection"></a>
+
 The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
-    
+
+### Data bias scanner <a name="data-bias-scanner" />
+
 ### Architect & Train<a name="architect-&-train" />
+#### Model output<a name="model-output"></a> | Target user <a name="target-user"></a> | Data splitting <a name="data-splitting"></a> | Gold standard <a name="gold-standard"></a> | Model task <a name="model-task"></a> | Model architecture <a name="model-architecture"></a> | Features <a name="features"></a> | Missingness <a name="missingness"></a> 
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
     
 - **Staged Deployment** <a name="staged-deployment" />
+
+#### Optimization<a name="optimization"></a> | Internal model validation <a name="internal-model-validation"></a> | External model validation <a name="external-model-validation"></a> | Transparency <a name="transparency"></a> 
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
         
