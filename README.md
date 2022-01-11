@@ -70,40 +70,16 @@ The high score tab gives a "leaderboard" for users, hashtags, words, and emojis 
 4. **Suggest the impact of the model on the real world.** If a model is likely to be deployed, based on the metrics selected, we can determine the real world impact. (We can do this for incorrectly selected metrics as well).<br /> 
 5. **Determine what metrics are most likely to be successfully deployed.** Maybe some model metrics are associated with successful deployment (low deployment bias), and others are not.  We can learn this from the data.<br /> 
 6. **Determine what the "true" barriers are to model success.** Generic scientific questions can be answered using this data. Someone may answer the question "What models are most likely to be deployed successfully?"
-
-
-        
-## Try the AI Checklist for yourself
-
-You can find our post in the RStudio Community [here](https://community.rstudio.com/t/shiny-contest-submission-isee-interactive-and-reproducible-exploration-and-visualization-of-genomics-data/25136).
-From there, you can reach all the related links:
-
-- Live app: https://kevinrue.shinyapps.io/isee-shiny-contest/ 
-
-## Installation
-
-As this package is not currently on CRAN, install it via devtools:
-
-```r
-devtools::install_github("")
-```
-
-## Access Apps
-
+    
+## Try the checklist for yourself
 There are two ways to run these apps:
 
-- access the [Apps.Physiol](http://physiol-seafile.uzh.ch) RStudio Connect server and selected the relevant app
-- from the package (see below)
+- Live app: https://kevinrue.shinyapps.io/isee-shiny-contest/ 
+- Download and run app
 
-```r
-library(CaPO4Sim)
-# entry level app
-run_CaPO4Sim(context = "introduction")
-# virtual patient Bootstrap 4
-run_CaPO4Sim(context = "virtual-patient")
-```
+## Save & use data
 
-## Connect to a database
+### Connect to a database
 
 Edit this in the global.R
 
@@ -126,6 +102,13 @@ query <- sprintf(
       table, 
       paste(names(data), collapse = ", "),
       paste(data, collapse = "', '")
+    )
+```
+
+### Save to .txt
+
+```r
+Add code
     )
 ```
 
