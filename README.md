@@ -2,9 +2,31 @@
 
 # Responsible AI Checklist
 1. [Frame ML Problems](#frame-ml-problems)
+    1. Project Title or Objective (#project-title-or-objective)
+    2. Expected Stakeholders
+    3. Types of Harm
+    4. Trade Offs (expected benefits and potential harms)
+    5. Assigned team members
 2. [Acquire & Explore Data](#acquire-&-explore-data)
+    1. Population
+    2. Study setting
+    3. Data source
+    4. Cohort Selection
 3. [Architect & Train](#architect-&-train)
+    1. Model output
+    2. Target user
+    3. Cross validation OR Data split
+    4. Gold standard
+    5. Model task
+    6. Model Architecture
+    7. Glass box OR Black box
+    8. Features
+    9. How missingnes was addressed
 4. [Staged Deployment](#staged-deployment)
+    1. Optimization
+    2. External model validation
+    3. Have code and/or data been shared with the community?
+    4. If shared, where has it been shared?
 
 [Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community! 
 
@@ -18,6 +40,7 @@ Responsible AI is a governance framework that guides how organizations address c
 ## What does the AI Checklist do?
 
 ### Frame ML Problems<a name="frame-ml-problems" />
+#### Project title or objective<a name="#project-title-or-objective"></a>
 The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
 The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
     
