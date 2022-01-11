@@ -1,10 +1,10 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
 # Responsible AI Checklist
-1. [Test](#example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+1. [Frame ML Problems](#Frame ML Problems)
+2. [Acquire & Explore Data](#Acquire & Explore Data)
+3. [Architect & Train](#Architect & Train)
+4. [Staged Deployment](#Staged Deployment)
 
 
 
