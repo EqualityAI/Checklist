@@ -109,7 +109,6 @@ query <- sprintf(
 
 ```r
 Add code
-    )
 ```
 
 
@@ -120,6 +119,15 @@ Contributions are welcome\! This application uses the
 of dependencies. After cloning the repository, launch a new session in
 the repository root directory and execute `renv::restore()` to download
 the package library.
+
+### Enterprise version in development
+
+The enterprise version ... 
+
+```r
+Add code
+```
+
 
 ## Contributors
 
