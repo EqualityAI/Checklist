@@ -22,14 +22,13 @@ The opening page show a few statistics about the current volume of tweeting abou
 The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
     
 ### Acquire & Explore Data<a name="acquire-&-explore-data" />
-
-    The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
+The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
     
 ### Architect & Train<a name="architect-&-train" />
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
     
-### Staged Deployment<a name="staged-deployment" />
+- **Staged Deployment** <a name="staged-deployment" />
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
         
