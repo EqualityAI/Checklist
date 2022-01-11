@@ -30,7 +30,7 @@
     4. [Transparency](#transparency)
 
 ## What is Responsible AI?
-Responsible AI is a governance framework that guides how organizations address challenges around AI from an ethical and legal perspective. 
+(generic explanation of what is responsible AI)
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
