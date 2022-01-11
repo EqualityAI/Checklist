@@ -35,7 +35,7 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
 ## What does the AI Checklist do?
-The EAI checklist provides an easy to use GUI tool for executives and ML developers to promote transparency (i.e. reproducibility, generalizability, and interpretability of a proposed model) (1), and provide documentation to learn from historically deployed models.
+The EAI checklist provides an easy to use Responsible GUI tool for executives and ML developers to promote transparency (i.e. reproducibility, generalizability, and interpretability of a proposed model) (1), and provide documentation to learn from historically deployed models.
 
 ### Frame ML Problems<a name="frame-ml-problems" />
 #### Project title or objective<a name="project-title-or-objective"></a> | Expected Stakeholders <a name="expected-stakeholders"></a> | Types of harm <a name="types-of-harm"></a> | Trade offs <a name="trade-offs"></a> | Team members <a name="team-members"></a> 
