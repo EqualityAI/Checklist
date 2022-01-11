@@ -2,9 +2,9 @@
 
 # Responsible AI Checklist
 1. [Frame ML Problems](#frame-ml-problems)
-2. [Acquire & Explore Data](#Acquire)
-3. [Architect & Train](#Architect)
-4. [Staged Deployment](#Staged)
+2. [Acquire & Explore Data](#acquire-&-explore-data)
+3. [Architect & Train](#architect-&-train)
+4. [Staged Deployment](#staged-deployment)
 
 
 
@@ -25,15 +25,15 @@ Responsible AI is a governance framework that guides how organizations address c
     
     The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
     
-**Acquire & Explore Data** 
+### Acquire & Explore Data<a name="acquire-&-explore-data" />
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
     
-**Architect & Train** 
+### Architect & Train<a name="architect-&-train" />
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
     
-**Staged Deployment** 
+### Staged Deployment<a name="staged-deployment" />
 
     The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
         
