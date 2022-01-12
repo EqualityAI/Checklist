@@ -29,25 +29,12 @@
     3. [External model validation](#external-model-validation)
     4. [Transparency](#transparency)
 
-## What is Responsible AI?
-(generic explanation of what is responsible AI)
+## THE EQUALITY AI RESPONSIBLE AI CHECKLIST
+This repository contains the source code for the Equality AI Responsible AI Checklist and integrated data bias scanner, an R Shiny based library that is one component of the Equality AI Responsible AI Toolkit.  The Responsible AI Checklist provides a framework to guide the design, development, and deployment of machine learning models with good intention to empower healthcare organizations, patients, and employees, allowing companies to engender trust and to scale AI with confidence.
+
+The Responsible AI Checklist provides a governance framework that is at the heart of the principles of Responsible AI.  The Checklist is a tool designed and intended to be used by all organizational entities, from executives to developers, who are involved in the production, application, and lifecycle management of machine learning models. 
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
-
-## What does the AI Checklist do?
-The EAI checklist provides an easy to use Responsible GUI tool for executives and ML developers to select a fairness metric, run a bias data scanner, and promote transparency (i.e. reproducibility, generalizability, and interpretability of a proposed model) (1), and provide documentation to learn from historically deployed models.
-
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/independence.svg" align="left" alt="" width="120" /><br />
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/seperation.svg" align="left" alt="" width="120" /><br />
-
-### Fairness 
-
-### Bias detection
-
-### Transparency
-A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
-
-The Acquire & Explore Data, Data bias scanner (specifically the patient demographic characteristics), Architect & train, and Staged deployment sections of the checklist are anchored in MINIMAR (MINimum Information for Medical AI Reporting) feeding into ongoing initiatives such as CONSORT, SPIRIT (11), and TRIPOD-ML(1) to include an ML or AI component.
 
 ## Checklist components
 ### Frame ML Problems<a name="frame-ml-problems" />
