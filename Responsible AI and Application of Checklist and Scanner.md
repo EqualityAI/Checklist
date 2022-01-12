@@ -18,7 +18,12 @@ Figure 1 describes how we determined what metrics to use and when to use them. W
 **Figure 1:** Methodology for selecting a fairness metric
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/fairness_methodology.png" align="left" alt="" width="1000" />
 
-
+**Table 1:** Crosswalk between fairness metrics
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
 
 
