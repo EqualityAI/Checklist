@@ -42,13 +42,12 @@ The EAI checklist provides an easy to use Responsible GUI tool for executives an
 
 ### Fairness 
 
-### Bias
+### Bias detection
 
 ### Transparency
+A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
 
-
-
-
+The Acquire & Explore Data, Data bias scanner (specifically the patient demographic characteristics), Architect & train, and Staged deployment sections of the checklist are anchored in MINIMAR (MINimum Information for Medical AI Reporting) feeding into ongoing initiatives such as CONSORT, SPIRIT (11), and TRIPOD-ML(1) to include an ML or AI component.
 
 ## Checklist components
 ### Frame ML Problems<a name="frame-ml-problems" />
@@ -86,10 +85,6 @@ The EAI checklist provides an easy to use Responsible GUI tool for executives an
 - **Internal model validation** <a name="internal-model-validation"></a> : Study internal validation
 - **External model validation** <a name="external-model-validation"></a> : External validation using data from another setting
 - **Transparency** <a name="transparency"></a> : How code and data are shared with the community
-
-A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
-
-The Acquire & Explore Data, Data bias scanner (specifically the patient demographic characteristics), Architect & train, and Staged deployment sections of the checklist are anchored in MINIMAR (MINimum Information for Medical AI Reporting) feeding into ongoing initiatives such as CONSORT, SPIRIT (11), and TRIPOD-ML(1) to include an ML or AI component.
 
 ## Try the checklist for yourself
 There are two ways to run these apps:
