@@ -7,7 +7,7 @@
 4. [Transparency](#transparency)
 
 ## What is Responsible AI?
-(generic explanation of what is responsible AI)
+AI brings extraordinary opportunities to healthcare, but also incredible responsibility.  AI products in healthcare have a direct impact on people’s health outcomes and lives, which raises considerable questions about ethics, trust, fairness, and risk. The more healthcare decisions we place in the hands of AI, the more risk we accept.  Responsible AI is a framework designed to address that risk with guiding principles applied to AI development to ensure that ethical, equitable, accuracy, and security and privacy standards are met and to mitigate the potential for risk of harm from AI products to individuals and society.
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
