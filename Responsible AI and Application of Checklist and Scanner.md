@@ -13,7 +13,7 @@ AI brings extraordinary opportunities to healthcare, but also incredible respons
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br/>
 
 ## Fairness <a name="fairness"></a> 
-As shown in Figure 1, ...
+Figure 1 describes how we determined what metrics to use and when to use them. We compared numerous proposed fairness metrics and crosswalked and organized them into three main metrics: Independence, Sufficiency, and Seperation. After identifying what metrics to use, we then sought to understand the situations in which fairness is of concern. An open source tool by Aequitas started describing real-world situations and a fairness logic tree to provide guidance on metric selection by situation. Paulus, et al. took it one step further by assess specific healthcare situations and when fairness is of concern to the patient. These works helped us to narrow down to four questions that can help choose the appropriate fairness metric.
 
 **Figure 1:** Methodology for selecting a fairness metric
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/fairness_methodology.png" align="left" alt="" width="1000" />
