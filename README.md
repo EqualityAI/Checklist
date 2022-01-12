@@ -53,11 +53,16 @@ The front page also includes the top retweeted and liked tweets from a configura
 - **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
 
 ### Data bias scanner <a name="data-bias-scanner" />
+- **Age** <a name="age"></a> : Age of patients included in the study
+- **Sex** <a name="sex"></a> : Sex breakdown of study cohort
+- **Race** <a name="race"></a> : Race characteristics of patients included in the study
+- **Ethnicity** <a name="ethnicity"></a> : Ethnicity breakdown of patients included in the study
+- **Socioeconomic status** <a name="socioeconomic-status"></a> : A measure or proxy measure of the socioeconomic status of patients included in the study
 
 ### Architect & Train<a name="architect-&-train" />
 - **Model output** <a name="model-output"></a> : The computed result of the model
 - **Target user** <a name="target-user"></a> :  The indented user of the model output (eg, clinician, hospital management team, insurance company)
-- **Data splitting** <a name="data-splitting"></a> : How data were split for training, testing, and validation
+- **Data splitting** <a name="data-splitting"></a> : How data were split for training, testing, and validation
 - **Gold standard** <a name="gold-standard"></a> : Labeled data used to train and test the model
 - **Model task** <a name="model-task"></a> : Classification or prediction
 - **Model architecture** <a name="model-architecture"></a> : Algorithm type (eg, machine learning, deep learning, etc.)
