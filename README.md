@@ -47,7 +47,7 @@ The opening page show a few statistics about the current volume of tweeting abou
 The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
 
 ### Acquire & Explore Data<a name="acquire-&-explore-data" />
-#### Population <a name="population"></a> | Study setting <a name="study-setting"></a> | Data source <a name="data-source"></a> | Cohort selection <a name="cohort-selection"></a>
+#### Study setting <a name="study-setting"></a> | Data source <a name="data-source"></a> | Cohort selection <a name="cohort-selection"></a>
 
 - **Population** <a name="population"></a> : Population from which study sample was drawn
 - **Study setting** : Population from which study sample was drawn
