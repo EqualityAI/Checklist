@@ -38,6 +38,11 @@ The Responsible AI Checklist provides a governance framework that is at the hear
 
 ## Checklist components
 ### Frame ML Problems<a name="frame-ml-problems" />
+1. Does this resource need to be equally provisioned to each level of the protected class (same number or percent e.g. equal outcomes)?
+2. Is the healthcare provider incentivized to ration the resource?
+3. Is the patient incentivized to seek or avoid care?
+4. What is the population of concern?
+
 - **Expected Stakeholders** <a name="expected-stakeholders"></a> : 
 - **Types of harm** <a name="types-of-harm"></a> : 
 - **Trade offs** <a name="trade-offs"></a> : 
