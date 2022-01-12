@@ -16,14 +16,7 @@ To understand and implement Responsible AI in the development lifecycle, we need
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br/>
 
-Footnotes
-=========
 Development Update.  Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in a future Equality AI Responsible AI Checklist version. 
-
-
-
-Yadda yadda<a href="#note1" id="note1ref"><sup>1</sup></a>
-<a id="note1" href="#note1ref"><sup>1</sup></a>Here is the footnote text
 
 ## Fairness <a name="fairness"></a> 
 Figure 1 describes how we determined what metrics to use and when to use them. We compared numerous proposed fairness metrics and crosswalked and organized them into three main metrics: Independence, Sufficiency, and Seperation. After identifying what metrics to use, we then sought to understand the situations in which fairness is of concern. An open source tool by Aequitas started describing real-world situations and a fairness logic tree to provide guidance on metric selection by situation. Paulus, et al. took it one step further by assess specific healthcare situations and when fairness is of concern to the patient. These works helped us to narrow down to four questions that can help choose the appropriate fairness metric.
