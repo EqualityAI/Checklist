@@ -1,6 +1,13 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
-# Responsible AI checklist & Data bias scanner
+# The Equality AI Responsible AI checklist & Data bias scanner
+This repository contains the source code for the Equality AI Responsible AI Checklist and integrated data bias scanner, an R Shiny based library that is one component of the Equality AI Responsible AI Toolkit.  The Responsible AI Checklist provides a framework to guide the design, development, and deployment of machine learning models with good intention to empower healthcare organizations, patients, and employees, allowing companies to engender trust and to scale AI with confidence.
+
+The Responsible AI Checklist provides a governance framework that is at the heart of the principles of Responsible AI.  The Checklist is a tool designed and intended to be used by all organizational entities, from executives to developers, who are involved in the production, application, and lifecycle management of machine learning models. 
+
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
+
+## Table of contents
 1. [Frame ML problems](#frame-ml-problems)
     1. [Project title or objective](#project-title-or-objective)
     2. [Expected stakeholders](#expected-stakeholders)
@@ -28,13 +35,6 @@
     2. [Internal model validation](#internal-model-validation)
     3. [External model validation](#external-model-validation)
     4. [Transparency](#transparency)
-
-## THE EQUALITY AI RESPONSIBLE AI CHECKLIST
-This repository contains the source code for the Equality AI Responsible AI Checklist and integrated data bias scanner, an R Shiny based library that is one component of the Equality AI Responsible AI Toolkit.  The Responsible AI Checklist provides a framework to guide the design, development, and deployment of machine learning models with good intention to empower healthcare organizations, patients, and employees, allowing companies to engender trust and to scale AI with confidence.
-
-The Responsible AI Checklist provides a governance framework that is at the heart of the principles of Responsible AI.  The Checklist is a tool designed and intended to be used by all organizational entities, from executives to developers, who are involved in the production, application, and lifecycle management of machine learning models. 
-
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
 ## Checklist components
 ### Frame ML Problems<a name="frame-ml-problems" />
