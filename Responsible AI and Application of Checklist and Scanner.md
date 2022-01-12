@@ -1,28 +1,10 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
 # Responsible AI checklist & Data bias scanner
-1. [What is Resposible AI?](#frame-ml-problems)
-2. [Acquire & Explore Data](#acquire-&-explore-data)
-    1. [Population](#population)
-    2. [Study setting](#study-setting)
-    3. [Data source](#data-source)
-    4. [Cohort selection](#cohort-selection)
-3. [Data bias scanner](#data-bias-scanner)
-    1. 
-4. [Architect & train](#architect-&-train)
-    1. [Model output](#model-output)
-    2. [Target user](#target-user)
-    3. [Data splitting](#data-splitting)
-    4. [Gold standard](#gold-standard)
-    5. [Model task](#model-task)
-    6. [Model architecture](#model-architecture)
-    7. [Features](#features)
-    8. [Missingness](#missingness)
-5. [Staged Deployment](#staged-deployment)
-    1. [Optimization](#optimization)
-    2. [Internal model validation](#internal-model-validation)
-    3. [External model validation](#external-model-validation)
-    4. [Transparency](#transparency)
+1. [What is Resposible AI?](#what-is-respsonsible)
+2. [Fairness](#fairness)
+3. [Bias detection](#bias-detection)
+4. [Transparency](#transparency)
 
 ## What is Responsible AI?
 (generic explanation of what is responsible AI)
