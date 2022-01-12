@@ -1,6 +1,6 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
-# Responsible AI Checklist & Data bias scanner
+# Responsible AI checklist & Data bias scanner
 1. [Frame ML problems](#frame-ml-problems)
     1. [Project title or objective](#project-title-or-objective)
     2. [Expected stakeholders](#expected-stakeholders)
