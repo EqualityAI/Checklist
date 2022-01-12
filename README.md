@@ -35,16 +35,27 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
 ## What does the AI Checklist do?
-The EAI checklist provides an easy to use Responsible GUI tool for executives and ML developers to promote transparency (i.e. reproducibility, generalizability, and interpretability of a proposed model) (1), and provide documentation to learn from historically deployed models.
-
-### Frame ML Problems<a name="frame-ml-problems" />
-#### Expected Stakeholders <a name="expected-stakeholders"></a> | Types of harm <a name="types-of-harm"></a> | Trade offs <a name="trade-offs"></a> | Team members <a name="team-members"></a> 
+The EAI checklist provides an easy to use Responsible GUI tool for executives and ML developers to select a fairness metric, run a bias data scanner, and promote transparency (i.e. reproducibility, generalizability, and interpretability of a proposed model) (1), and provide documentation to learn from historically deployed models.
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/independence.svg" align="left" alt="" width="120" /><br />
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/seperation.svg" align="left" alt="" width="120" /><br />
 
-The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
-The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
+### Fairness 
+
+### Bias
+
+### Transparency
+
+
+
+
+
+## Checklist components
+### Frame ML Problems<a name="frame-ml-problems" />
+- **Expected Stakeholders** <a name="expected-stakeholders"></a> : 
+- **Types of harm** <a name="types-of-harm"></a> : 
+- **Trade offs** <a name="trade-offs"></a> : 
+- **Cohort selection** <a name="team-members"></a> : 
 
 ### Acquire & Explore Data<a name="acquire-&-explore-data" />
 - **Population** <a name="population"></a> : Population from which study sample was drawn
