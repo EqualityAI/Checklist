@@ -49,6 +49,17 @@ The front page also includes the top retweeted and liked tweets from a configura
 ### Acquire & Explore Data<a name="acquire-&-explore-data" />
 #### Population <a name="population"></a> | Study setting <a name="study-setting"></a> | Data source <a name="data-source"></a> | Cohort selection <a name="cohort-selection"></a>
 
+- **Population** <a name="population"></a> : Population from which study sample was drawn
+- **Study setting** : Population from which study sample was drawn
+- **Data source** : Population from which study sample was drawn
+- **Cohort selection** : Population from which study sample was drawn
+
+
+
+
+
+
+
 ### Data bias scanner <a name="data-bias-scanner" />
 
 ### Architect & Train<a name="architect-&-train" />
