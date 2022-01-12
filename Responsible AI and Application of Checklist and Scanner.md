@@ -4,8 +4,8 @@
 1. [What is Resposible AI?](#what-is-respsonsible)
 2. [Fairness](#fairness)
   1. [Methodology](#methodology)
-4. [Bias detection](#bias-detection)
-5. [Transparency](#transparency)
+3. [Bias detection](#bias-detection)
+4. [Transparency](#transparency)
 
 ## What is Responsible AI? <a name="what-is-respsonsible"></a> 
 AI brings extraordinary opportunities in many forms, but with it, also incredible responsibility.  AI products in healthcare have a direct impact on people’s health outcomes and lives, which raises considerable questions about ethics, trust, fairness, safety, privacy and risk. The more healthcare decisions we place in the hands of AI, the more risk we accept.   
