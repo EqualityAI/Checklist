@@ -6,22 +6,16 @@
 3. [Bias detection](#bias-detection)
 4. [Transparency](#transparency)
 
-## What is Responsible AI?
+## What is Responsible AI? <a name="expected-stakeholders"></a> 
 AI brings extraordinary opportunities to healthcare, but also incredible responsibility.  AI products in healthcare have a direct impact on people’s health outcomes and lives, which raises considerable questions about ethics, trust, fairness, and risk. The more healthcare decisions we place in the hands of AI, the more risk we accept.  Responsible AI is a framework designed to address that risk with guiding principles applied to AI development to ensure that ethical, equitable, accuracy, and security and privacy standards are met and to mitigate the potential for risk of harm from AI products to individuals and society.
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
-## What does the AI Checklist do?
-The EAI checklist provides an easy to use Responsible GUI tool for executives and ML developers to select a fairness metric, run a bias data scanner, and promote transparency (i.e. reproducibility, generalizability, and interpretability of a proposed model) (1), and provide documentation to learn from historically deployed models.
+### Fairness <a name="fairness"></a> 
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/independence.svg" align="left" alt="" width="120" /><br />
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/seperation.svg" align="left" alt="" width="120" /><br />
+### Bias detection <a name="bias-detection"></a> 
 
-### Fairness 
-
-### Bias detection
-
-### Transparency
+### Transparency <a name="transparency"></a> 
 A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
 
 The Acquire & Explore Data, Data bias scanner (specifically the patient demographic characteristics), Architect & train, and Staged deployment sections of the checklist are anchored in MINIMAR (MINimum Information for Medical AI Reporting) feeding into ongoing initiatives such as CONSORT, SPIRIT (11), and TRIPOD-ML(1) to include an ML or AI component.
