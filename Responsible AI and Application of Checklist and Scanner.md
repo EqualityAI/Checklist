@@ -13,13 +13,20 @@ AI brings extraordinary opportunities to healthcare, but also incredible respons
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br/>
 
 ## Fairness <a name="fairness"></a> 
+As shown in Figure 1, ...
+
+**Figure 1:** Methodology for selecting a fairness metric
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" />
+
+
+
+
 
 ## Bias detection <a name="bias-detection"></a> 
-
 ### Methodology <a name="methodology"></a> 
-As shown in Figure 1, first we identified a framework in which to view bias and then use the existing canon of literature to determine the statistical best practices for identifying the bias and guidance for corrections.
+As shown in Figure 2, first we identified a framework in which to view bias and then use the existing canon of literature to determine the statistical best practices for identifying the bias and guidance for corrections.
 
-**Figure 1:** Methodology for Data bias scanner
+**Figure 2:** Methodology for Data bias scanner
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" />
 
 ## Transparency <a name="transparency"></a> 
