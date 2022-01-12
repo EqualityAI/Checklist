@@ -16,7 +16,7 @@ AI brings extraordinary opportunities to healthcare, but also incredible respons
 As shown in Figure 1, ...
 
 **Figure 1:** Methodology for selecting a fairness metric
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" />
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/fairness_methodology.png" align="left" alt="" width="1000" />
 
 
 
