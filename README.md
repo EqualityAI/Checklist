@@ -50,9 +50,9 @@ The front page also includes the top retweeted and liked tweets from a configura
 #### Study setting <a name="study-setting"></a> | Data source <a name="data-source"></a> | Cohort selection <a name="cohort-selection"></a>
 
 - **Population** <a name="population"></a> : Population from which study sample was drawn
-- **Study setting** : Population from which study sample was drawn
-- **Data source** : Population from which study sample was drawn
-- **Cohort selection** : Population from which study sample was drawn
+- **Study setting** : The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
+- **Data source** : The source from which data were collected
+- **Cohort selection** : Exclusion/inclusion criteria
 
 
 
