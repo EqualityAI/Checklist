@@ -8,9 +8,16 @@
 5. [Transparency](#transparency)
 
 ## What is Responsible AI? <a name="what-is-respsonsible"></a> 
-AI brings extraordinary opportunities to healthcare, but also incredible responsibility.  AI products in healthcare have a direct impact on people’s health outcomes and lives, which raises considerable questions about ethics, trust, fairness, and risk. The more healthcare decisions we place in the hands of AI, the more risk we accept.  Responsible AI is a framework designed to address that risk with guiding principles applied to AI development to ensure that ethical, equitable, accuracy, and security and privacy standards are met and to mitigate the potential for risk of harm from AI products to individuals and society.
+AI brings extraordinary opportunities in many forms, but with it, also incredible responsibility.  AI products in healthcare have a direct impact on people’s health outcomes and lives, which raises considerable questions about ethics, trust, fairness, safety, privacy and risk. The more healthcare decisions we place in the hands of AI, the more risk we accept.   
+
+To achieve the potential of AI to improve the lives of people and help societies reach higher goals, AI, as a tool, should always be human-centered with the aim to prevent bias and unfairness. Responsible AI is an emerging framework designed to address this need and the potential risks of AI by guiding the development of AI using principles that ensure standards are met for ethics, fairness, accuracy, security and privacy.  AI development baked into a Responsible AI framework mitigates the potential risk of harm from AI to individuals and society. 
+
+To understand and implement Responsible AI in the development lifecycle, we need to understand three core principals of Responsible AI: fairness, transparency, and bias mitigation.
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br/>
+
+Yadda yadda<a href="#note1" id="note1ref"><sup>1</sup></a>
+<a id="note1" href="#note1ref"><sup>1</sup></a>Here is the footnote text
 
 ## Fairness <a name="fairness"></a> 
 Figure 1 describes how we determined what metrics to use and when to use them. We compared numerous proposed fairness metrics and crosswalked and organized them into three main metrics: Independence, Sufficiency, and Seperation. After identifying what metrics to use, we then sought to understand the situations in which fairness is of concern. An open source tool by Aequitas started describing real-world situations and a fairness logic tree to provide guidance on metric selection by situation. Paulus, et al. took it one step further by assess specific healthcare situations and when fairness is of concern to the patient. These works helped us to narrow down to four questions that can help choose the appropriate fairness metric.
