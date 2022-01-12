@@ -17,6 +17,8 @@ AI brings extraordinary opportunities to healthcare, but also incredible respons
 ## Bias detection <a name="bias-detection"></a> 
 
 ### Methodology <a name="methodology"></a> 
+As shown in Figure 1, first we identified a framework in which to view bias and then use the existing canon of literature to determine the statistical best practices for identifying the bias and guidance for corrections.
+
 Figure 1: Methodology for Data bias scanner
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" />
 
