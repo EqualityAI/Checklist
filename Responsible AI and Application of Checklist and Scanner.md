@@ -19,26 +19,34 @@ Figure 1 describes how we determined what metrics to use and when to use them. W
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/fairness_methodology.png" align="left" alt="" width="1000" />
 
 **Table 1:** Crosswalk between fairness metrics
-| Publications                           | Metric                |Closest match |Note       |
-|:--------------------------------------:|:---------------------:|:------------:|:---------:|
-|Aequitas                                |Equal Selection Parity |Independence  |Relaxation |
-|Dwork et al. (2011)                     |Statistical parity     |Independence  |Equivalent |
-|                                        |Group fairness         |Independence  |Equivalent |
-|Aequitas                                |Demographic parity         |Independence  |Equivalent |
-|Darlington (1971)                       |Darlington criterion (4)         |Independence  |Relaxation |
-|Corbett-Davies et al. (2017)            |Conditional statistical parity        |Independence  |Equivalent |
-|Hardt, Price, Srebro (2016)             |Equalized odds         |Separation  |Equivalent |
-|Berk et al. (2017)                      |Conditional procedure accuracy         |Separation  |Equivalent |
-|Zafar et al. (2017)                     |Avoiding disparate mistreatment         |Separation  |Equivalent |
-|Aequitas                                |False Negative Rate Parity         |Separation  |Relaxation |
-|Aequitas                                |False Positive Rate Parity        |Separation  |Relaxation |
-|Hardt, Price, Srebro (2016)             |Equal opportunity             |Separation  |Relaxation |
-|Chouldechova (2016)                     |Predictive equality                 |Separation  |Relaxation |
-|Kleinberg, Mullainathan, Raghavan (2016)|Balance for the negative class |Separation  |Relaxation |
-|Kleinberg, Mullainathan, Raghavan (2016)|Balance for the positive class |Separation  |Relaxation |
-|Woodworth (2017)|Equalized correlations |Separation  |Relaxation |
-|Darlington (1971)|Darlington criterion (3) |Separation  |Relaxation |
-|Cleary (1966)|Cleary model |Separation  |Relaxation |
+| Publications                                   | Metric                           |Closest match |Note       |
+|:----------------------------------------------:|:--------------------------------:|:------------:|:---------:|
+|Aequitas                                        |Equal Selection Parity            |Independence  |Relaxation |
+|Dwork et al. (2011)                             |Statistical parity                |Independence  |Equivalent |
+|                                                |Group fairness                    |Independence  |Equivalent |
+|Aequitas                                        |Demographic parity                |Independence  |Equivalent |
+|Darlington (1971)                               |Darlington criterion (4)          |Independence  |Relaxation |
+|Corbett-Davies et al. (2017)                    |Conditional statistical parity    |Independence  |Equivalent |
+|Hardt, Price, Srebro (2016)                     |Equalized odds                    |Separation    |Equivalent |
+|Berk et al. (2017)                              |Conditional procedure accuracy    |Separation    |Equivalent |
+|Zafar et al. (2017)                             |Avoiding disparate mistreatment   |Separation    |Equivalent |
+|Aequitas                                        |False Negative Rate Parity        |Separation    |Relaxation |
+|Aequitas                                        |False Positive Rate Parity        |Separation    |Relaxation |
+|Hardt, Price, Srebro (2016)                     |Equal opportunity                 |Separation    |Relaxation |
+|Chouldechova (2016)                             |Predictive equality               |Separation    |Relaxation |
+|Kleinberg, Mullainathan, Raghavan (2016)        |Balance for the negative class    |Separation    |Relaxation |
+|Kleinberg, Mullainathan, Raghavan (2016)        |Balance for the positive class    |Separation    |Relaxation |
+|Woodworth (2017)                                |Equalized correlations            |Separation    |Relaxation |
+|Darlington (1971)                               |Darlington criterion (3)          |Separation    |Relaxation |
+|Cleary (1966)                                   |Cleary model                      |Sufficiency   |Relaxation |
+|Berk et al. (2017)                              |Conditional use accuracy          |Sufficiency   |Equivalent |
+|Chouldechova (2016)                             |Calibration within groups         |Sufficiency   |Equivalent |
+|Chouldechova (2016)                             |Predictive parity                 |Sufficiency   |Relaxation |
+|Darlington (1971)                               |Darlington criterion (1), (2)     |Sufficiency   |Relaxation |
+|Aequitas                                        |False Discovery Rate Parity       |Sufficiency   |Relaxation |
+|Aequitas                                        |False Omission Rate Parity        |Sufficiency   |Relaxation |
+|Aequitas                                        |False Positives/Group Size parity |Neither       |Neither    |
+|Aequitas                                        |False Negatives/Group Size parity |Neither       |Neither    |
 
 
 
