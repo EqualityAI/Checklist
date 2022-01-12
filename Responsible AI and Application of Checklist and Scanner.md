@@ -1,6 +1,6 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
-# Responsible AI checklist & Data bias scanner
+# Responsible AI and Application of Checklist and Scanner
 1. [What is Resposible AI?](#what-is-respsonsible)
 2. [Fairness](#fairness)
 3. [Bias detection](#bias-detection)
