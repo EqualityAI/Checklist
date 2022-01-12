@@ -10,15 +10,16 @@
 ## What is Responsible AI? <a name="what-is-respsonsible"></a> 
 AI brings extraordinary opportunities to healthcare, but also incredible responsibility.  AI products in healthcare have a direct impact on people’s health outcomes and lives, which raises considerable questions about ethics, trust, fairness, and risk. The more healthcare decisions we place in the hands of AI, the more risk we accept.  Responsible AI is a framework designed to address that risk with guiding principles applied to AI development to ensure that ethical, equitable, accuracy, and security and privacy standards are met and to mitigate the potential for risk of harm from AI products to individuals and society.
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br/>
 
 ## Fairness <a name="fairness"></a> 
 
 ## Bias detection <a name="bias-detection"></a> 
 
 ### Methodology <a name="methodology"></a> 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="900" /><br /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="900" /><br/><br/>
 
+<br/>
 ## Transparency <a name="transparency"></a> 
 A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
 
