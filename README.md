@@ -52,19 +52,24 @@ The front page also includes the top retweeted and liked tweets from a configura
 - **Data source** <a name="data-source"></a> : The source from which data were collected
 - **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
 
-
-
-
-
-
-
 ### Data bias scanner <a name="data-bias-scanner" />
 
 ### Architect & Train<a name="architect-&-train" />
-#### Model output<a name="model-output"></a> | Target user <a name="target-user"></a> | Data splitting <a name="data-splitting"></a> | Gold standard <a name="gold-standard"></a> | Model task <a name="model-task"></a> | Model architecture <a name="model-architecture"></a> | Features <a name="features"></a> | Missingness <a name="missingness"></a> 
+- **Model output** <a name="model-output"></a> : The computed result of the model
+- **Target user** <a name="target-user"></a> :  The indented user of the model output (eg, clinician, hospital management team, insurance company)
+- **Data splitting** <a name="data-splitting"></a> : How data were split for training, testing, and validation
+- **Gold standard** <a name="gold-standard"></a> : Labeled data used to train and test the model
+- **Model task** <a name="model-task"></a> : Classification or prediction
+- **Model architecture** <a name="model-architecture"></a> : Algorithm type (eg, machine learning, deep learning, etc.)
+- **Features** <a name="features"></a> : List of variables used in the model and how they were used in the model in terms of categories or transformation
+- **Missingness** <a name="missingness"></a> : How missingness was addressed: reported, imputed, or corrected
+
 
 ### Staged Deployment <a name="staged-deployment" />
-#### Optimization<a name="optimization"></a> | Internal model validation <a name="internal-model-validation"></a> | External model validation <a name="external-model-validation"></a> | Transparency <a name="transparency"></a> 
+- **Optimization** <a name="optimization"></a> : Model or parameter tuning applied
+- **Internal model validation** <a name="internal-model-validation"></a> : Study internal validation
+- **External model validation** <a name="external-model-validation"></a> : External validation using data from another setting
+- **Transparency** <a name="transparency"></a> : How code and data are shared with the community
 
 A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
 
