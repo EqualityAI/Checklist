@@ -19,8 +19,8 @@ AI brings extraordinary opportunities to healthcare, but also incredible respons
 ### Methodology <a name="methodology"></a> 
 As shown in Figure 1, first we identified a framework in which to view bias and then use the existing canon of literature to determine the statistical best practices for identifying the bias and guidance for corrections.
 
-Figure 1: Methodology for Data bias scanner
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" />
+**Figure 1:** Methodology for Data bias scanner
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" /><br><br/>
 
 ## Transparency <a name="transparency"></a> 
 A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
