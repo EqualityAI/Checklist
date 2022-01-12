@@ -16,6 +16,12 @@ To understand and implement Responsible AI in the development lifecycle, we need
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br/>
 
+Footnotes
+=========
+Development Update.  Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in a future Equality AI Responsible AI Checklist version. 
+
+
+
 Yadda yadda<a href="#note1" id="note1ref"><sup>1</sup></a>
 <a id="note1" href="#note1ref"><sup>1</sup></a>Here is the footnote text
 
