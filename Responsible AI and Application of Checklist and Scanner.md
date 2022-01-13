@@ -8,9 +8,8 @@
     3. [Methodology](#methodology_f)
 3. [Transparency](#transparency)
     1. [Introduction](#introduction_t)
-    2. [The challenge](#challenge_t)
-    3. [Methodology](#methodology_t)
-4. [Transparency](#bias)
+    2. [Methodology](#methodology_t)
+4. [Bias detection](#bias-detection)
     1. [Introduction](#introduction_b)
     2. [The challenge](#challenge_b)
     3. [Methodology](#methodology_b)
@@ -81,21 +80,33 @@ These works helped us to narrow down to four questions in the Fairness metric se
 |Aequitas                                        |False Positives/Group Size parity |Neither       |Neither    |
 |Aequitas                                        |False Negatives/Group Size parity |Neither       |Neither    |
 
+## Transparency <a name="transparency"></a>
+### Introduction <a name="introduction_t"></a>
+Transparency in AI means that the development and output of an AI model are both clearly communicated. Transparency is essential in creating building trust, and retaining the confidence of all stakeholders involved with or impacted by AI models.<sup>10</sup> This is increasingly important as the consequences of AI algorithms become more prevalent. 
+ 
+Transparency is required throughout development. Developers must explain how the data relate to the population, the model design and development, and model evaluation and validation. Without transparency at these levels, the reproducibility, generalizability and interpretability of a proposed model is flawed.<sup>10-13</sup>
 
+### Methodology <a name="methodology_t"></a>
+We developed the Responsible AI Checklist to implement the MINimum Information for Medical AI Reporting (MINIMAR) standard. MINIMAR an ongoing initiative to create minimal reporting standards that facilitate the transparent dissemination of algorithms across healthcare systems. We applied these standards in the checklist sections: “Acquire & Explore Data”, “Data bias scanner”, “Architect & train”, and “Staged deployment”. The use of this standard addresses potential biases and unintended consequences of AI algorithms.<sup>10</sup> Reporting standards including CONSORT, SPIRIT, and TRIPOD-ML are also extending their checklists to include an ML or AI component, and we look forward to their development and impact.<sup>10,14</sup>
 
-## Bias detection <a name="bias-detection"></a> 
-### Methodology <a name="methodology"></a> 
-As shown in Figure 2, first we identified a framework in which to view bias and then use the existing canon of literature to determine the statistical best practices for identifying the bias and guidance for corrections.
+## Bias detection <a name="bias-detection"></a>
+### Introduction <a name="introduction_b"></a>
+Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.<sup>15-16</sup> Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the responsible AI lifecycle. Biases in the training data must be interrogated to create a world in which diversity and inclusion are thoughtfully considered. 
+
+### The Challenge <a name="challenge_b"></a>
+There are many types of bias, and addressing them is feasible to varying degrees. The Data bias scanner of the Responsible AI Checklist attempts to combine the existing literature (see **Methodology**), open source tools, and legal concepts to scan data for biases and provide solutions. This work is ongoing and we welcome everyone to join us to provide feedback to improve our tools.
+ 
+_**Footnote: Development Update. Equality AI is currently partnered with University of Utah, Department of Biomedical Informatics to develop data type specific bias scanners, starting with Transcriptome data and EHR (i.e. structured) data. Ongoing partnerships are being explored to address Sensor, Claims, Imaging and Clinical Trials data types._
+
+### Methodology <a name="methodology_b"></a>
+For bias, as shown in Figure 2, we started by finding an overarching framework for bias with respect to the ML life cycle. In doing this we were able to organize biases such as misclassification, missing data, data imbalance into overarching categories of Historical bias, Representation bias, Measurement bias, Aggregation bias, and Evaluation bias.<sup>17</sup> For each of these biases, research is being done to determine statistical best practices for identifying the presence of each bias in a data source, and suggestions for corrections.
+
+_**Footnote: Development Update. Learning bias and Deployment bias are addressed in Monitoring tools, which are currently in development._
 
 **Figure 2:** Methodology for Data bias scanner
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" />
 
-## Transparency <a name="transparency"></a> 
-A lack of transparency regarding the training data used for model development directly affects the reproducibility, generalizability, and interpretability of a proposed model. (1) Therefore, we need transparency in the reporting of the design, development, evaluation, and validation of AI models in health care to achieve and retain confidence and trust for all the stakeholders. (1) Transparency is needed across 3 main categories: the population from which the data were acquired; model design and development, including training data; and model evaluation and validation. (1)
-
-The Acquire & Explore Data, Data bias scanner (specifically the patient demographic characteristics), Architect & train, and Staged deployment sections of the checklist are anchored in MINIMAR (MINimum Information for Medical AI Reporting) feeding into ongoing initiatives such as CONSORT, SPIRIT (11), and TRIPOD-ML(1) to include an ML or AI component.
-
-## Development
+## Development <a name="development"></a>
 
 Contributions are welcome\! This application uses the
 [`renv`](https://rstudio.github.io/renv/) package to manage the versions
@@ -104,10 +115,27 @@ the repository root directory and execute `renv::restore()` to download
 the package library.
 
 
-## Citations
-1. 
+## Citations <a name="citations"></a>
+1. Paulus, J.K., Kent, D.M. Predictably unequal: understanding and addressing concerns that algorithmic clinical prediction may increase health disparities. npj Digit. Med. 3, 99 (2020). https://doi.org/10.1038/s41746-020-0304-9 
+2. Vyas DA, Eisenstein LG, Jones DS. Hidden in plain sight-reconsidering the use of race correction in clinical algorithms. N Engl J Med 2020; 383: 874–882. doi:10.1056/NEJMms2004740
+3. Ahmed, S., Nutt, C.T., Eneanya, N.D. et al. Examining the Potential Impact of Race Multiplier Utilization in Estimated Glomerular Filtration Rate Calculation on African-American Care Outcomes. J GEN INTERN MED 36, 464–471 (2021). https://doi.org/10.1007/s11606-020-06280-5
+4. Obermeyer Z, Powers B, Vogeli C, Mullainathan S. Dissecting racial bias in an algorithm used to manage the health of populations. Science. 2019 Oct 25;366(6464):447-453. doi: 10.1126/science.aax2342. PMID: 31649194.
+5. Barocas, S., Hardt, M., & Narayanan, A. (2019). Fairness in machine learning. http://www.fairmlbook.org
+6. Wailoo, K. Historical aspects of race and medicine: the case of J. Marion Sims. JAMA 320, 1529–1530 (2018).
+7. Wong, W. F., LaVeist, T. A. & Sharfstein, J. M. Achieving health equity by design. JAMA 313, 1417–1418 (2015).
+8. Williams, D. R. & Wyatt, R. Racial bias in health care and health: challenges and opportunities. JAMA 314, 555–556 (2015).
+9. Saleiro, Pedro, et al. "Aequitas: A bias and fairness audit toolkit." arXiv preprint arXiv:1811.05577 (2018).
+10. Tina Hernandez-Boussard, Selen Bozkurt, John P A Ioannidis, Nigam H Shah, MINIMAR (MINimum Information for Medical AI Reporting): Developing reporting standards for artificial intelligence in health care, Journal of the American Medical Informatics Association, Volume 27, Issue 12, December 2020, Pages 2011–2015, https://doi.org/10.1093/jamia/ocaa088
+11. Riley RD, Ensor J, Snell KI, et al. External validation of clinical prediction models using big datasets from e-health records or IPD meta-analysis: opportunities and challenges. BMJ 2016; 353: i3140.
+12. Bozkurt S, Cahan E, Seneviratne MG, et al. Reporting of demographic data, representativeness and transparency in machine learning models using electronic health records. JAMA Netw Open 2020; 3 (1): e1919396.
+13. Nagendran M, Chen Y, Lovejoy CA, et al. Artificial intelligence versus clinicians: systematic review of design, reporting standards, and claims of deep learning studies. BMJ 2020; 368: m689.
+14. Liu X, Faes L, Calvert MJ, Denniston AK, CONSORT/SPIRIT-AI Extension Group. Extension of the CONSORT and SPIRIT statements. Lancet 2019; 394 (10205): 1225.
+15. Ferryman K, Pitcan M. Fairness in precision medicine. Data & Society. 2018. https://datasociety.net/library/fairness-in-precision-medicine/ Accessed November 19, 2019.
+16. Gianfrancesco MA, Tamang S, Yazdany J, Schmajuk G. Potential biases in machine learning algorithms using electronic health record data. JAMA Intern Med 2018; 178 (11): 1544–7.
+17. H. Suresh, J.V. Guttag, A framework for understanding sources of harm throughout the machine learning lifecycle. arXiv preprint arXiv:1901.10002 (2019)
 
-## Contributors
+
+## Contributors <a name="contributors"></a>
 
 - Equality AI (https://equality-ai.com/)
 
