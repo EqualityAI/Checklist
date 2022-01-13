@@ -82,7 +82,7 @@ These works helped us to narrow down to four questions in the Fairness metric se
 
 ## Transparency <a name="transparency"></a>
 ### Introduction <a name="introduction_t"></a>
-Transparency in AI means that the development and output of an AI model are both clearly communicated. Transparency is essential in creating building trust, and retaining the confidence of all stakeholders involved with or impacted by AI models.<sup>10</sup> This is increasingly important as the consequences of AI algorithms become more prevalent. 
+Transparency in AI means that the development and output of an AI model are both clearly communicated. Transparency is essential in creating reassurance, building trust, and retaining the confidence of all stakeholders involved with or impacted by AI models.<sup>10</sup> This is increasingly important as the consequences of AI algorithms become more prevalent. 
  
 Transparency is required throughout development. Developers must explain how the data relate to the population, the model design and development, and model evaluation and validation. Without transparency at these levels, the reproducibility, generalizability and interpretability of a proposed model is flawed.<sup>10-13</sup>
 
