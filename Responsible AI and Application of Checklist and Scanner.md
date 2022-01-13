@@ -1,8 +1,6 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
-# Responsible AI and Application of Checklist and Scanner
-
-## Table of contents
+# Responsible Application of Checklist and Scanner
 1. [Frame ML problems](#frame-ml-problems)
     1. [Project title or objective](#project-title-or-objective)
     2. [Expected stakeholders](#expected-stakeholders)
