@@ -2,33 +2,24 @@
 
 # Responsible Application of Checklist and Scanner
 1. [What is Responsible AI](#what-is-responsible-ai)
-2. [Fairness](#frame-ml-problems)
-    1. [Introduction](#introduction_fairness)
-    2. [The challenge](#challenge_fairness)
-    3. [Methodology](#methodology_fairness)
-3. [Frame ML problems](#frame-ml-problems)
-    1. [Project title or objective](#project-title-or-objective)
-    2. [Expected stakeholders](#expected-stakeholders)
-    3. [Types of harm](#types-of-harm)
-    4. [Trade offs](#trade-offs)
-    5. [Team members](#team-members)
-
-1. [What is Resposible AI?](#what-is-respsonsible)
 2. [Fairness](#fairness)
-  1. [Introduction](#introduction)
-  2. [The challenge](#the-challenge)
-  3. [Methodology](#methodology)
-3. [Bias detection](#bias-detection)
-  1. [Introduction](#introduction-bias)
-  2. [The challenge](#the-challenge-bias)
-  3. [Methodology](#methodology-bias)
-5. [Transparency](#transparency)
-  1. [Introduction](#introduction-trans)
-  2. [The challenge](#the-challenge-trans)
-  3. [Methodology](#methodology-trans)
+    1. [Introduction](#introduction_f)
+    2. [The challenge](#challenge_f)
+    3. [Methodology](#methodology_f)
+3. [Transparency](#transparency)
+    1. [Introduction](#introduction_t)
+    2. [The challenge](#challenge_t)
+    3. [Methodology](#methodology_t)
+4. [Transparency](#bias)
+    1. [Introduction](#introduction_b)
+    2. [The challenge](#challenge_b)
+    3. [Methodology](#methodology_b)
+5. [Development](#development)
+6. [Citations](#citations)
+7. [Contributors](#contributors)
 
 ## What is Responsible AI? <a name="what-is-respsonsible"></a> 
-AI brings extraordinary opportunities in many forms, but with it, also incredible responsibility.  AI products in healthcare have a direct impact on people’s health outcomes and lives, which raises considerable questions about ethics, trust, fairness, safety, privacy and risk. The more healthcare decisions we place in the hands of AI, the more risk we accept.   
+AI brings extraordinary opportunities in many forms, but with it, also incredible responsibility.<sup>100</sup>  AI products in healthcare have a direct impact on people’s health outcomes and lives, which raises considerable questions about ethics, trust, fairness, safety, privacy and risk. The more healthcare decisions we place in the hands of AI, the more risk we accept.   
 
 To achieve the potential of AI to improve the lives of people and help societies reach higher goals, AI, as a tool, should always be human-centered with the aim to prevent bias and unfairness. Responsible AI is an emerging framework designed to address this need and the potential risks of AI by guiding the development of AI using principles that ensure standards are met for ethics, fairness, accuracy, security and privacy.  AI development baked into a Responsible AI framework mitigates the potential risk of harm from AI to individuals and society. 
 
