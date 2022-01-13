@@ -1,18 +1,11 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
 # Responsible Application of Checklist and Scanner
-1. [Frame ML problems](#frame-ml-problems)
-    1. [Project title or objective](#project-title-or-objective)
-    2. [Expected stakeholders](#expected-stakeholders)
-    3. [Types of harm](#types-of-harm)
-    4. [Trade offs](#trade-offs)
-    5. [Team members](#team-members)
-2. [Frame ML problems](#frame-ml-problems)
-    1. [Project title or objective](#project-title-or-objective)
-    2. [Expected stakeholders](#expected-stakeholders)
-    3. [Types of harm](#types-of-harm)
-    4. [Trade offs](#trade-offs)
-    5. [Team members](#team-members)
+1. [What is Responsible AI](#what-is-responsible-ai)
+2. [Fairness](#frame-ml-problems)
+    1. [Introduction](#introduction_fairness)
+    2. [The challenge](#challenge_fairness)
+    3. [Methodology](#methodology_fairness)
 3. [Frame ML problems](#frame-ml-problems)
     1. [Project title or objective](#project-title-or-objective)
     2. [Expected stakeholders](#expected-stakeholders)
