@@ -1,7 +1,7 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
 # Responsible Application of Checklist and Scanner
-1. [What is Responsible AI](#what-is-responsible-ai)
+1. [What is Responsible AI?](#what-is-responsible-ai)
 2. [Fairness](#fairness)
     1. [Introduction](#introduction_f)
     2. [The challenge](#challenge_f)
@@ -27,13 +27,31 @@ To achieve the potential of AI to improve lives and achieve grand societal objec
 
 _**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
 
-## Fairness <a name="fairness"></a> 
-Figure 1 describes how we determined what metrics to use and when to use them. We compared numerous proposed fairness metrics and crosswalked and organized them into three main metrics: Independence, Sufficiency, and Seperation. After identifying what metrics to use, we then sought to understand the situations in which fairness is of concern. An open source tool by Aequitas started describing real-world situations and a fairness logic tree to provide guidance on metric selection by situation. Paulus, et al. took it one step further by assess specific healthcare situations and when fairness is of concern to the patient. These works helped us to narrow down to four questions that can help choose the appropriate fairness metric.
+## Fairness <a name="fairness"></a>
+### Introduction <a name="introduction_f"></a>
+The Fairness metric section of the Responsible AI Checklist combines the existing literature (see Methodology), open source tools, and legal concepts to provide guidance on the selection of parity metrics when fairness is a concern. 
+ 
+Traditionally, machine learning (ML) developers sought out high benchmark performance metrics (such as root mean squared error, logloss, accuracy, area under the ROC curve, etc.)<sup>5</sup> while overlooking the disparate impact of prediction errors for protected classes (such as race, ethnicity, and sex) which exacerbated and propagated existing inequalities.<sup>1, 2-4</sup> To achieve fairness in AI outcomes, protected classes such as race, ethnicity and sex must be considered. 
+ 
+Responsible AI uses fairness metrics to assess the equity of models, rather than having a pure focus on task performance metrics. A fairness metric, similar to a performance metric, is a metric which is optimized in the process of fitting a model. The key difference is that it is a metric on which parity (equality) is created among levels of a protected class, to meet a standard of algorithmic fairness. When selected appropriately, fairness metrics create algorithmic equity of opportunity, outcome, or other criteria as determined appropriate to the task. 
 
+_**Footnote: Development Update. Demographic criteria for protected classes (e.g. race, ethhnicity, sex) have multiple response levels. Responsible AI seeks to use a fairness criteria to create parity among the levels of the protected class (LPC).<sup>6-8 </sup>_
+
+### The Challenge <a name="challenge_f"></a>
+Selecting the optimal approach to fairness metric selection is a daunting task. The literature on fairness metrics is expansive, uses non-standardized vocabulary, and is incomplete in it’s recommendations for application. Reviewing, collating, and curating the literature is an on-going process that will require a community of developers, academics and experts with the north star of patients' wellbeing and health outcomes in mind. The fairness metric selection portion of our checklist has been built based on the following approach. We welcome you to join us in the effort by using our tools and providing feedback. 
+
+### Methodology <a name="methodology_f"></a>
+**Figure 1** describes how we determined what metrics to use and when to use them. We expanded on the work of Barocas et al to include recommendations from the Aequitas framework. Barocas et al crosswalk fairness criteria into three main categories: Independence, Sufficiency, and Separation. (see full crosswalk in **Table 1.**) 
+
+Understanding that there are multiple potential fairness metrics, one must determine the correct fairness criteria to apply to the task at hand. An open source tool by Aequitas<sup>9</sup> describes real-world situations and uses a fairness logic tree to provide guidance on fairness metric selection. Paulus, et al. took this one step further by assessing healthcare provider and recipient incentive structures and how those should influence fairness metric selection. 
+
+These works helped us to narrow down to four questions in the Fairness metric section of the checklist that recommend an appropriate fairness metric for healthcare specific algorithms (see crosswalked questions to metrics in the [insert file name]).
+ 
 **Figure 1:** Methodology for selecting a fairness metric
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/fairness_methodology.png" align="left" alt="" width="1000" />
-
+ 
 **Table 1:** Crosswalk between fairness metrics
+
 | Publications                                   | Metric                           |Closest match |Note       |
 |:----------------------------------------------:|:--------------------------------:|:------------:|:---------:|
 |Aequitas                                        |Equal Selection Parity            |Independence  |Relaxation |
