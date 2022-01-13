@@ -18,16 +18,14 @@
 6. [Citations](#citations)
 7. [Contributors](#contributors)
 
-## What is Responsible AI? <a name="what-is-respsonsible"></a> 
-AI brings extraordinary opportunities in many forms, but with it, also incredible responsibility.<sup>100</sup>  AI products in healthcare have a direct impact on people’s health outcomes and lives, which raises considerable questions about ethics, trust, fairness, safety, privacy and risk. The more healthcare decisions we place in the hands of AI, the more risk we accept.   
-
-To achieve the potential of AI to improve the lives of people and help societies reach higher goals, AI, as a tool, should always be human-centered with the aim to prevent bias and unfairness. Responsible AI is an emerging framework designed to address this need and the potential risks of AI by guiding the development of AI using principles that ensure standards are met for ethics, fairness, accuracy, security and privacy.  AI development baked into a Responsible AI framework mitigates the potential risk of harm from AI to individuals and society. 
-
-To understand and implement Responsible AI in the development lifecycle, we need to understand three core principals of Responsible AI: fairness, transparency, and bias mitigation.
+## What is Responsible AI? <a name="what-is-responsible"></a> 
+AI brings extraordinary opportunities for great benefit, coupled with the responsibility to avoid harmful unintended consequences. AI products in healthcare directly impact health outcomes and lives, raising weighty questions about ethics, trust, fairness, safety, privacy and risk. <sup>1, 2-4</sup> As more healthcare decisions are placed in the hands of AI, institutions must accept more and more responsibility for these products, and ensure their fair application. 
+ 
+To achieve the potential of AI to improve lives and achieve grand societal objectives, AI tools require human-centered frameworks to prevent bias and unfairness. Responsible AI is an emerging framework that addresses this need and safeguards against potential risks of AI by guiding development of AI using principles that ensure standards are met for ethics, fairness, accuracy, security and privacy. Responsible AI frameworks will increasingly be used to mitigate the potential risks of harm from AI. Implementing Responsible AI in the development lifecycle, relies on three core principles of Responsible AI: fairness, transparency, and bias mitigation.  
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br/>
 
-Development Update.  Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in a future Equality AI Responsible AI Checklist version. 
+_**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
 
 ## Fairness <a name="fairness"></a> 
 Figure 1 describes how we determined what metrics to use and when to use them. We compared numerous proposed fairness metrics and crosswalked and organized them into three main metrics: Independence, Sufficiency, and Seperation. After identifying what metrics to use, we then sought to understand the situations in which fairness is of concern. An open source tool by Aequitas started describing real-world situations and a fairness logic tree to provide guidance on metric selection by situation. Paulus, et al. took it one step further by assess specific healthcare situations and when fairness is of concern to the patient. These works helped us to narrow down to four questions that can help choose the appropriate fairness metric.
