@@ -34,7 +34,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 <details>
   <summary><strong>Define Problem</strong></summary>
   <hr/>
-  <summary><strong>Project</strong></summary>
+  <strong>Project</strong>
   <em>
     Expected Stakeholders | Types of harm | Trade offs | Cohort selection
     </em></br></br>
