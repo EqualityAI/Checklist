@@ -27,11 +27,17 @@ We developed the MLOps Flow Checklist to implement the MINimum Information for M
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_scanner.png" align="center" alt="" width="900" /><br />
 
-We have included a Data Bias Scanner (i.e. bias detection) in the “Construct & Prepare Data” section of the MLOps Flow Checklist (see **Figure 2**). Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.15-16 Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the Responsible AI lifecycle. The  Data Bias Scanner attempts to combine the existing literature and open source tools to scan data for biases.
+We have included a Data Bias Scanner (i.e. bias detection) in the “Construct & Prepare Data” section of the MLOps Flow Checklist (see **Figure 2**). Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.<sup>15-16</sup> Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the Responsible AI lifecycle. The  Data Bias Scanner attempts to combine the existing literature and open source tools to scan data for biases.
 
 _**Footnote: Development Update. The data scanner described here and available in our open source tool kit is a generic data scanner. Currently we have partnered with University of Utah, Department of Biomedical Informatics to develop enterprise data scanners by data type (e.g. EHR structured, Omics, etc.), starting with a Transcriptome data specific scanner._
 
+<p align="center"><b>Figure 3. Biases in Source Data </b></center><br />
 
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" />
+
+_**Footnote: The Data Bias Scanner will only scan for biases in source data. Learning and Evaluation bias will be addressed in other sections of the checklist in future versions._
+
+There are many types of bias, and addressing them is feasible to varying degrees. Suresh et al, demonstrated how biases that arise in throughout the MLOps workflow (e.g. misclassification, missing data, data imbalance) can be categorized into Historical bias, Representation bias, Measurement bias, Aggregation bias, and Evaluation bias.<sup>17</sup> For the biases related to the source of data (see Figure 7), the Data Bias Scanner identifies the presence of each bias (see below).
 
 ## Fairness <a name="fairness"></a> 
 
@@ -111,14 +117,6 @@ These works helped us to narrow down to four questions in the Fairness metric se
 |Aequitas                                        |False Positives/Group Size parity |Neither       |Neither    |
 |Aequitas                                        |False Negatives/Group Size parity |Neither       |Neither    |
 
-## Transparency <a name="transparency"></a>
-### Introduction <a name="introduction_t"></a>
-Transparency in AI means that the development and output of an AI model are both clearly communicated. Transparency is essential in creating reassurance, building trust, and retaining the confidence of all stakeholders involved with or impacted by AI models.<sup>10</sup> This is increasingly important as the consequences of AI algorithms become more prevalent. 
- 
-Transparency is required throughout development. Developers must explain how the data relate to the population, the model design and development, and model evaluation and validation. Without transparency at these levels, the reproducibility, generalizability and interpretability of a proposed model is flawed.<sup>10-13</sup>
-
-### Methodology <a name="methodology_t"></a>
-We developed the Responsible AI Checklist to implement the MINimum Information for Medical AI Reporting (MINIMAR) standard. MINIMAR an ongoing initiative to create minimal reporting standards that facilitate the transparent dissemination of algorithms across healthcare systems. We applied these standards in the checklist sections: “Acquire & Explore Data”, “Data bias scanner”, “Architect & train”, and “Staged deployment”. The use of this standard addresses potential biases and unintended consequences of AI algorithms.<sup>10</sup> Reporting standards including CONSORT, SPIRIT, and TRIPOD-ML are also extending their checklists to include an ML or AI component, and we look forward to their development and impact.<sup>10,14</sup>
 
 ## Bias detection <a name="bias-detection"></a>
 ### Introduction <a name="introduction_b"></a>
