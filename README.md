@@ -67,7 +67,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - **Socioeconomic status** <a name="socioeconomic-status"></a> : A measure or proxy measure of the socioeconomic status of patients included in the study
 
 ### ii. Data Bias Scanner <a name="scanner" />
-- **See Methodology Readme** for more details.
+- **See Methodology README** for more details.
 
 ### 3. Build & Train <a name="build" />
 
@@ -82,7 +82,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - **Missingness** <a name="missingness"></a> : How missingness was addressed: reported, imputed, or corrected
 
 ### ii. Fairness <a name="fairness" />
-- **See Methodology Readme** for more details.
+- **See Methodology README** for more details.
 
 
 ### Staged Deployment <a name="staged-deployment" />
