@@ -44,7 +44,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 
 <details open>
-  <summary><strong>Define ProblemL</strong></summary>
+  <summary><strong>Define Problem</strong></summary>
   <hr/>
   <details open>
     <summary>
@@ -52,25 +52,22 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
     </summary>
     <br/>
     <pre>
-Expected Stakeholders  
-Types of harm
-Trade offs
-Cohort selection
-</pre>
-  <summary><strong>Population & SettingL</strong></summary>
+    Expected Stakeholders  
+    Types of harm
+    Trade offs
+    Cohort selection
+    </pre>
+<summary><strong>Population & Setting</strong></summary>
   <hr/>
-</details>
+    <details>
     <summary>
-      <em>"Project</em>
+      - **Population** <a name="population"></a> : Population from which study sample was drawn
+      - **Study setting** <a name="study-setting"></a> : The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
+      - **Data source** <a name="data-source"></a> : The source from which data were collected
+      - **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
     </summary>
     <br/>
-    <pre>
-- **Population** <a name="population"></a> : Population from which study sample was drawn
-- **Study setting** <a name="study-setting"></a> : The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
-- **Data source** <a name="data-source"></a> : The source from which data were collected
-- **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
-</pre>
-</details>
+      </details>
 
 
 <details>
