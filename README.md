@@ -67,6 +67,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - **Socioeconomic status** <a name="socioeconomic-status"></a> : A measure or proxy measure of the socioeconomic status of patients included in the study
 
 ### ii. Data Bias Scanner <a name="scanner" />
+- **See Methodology Readme** for more details.
 
 ### 3. Build & Train <a name="build" />
 
@@ -81,6 +82,8 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - **Missingness** <a name="missingness"></a> : How missingness was addressed: reported, imputed, or corrected
 
 ### ii. Fairness <a name="fairness" />
+- **See Methodology Readme** for more details.
+
 
 ### Staged Deployment <a name="staged-deployment" />
 - **Optimization** <a name="optimization"></a> : Model or parameter tuning applied
@@ -136,7 +139,6 @@ query <- sprintf(
 Add code
 ```
 
-
 ## Development
 
 Contributions are welcome\! This application uses the
@@ -145,16 +147,9 @@ of dependencies. After cloning the repository, launch a new session in
 the repository root directory and execute `renv::restore()` to download
 the package library.
 
-### Enterprise version in development
-
-The enterprise version ... 
-
-```r
-Add code
-```
 
 ## Citations <a name="citations"></a>
-1. Paulus, J.K., Kent, D.M. Predictably unequal: understanding and addressing concerns that algorithmic clinical prediction may increase health disparities. npj Digit. Med. 3, 99 (2020). https://doi.org/10.1038/s41746-020-0304-9 
+1. Paulus, J.K., Kent, D.M. Predictably unequal: understanding and addressing concerns that algorithmic clinical prediction may increase health disparities. npj Digit. Med. 3, 99 (2020). https://doi.org/10.1038/s41746-020-0304-9
 2. Vyas DA, Eisenstein LG, Jones DS. Hidden in plain sight-reconsidering the use of race correction in clinical algorithms. N Engl J Med 2020; 383: 874–882. doi:10.1056/NEJMms2004740
 3. Ahmed, S., Nutt, C.T., Eneanya, N.D. et al. Examining the Potential Impact of Race Multiplier Utilization in Estimated Glomerular Filtration Rate Calculation on African-American Care Outcomes. J GEN INTERN MED 36, 464–471 (2021). https://doi.org/10.1007/s11606-020-06280-5
 4. Obermeyer Z, Powers B, Vogeli C, Mullainathan S. Dissecting racial bias in an algorithm used to manage the health of populations. Science. 2019 Oct 25;366(6464):447-453. doi: 10.1126/science.aax2342. PMID: 31649194.
@@ -170,7 +165,8 @@ Add code
 14. Liu X, Faes L, Calvert MJ, Denniston AK, CONSORT/SPIRIT-AI Extension Group. Extension of the CONSORT and SPIRIT statements. Lancet 2019; 394 (10205): 1225.
 15. Ferryman K, Pitcan M. Fairness in precision medicine. Data & Society. 2018. https://datasociety.net/library/fairness-in-precision-medicine/ Accessed November 19, 2019.
 16. Gianfrancesco MA, Tamang S, Yazdany J, Schmajuk G. Potential biases in machine learning algorithms using electronic health record data. JAMA Intern Med 2018; 178 (11): 1544–7.
-17. H. Suresh, J.V. Guttag, A framework for understanding sources of harm throughout the machine learning lifecycle. arXiv preprint arXiv:1901.10002 (2019) 
+17. H. Suresh, J.V. Guttag, A framework for understanding sources of harm throughout the machine learning lifecycle. arXiv preprint arXiv:1901.10002 (2019)
+18. C.F.R. § 1607.4. Available at https://www.law.cornell.edu/cfr/text/29/1607.4 
 
 ## Contributors 
 
