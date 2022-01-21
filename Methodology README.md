@@ -65,9 +65,9 @@ _**Footnote: Assessing separation and sufficiency criteria require the presence 
   <hr/>
   <em>Measurement bias arises in situations in which we hope to characterize an unobserved condition through the use of an observed, but different, proxy. For instance, we may hope to assess community healthcare needs through the use of cost data, however, in poorer communities individuals have less money to spend on healthcare, creating the false appearance of being healthier. Allocating services based on this proxy variable (costs), will underserve the poorer communities.</em></br></br>
 
-Compare model calibration by minority/majority group to assess if the proportion of outcomes reflects the probability of the outcome assigned by the model. 
-Compare distributions of variables to see if the minority/majority groups have the same distributions.
-  - <em>Perform Kolmogorov-Smirnof tests, etc.</em>
+- Compare model calibration by minority/majority group to assess if the proportion of outcomes reflects the probability of the outcome assigned by the model. 
+- Compare distributions of variables to see if the minority/majority groups have the same distributions.
+  - Perform Kolmogorov-Smirnof tests, etc.
 Fit stratified models for each minority/majority group and look for effect modification.
   - <em>Are model coefficients (weights) similar by minority/majority group?</em>
   - <em>For black box models, are Shapley values similar?</em>
