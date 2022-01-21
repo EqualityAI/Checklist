@@ -31,107 +31,26 @@ To achieve the potential of AI to improve lives and achieve higher societal obje
 _**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
 
 ## Checklist components
-
-<details open>
-  <summary><strong>Define Problem</strong></summary>
-  <hr/>
-  <details open>
-    <summary>
-      <em>Project</em>
-    </summary>
-    <br/>
-      <pre>
-      Expected Stakeholders  
-      Types of harm
-      Trade offs
-      Cohort selection
-      </pre>
-    <details>
-    <summary>
-        <em>Population & Setting</em>
-    </summary>
-    <br/>
-      <pre>
-      Population: Population from which study sample was drawn
-      Study setting: The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
-      Data source: The source from which data were collected
-      Cohort selection: Exclusion/inclusion criteria
-      </pre>
-      <hr/>
-</details>
-
-    
 <details>
-  <summary><strong>Construct & Prepare Data</strong></summary>
+  <summary><strong>Historical Bias</strong></summary>
   <hr/>
-  <details open>
-    <summary>
-      <em>Demographics</em>
+  <em>Historical bias refers to disparate or harmful outcomes that are observed in available source data because the world is not and has not been fair. To assess the independence criteria, we determine if the proportions of outcomes are approximately equal for each minority/majority group. For instance, our Data Bias Scanner calculates incidence rate ratios to compare the minority class(es) to the majority class. If the difference in incidence rate ratios is large (or greater than 20%),<sup>18</sup> there is evidence of disparate (unequal) outcomes by group or Historical Bias has been detected.</em></br></br>
+  
+- To assess the independence criteria, we determine if the proportions of outcomes are approximately equal for each minority/majority group. For instance, our Data Bias Scanner calculates incidence rate ratios to compare the minority class(es) to the majority class. If the difference in incidence rate ratios is large (or greater than 20%),18 there is evidence of disparate (unequal) outcomes by group or Historical Bias has been detected.
     </summary>
-    <br/>
-      <pre>
-      Age: Age of patients included in the study
-      Sex: Sex breakdown of study cohort
-      Race: Race characteristics of patients included in the study
-      Ethnicity: Ethnicity breakdown of patients included in the study
-      Socioeconomic status: A measure or proxy measure of the socioeconomic status of patients included in the study
-      </pre>
-    <hr/>
-    <details>
-    <summary>
-        <em>Data Bias Scanner</em>
-    </summary>
-    <br/>
-      <pre>
-      **See Methodology README** for more details.
-      </pre>
-</details>
-      
-    
-<details>
-  <summary><strong>Build & Train</strong></summary>
-  <hr/>
-  <details open>
-    <summary>
-      <em>Model Architecture</em>
-    </summary>
-    <br/>
-      <pre>
-      Model output: The computed result of the model
-      Target user:  The indented user of the model output (eg, clinician, hospital management team, insurance company)
-      Data splitting: How data were split for training, testing, and validation
-      Gold standard: Labeled data used to train and test the model
-      Model task: Classification or prediction
-      Model architecture: Algorithm type (eg, machine learning, deep learning, etc.)
-      Features: List of variables used in the model and how they were used in the model in terms of categories or transformation
-      Missingness: How missingness was addressed: reported, imputed, or corrected
-      </pre>
-    <hr/>
-    <details>
-    <summary>
-        <em>Fairness</em>
-    </summary>
-    <br/>
-      <pre>
-      **See Methodology README** for more details.
-      </pre>
 </details>
 
 <details>
-  <summary><strong>Staged Deployment</strong></summary>
+  <summary><strong>Representation Bias</strong></summary>
   <hr/>
-  Optimization: Model or parameter tuning applied
-  Internal model validation: Study internal validation
-  External model validation: External validation using data from another setting
-  Transparency: How code and data are shared with the community
+  <em>Representation bias exists when the data a model is trained on does not reflect the real world use case of the application of the model. For instance, a model trained on data at the Veterans Affairs (a population dominated by males), will not perform well when deployed to a population with equal representation of the sexes due to the difference in the proportion of the minority/majority group. </em></br></br>
+
+- Prompt the user (or coder) for the proportion of each minority/majority group in the setting the algorithm will be applied to. Compare those to the proportions in the data. A large difference in the proportions of the groups between the training data and use case will prevent the model from generalizing well. 
+  
+    </summary>
 </details>
 
-</br></br>
-  
-  
-  
-  
-  <details>
+<details>
   <summary><strong>Measurement Bias</strong></summary>
   <hr/>
   <em>Measurement bias arises in situations in which we hope to characterize an unobserved condition through the use of an observed, but different, proxy. For instance, we may hope to assess community healthcare needs through the use of cost data, however, in poorer communities individuals have less money to spend on healthcare, creating the false appearance of being healthier. Allocating services based on this proxy variable (costs), will underserve the poorer communities.</em></br></br>
@@ -157,6 +76,60 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 </details>
 
 </br></br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
