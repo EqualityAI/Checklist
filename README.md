@@ -45,7 +45,10 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 ### 1. Define Problem <a name="define-problem" />
 ### i. Project
 
-<p align="center"><b>Project Title or Objective | Expected Stakeholders | Types of Harm | Trade Offs</b></center><br />
+- **Expected Stakeholders** <a name="expected-stakeholders"></a> : 
+- **Types of harm** <a name="types-of-harm"></a> : 
+- **Trade offs** <a name="trade-offs"></a> : 
+- **Cohort selection** <a name="team-members"></a> : 
 
 ### ii. Population & Setting <a name="population" />
 
@@ -54,71 +57,20 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - **Data source** <a name="data-source"></a> : The source from which data were collected
 - **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
 
+### 2. Construct & Prepare Data <a name="construct-&-explore-data" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-- **Expected Stakeholders** <a name="expected-stakeholders"></a> : 
-- **Types of harm** <a name="types-of-harm"></a> : 
-- **Trade offs** <a name="trade-offs"></a> : 
-- **Cohort selection** <a name="team-members"></a> : 
-
-### Construct & Prepare Data <a name="construct-&-explore-data" />
-Population | Study setting
-
-1. Demographics <a name="demographics" />
-2. Data Bias Scanner <a name="scanner" />
-
-### Build & Train <a name="build" />
-Population | Study setting
-
-1. Model Architecture <a name="architecture" />
-2. Fairness <a name="fairness" />
-
-### Build & Train <a name="staged-deployment" />
-Population | Study setting
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- **Population** <a name="population"></a> : Population from which study sample was drawn
-- **Study setting** <a name="study-setting"></a> : The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
-- **Data source** <a name="data-source"></a> : The source from which data were collected
-- **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
-
-### Data bias scanner <a name="data-bias-scanner" />
+### i. Demographics <a name="demographics" />
 - **Age** <a name="age"></a> : Age of patients included in the study
 - **Sex** <a name="sex"></a> : Sex breakdown of study cohort
 - **Race** <a name="race"></a> : Race characteristics of patients included in the study
 - **Ethnicity** <a name="ethnicity"></a> : Ethnicity breakdown of patients included in the study
 - **Socioeconomic status** <a name="socioeconomic-status"></a> : A measure or proxy measure of the socioeconomic status of patients included in the study
 
-### Architect & Train<a name="architect-&-train" />
+### ii. Data Bias Scanner <a name="scanner" />
+
+### 3. Build & Train <a name="build" />
+
+### i. Model Architecture <a name="architecture" />
 - **Model output** <a name="model-output"></a> : The computed result of the model
 - **Target user** <a name="target-user"></a> :  The indented user of the model output (eg, clinician, hospital management team, insurance company)
 - **Data splitting** <a name="data-splitting"></a> : How data were split for training, testing, and validation
@@ -128,6 +80,7 @@ Population | Study setting
 - **Features** <a name="features"></a> : List of variables used in the model and how they were used in the model in terms of categories or transformation
 - **Missingness** <a name="missingness"></a> : How missingness was addressed: reported, imputed, or corrected
 
+### ii. Fairness <a name="fairness" />
 
 ### Staged Deployment <a name="staged-deployment" />
 - **Optimization** <a name="optimization"></a> : Model or parameter tuning applied
