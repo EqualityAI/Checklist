@@ -85,20 +85,8 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 
 ## Try the checklist for yourself
-There are two ways to run these apps:
 
-- Live app: https://kevinrue.shinyapps.io/isee-shiny-contest/ 
 - Download and run app
-
-## Save & use data
-
-### What questions can you answer, if you save the data?
-1. **Suggest metrics from the description text alone.** From the description, use NLP AI to suggest the metrics that suit the situation (is a positive model prediction assistive? Then we should use a metric focusing on false negative parity. With NLP we can suggest this from just the text).<br /><br />
-2. **Predict model deployment probability bias.** If we collect information about the models that are actually deployed. We can predict the probability that a model will be deployed, using the checklist contents as covariates.<br /> 
-3. **Forecast the model deployment bias.** We can also use that same checklist information to forecast the model deployment bias.<br /> 
-4. **Suggest the impact of the model on the real world.** If a model is likely to be deployed, based on the metrics selected, we can determine the real world impact. (We can do this for incorrectly selected metrics as well).<br /> 
-5. **Determine what metrics are most likely to be successfully deployed.** Maybe some model metrics are associated with successful deployment (low deployment bias), and others are not.  We can learn this from the data.<br /> 
-6. **Determine what the "true" barriers are to model success.** Generic scientific questions can be answered using this data. Someone may answer the question "What models are most likely to be deployed successfully?"
 
 ### Connect to a database
 
@@ -131,6 +119,16 @@ query <- sprintf(
 ```r
 Add code
 ```
+
+## Save & use data
+
+### What questions can you answer, if you save the data?
+1. **Suggest metrics from the description text alone.** From the description, use NLP AI to suggest the metrics that suit the situation (is a positive model prediction assistive? Then we should use a metric focusing on false negative parity. With NLP we can suggest this from just the text).<br /><br />
+2. **Predict model deployment probability bias.** If we collect information about the models that are actually deployed. We can predict the probability that a model will be deployed, using the checklist contents as covariates.<br /> 
+3. **Forecast the model deployment bias.** We can also use that same checklist information to forecast the model deployment bias.<br /> 
+4. **Suggest the impact of the model on the real world.** If a model is likely to be deployed, based on the metrics selected, we can determine the real world impact. (We can do this for incorrectly selected metrics as well).<br /> 
+5. **Determine what metrics are most likely to be successfully deployed.** Maybe some model metrics are associated with successful deployment (low deployment bias), and others are not.  We can learn this from the data.<br /> 
+6. **Determine what the "true" barriers are to model success.** Generic scientific questions can be answered using this data. Someone may answer the question "What models are most likely to be deployed successfully?"
 
 ## Development
 
