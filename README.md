@@ -17,7 +17,7 @@ We have included a Data Bias Scanner in the “Construct & Prepare Data” secti
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/scanner.png" align="center" alt="" width="900" /><br />
 
-_**Footnote: Development Update. The data scanner described here and available in our open source tool kit is a generic data scanner. Currently we have partnered with University of Utah, Department of Biomedical Informatics to develop enterprise data scanners by data type (e.g. EHR structured, Omics, etc.), starting with a Transcriptome data specific scanner._
+_**Footnote: Development Update. Equality AI is currently partnered with University of Utah, Department of Biomedical Informatics to develop data type specific bias scanners, starting with Transcriptome data and EHR (i.e. structured) data. Ongoing partnerships are being explored to address Sensor, Claims, Imaging and Clinical Trials data types._
 
 ## What is Responsible AI?
 AI brings extraordinary opportunities for great benefit, coupled with the responsibility to avoid harmful, unintended consequences. AI products in healthcare directly impact health outcomes and lives, raising weighty questions about ethics, trust, fairness, safety, privacy and risk.<sup>1, 2-4</sup> As more healthcare decisions are placed in the hands of AI, institutions must accept more responsibility for these products and ensure their fair application.
