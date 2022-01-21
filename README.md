@@ -5,17 +5,17 @@ This repository contains the source code for the Equality AI MLOps Flow Checklis
 
 <p align="center"><b>Figure 1. MLOps Flow Checklist</b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/checklistapp.png" align="center" alt="" width="900" /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/checklistapp.png" align="center" alt="" width="900" /><br />
 
 <p align="center"><b>Figure 2. Location of Data Bias Scanner </b></center><br /><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_scanner.png" align="center" alt="" width="900" /><br /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/location_scanner.png" align="center" alt="" width="900" /><br /><br />
 
 We have included a Data Bias Scanner in the “Construct & Prepare Data” section of the MLOps Flow Checklist (see **Figure 2**). Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.<sup>15-16</sup> Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the Responsible AI lifecycle. The  Data Bias Scanner attempts to combine the existing literature and open source tools to scan data for biases (see **Figure 3**).<br /><br />
 
 <p align="center"><b>Figure 3. Data Bias Scanner </b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/scanner.png" align="center" alt="" width="900" /><br /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/scanner.png" align="center" alt="" width="900" /><br /><br />
 
 _**Footnote: Development Update. Equality AI is currently partnered with University of Utah, Department of Biomedical Informatics to develop data type specific bias scanners, starting with Transcriptome data and EHR (i.e. structured) data. Ongoing partnerships are being explored to address Sensor, Claims, Imaging and Clinical Trials data types._ 
 
@@ -28,7 +28,7 @@ To achieve the potential of AI to improve lives and achieve higher societal obje
 
 <p align="center"><b>Figure 4. Responsible AI Framework</b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/framework.png" align="center" alt="" width="900" /><br />
 
 _**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
 
