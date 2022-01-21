@@ -127,8 +127,11 @@ To achieve fairness in AI outcomes, metrics to assess the equity of models (i.e.
 |Aequitas                                        |False Positives/Group Size parity |Neither       |Neither    |
 |Aequitas                                        |False Negatives/Group Size parity |Neither       |Neither    |
 
+Selecting the optimal approach to fairness metric selection and application is a daunting task. The literature is expansive, uses non-standardized vocabulary, and is incomplete in it’s recommendations for application. Barocas et al crosswalked various fairness criteria into three main categories: Independence, Sufficiency, and Separation. (see full crosswalk in **Table 1.**) An open source tool by Aequitas<sup>9</sup> describes real-world situations and uses a fairness logic tree to provide guidance on fairness metric selection. Paulus, et al. took this one step further by assessing healthcare provider and recipient incentive structures and how those should influence fairness metric selection.
 
+<p align="center"><b>Figure 5. Fairness Section of Checklist</b></center><br />
 
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_fairnessapp.png" align="center" alt="" width="900" /><br />
 
 
 
