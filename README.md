@@ -32,32 +32,16 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 ## Table of contents
 1. [Define Problem](#frame-ml-problems)
-    1. [Project title or objective](#project-title-or-objective)
-    2. [Expected stakeholders](#expected-stakeholders)
-    3. [Types of harm](#types-of-harm)
-    4. [Trade offs](#trade-offs)
-    5. [Team members](#team-members)
+    1. [Project](#project-title-or-objective)
+    2. [Population & Setting](#expected-stakeholders)
 2. [Construct & Prepare Data](#acquire-&-explore-data)
-    1. [Population](#population)
-    2. [Study setting](#study-setting)
-    3. [Data source](#data-source)
-    4. [Cohort selection](#cohort-selection)
-3. [Data bias scanner](#data-bias-scanner)
-4. [Architect & train](#architect-&-train)
-    1. [Model output](#model-output)
-    2. [Target user](#target-user)
-    3. [Data splitting](#data-splitting)
-    4. [Gold standard](#gold-standard)
-    5. [Model task](#model-task)
-    6. [Model architecture](#model-architecture)
-    7. [Features](#features)
-    8. [Missingness](#missingness)
+    1. [Demographics](#population)
+    2. [Data Bias Scanner](#study-setting)
+3. [Build & Train](#data-bias-scanner)
+    1. [Model Architecture](#model-output)
+    2. [Fairness]
 5. [Staged Deployment](#staged-deployment)
-    1. [Optimization](#optimization)
-    2. [Internal model validation](#internal-model-validation)
-    3. [External model validation](#external-model-validation)
-    4. [Transparency](#transparency)
-
+  
 ## Checklist components
 ### Frame ML Problems<a name="frame-ml-problems" />
 1. Does this resource need to be equally provisioned to each level of the protected class (same number or percent e.g. equal outcomes)?
