@@ -44,26 +44,33 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 
 <details open>
-  <summary><strong>InterpretML</strong></summary>
+  <summary><strong>Define ProblemL</strong></summary>
   <hr/>
   <details open>
     <summary>
-      <em>"InterpretML: A Unified Framework for Machine Learning Interpretability" (H. Nori, S. Jenkins, P. Koch, and R.
-        Caruana 2019)</em>
+      <em>"Project</em>
     </summary>
     <br/>
     <pre>
-@article{nori2019interpretml,
-  title={InterpretML: A Unified Framework for Machine Learning Interpretability},
-  author={Nori, Harsha and Jenkins, Samuel and Koch, Paul and Caruana, Rich},
-  journal={arXiv preprint arXiv:1909.09223},
-  year={2019}
-}
+- **Expected Stakeholders**  
+- **Types of harm** 
+- **Trade offs** 
+- **Cohort selection** 
 </pre>
-    <a href="https://arxiv.org/pdf/1909.09223.pdf">Paper link</a>
   </details>
+     <summary><strong>Population & SettingL</strong></summary>
   <hr/>
 </details>
+    <summary>
+      <em>"Project</em>
+    </summary>
+    <br/>
+    <pre>
+- **Population** <a name="population"></a> : Population from which study sample was drawn
+- **Study setting** <a name="study-setting"></a> : The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
+- **Data source** <a name="data-source"></a> : The source from which data were collected
+- **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
+</pre>
 
 
 
