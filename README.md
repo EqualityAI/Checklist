@@ -32,7 +32,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 ## Checklist components
 <details>
-  <summary><strong>Define Problem</strong></summary>
+  <summary><strong>`Define Problem`</strong></summary>
   <hr/>
   
   <summary><strong>Project</strong></summary>
