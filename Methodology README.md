@@ -45,7 +45,8 @@ _**Footnote: Assessing separation and sufficiency criteria require the presence 
   <summary><strong>Historical Bias</strong></summary>
   <hr/>
   <em>Historical bias refers to disparate or harmful outcomes that are observed in available source data because the world is not and has not been fair. To assess the independence criteria, we determine if the proportions of outcomes are approximately equal for each minority/majority group. For instance, our Data Bias Scanner calculates incidence rate ratios to compare the minority class(es) to the majority class. If the difference in incidence rate ratios is large (or greater than 20%),<sup>18</sup> there is evidence of disparate (unequal) outcomes by group or Historical Bias has been detected.</em></br>
-Markup : * To assess the independence criteria, we determine if the proportions of outcomes are approximately equal for each minority/majority group. For instance, our Data Bias Scanner calculates incidence rate ratios to compare the minority class(es) to the majority class. If the difference in incidence rate ratios is large (or greater than 20%),18 there is evidence of disparate (unequal) outcomes by group or Historical Bias has been detected.
+  
+- To assess the independence criteria, we determine if the proportions of outcomes are approximately equal for each minority/majority group. For instance, our Data Bias Scanner calculates incidence rate ratios to compare the minority class(es) to the majority class. If the difference in incidence rate ratios is large (or greater than 20%),18 there is evidence of disparate (unequal) outcomes by group or Historical Bias has been detected.
     </summary>
 </details>
 
