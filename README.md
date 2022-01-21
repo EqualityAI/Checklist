@@ -5,7 +5,7 @@ This repository contains the source code for the Equality AI MLOps Flow Checklis
 
 <p align="center"><b>Figure 1. MLOps Flow Checklist</b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/checklistapp.png" align="center" alt="" width="300" />
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/checklistapp.png" align="center" alt="" width="900" />
 
 
 
