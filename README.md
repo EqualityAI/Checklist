@@ -41,7 +41,6 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
     1. [Model Architecture](#architecture)
     2. [Fairness](#fairness)
 5. [Staged Deployment](#staged-deployment)
-hr()
 
 ### 1. Define Problem <a name="define-problem" />
 ### i. Project
