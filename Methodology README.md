@@ -53,8 +53,25 @@ _**Footnote: Assessing separation and sufficiency criteria require the presence 
 <details>
   <summary><strong>Representation Bias</strong></summary>
   <hr/>
-  <em>"InterpretML: A Unified Framework for Machine Learning Interpretability" (H. Nori, S. Jenkins, P. Koch, and R.
-        Caruana 2019)</em>
+  <em>Representation bias exists when the data a model is trained on does not reflect the real world use case of the application of the model. For instance, a model trained on data at the Veterans Affairs (a population dominated by males), will not perform well when deployed to a population with equal representation of the sexes due to the difference in the proportion of the minority/majority group. </em></br></br>
+
+- Prompt the user (or coder) for the proportion of each minority/majority group in the setting the algorithm will be applied to. Compare those to the proportions in the data. A large difference in the proportions of the groups between the training data and use case will prevent the model from generalizing well. 
+  
+    </summary>
+</details>
+
+<details>
+  <summary><strong>Measurement Bias</strong></summary>
+  <hr/>
+  <em>Measurement bias arises in situations in which we hope to characterize an unobserved condition through the use of an observed, but different, proxy. For instance, we may hope to assess community healthcare needs through the use of cost data, however, in poorer communities individuals have less money to spend on healthcare, creating the false appearance of being healthier. Allocating services based on this proxy variable (costs), will underserve the poorer communities.</em></br></br>
+
+- Compare model calibration by minority/majority group to assess if the proportion of outcomes reflects the probability of the outcome assigned by the model. 
+-  Compare distributions of variables to see if the minority/majority groups have the same distributions.
+  - <em>Perform Kolmogorov-Smirnof tests, etc.</em>
+-  Fit stratified models for each minority/majority group and look for effect modification.
+  - <em>Are model coefficients (weights) similar by minority/majority group?</em>
+  - <em>For black box models, are Shapley values similar?</em>
+  
     </summary>
 </details>
 </br></br>
