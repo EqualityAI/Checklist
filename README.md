@@ -81,7 +81,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
   <em>
     Optimization | Internal model validation | External model validation | Transparency
     </em></br></br>
-</details>
+</details></br></br>
 
 
 ## Try the checklist for yourself
