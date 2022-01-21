@@ -56,6 +56,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
       Data source: The source from which data were collected
       Cohort selection: Exclusion/inclusion criteria
       </pre>
+      <hr/>
 </details>
 
 <details>
