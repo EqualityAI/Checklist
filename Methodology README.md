@@ -56,6 +56,7 @@ _**Footnote: Assessing separation and sufficiency criteria require the presence 
         Caruana 2019)</em>
     </summary>
 </details>
+</br></br>
 
 ## Fairness <a name="fairness"></a> 
 
