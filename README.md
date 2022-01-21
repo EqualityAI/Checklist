@@ -43,7 +43,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 5. [Staged Deployment](#staged-deployment)
 
 
-<details open>
+<details>
   <summary><strong>Define Problem</strong></summary>
   <hr/>
   <details open>
@@ -64,10 +64,10 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
     </summary>
     <br/>
       <pre>
-      Expected Stakeholders  
-      Types of harm
-      Trade offs
-      Cohort selection
+      Population: Population from which study sample was drawn
+      Study setting: The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
+      Data source: The source from which data were collected
+      Cohort selection: Exclusion/inclusion criteria
       </pre>
 </details>
 
