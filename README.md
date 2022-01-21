@@ -75,122 +75,13 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
     </em></br></br>
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details>
-  <summary><strong>Construct & Prepare Data</strong></summary>
+  <summary><strong>Staged Deployment</strong></summary>
   <hr/>
-  <em>Representation bias exists when the data a model is trained on does not reflect the real world use case of the application of the model. For instance, a model trained on data at the Veterans Affairs (a population dominated by males), will not perform well when deployed to a population with equal representation of the sexes due to the difference in the proportion of the minority/majority group. </em></br></br>
-
-- Prompt the user (or coder) for the proportion of each minority/majority group in the setting the algorithm will be applied to. Compare those to the proportions in the data. A large difference in the proportions of the groups between the training data and use case will prevent the model from generalizing well. 
-  
-    </summary>
+  <em>
+    Optimization | Internal model validation | External model validation | Transparency
+    </em></br></br>
 </details>
-
-<details>
-  <summary><strong>Measurement Bias</strong></summary>
-  <hr/>
-  <em>Measurement bias arises in situations in which we hope to characterize an unobserved condition through the use of an observed, but different, proxy. For instance, we may hope to assess community healthcare needs through the use of cost data, however, in poorer communities individuals have less money to spend on healthcare, creating the false appearance of being healthier. Allocating services based on this proxy variable (costs), will underserve the poorer communities.</em></br></br>
-
-- Compare model calibration by minority/majority group to assess if the proportion of outcomes reflects the probability of the outcome assigned by the model. 
-- Compare distributions of variables to see if the minority/majority groups have the same distributions.
-  - Perform Kolmogorov-Smirnof tests, etc.
-- Fit stratified models for each minority/majority group and look for effect modification.
-  - Are model coefficients (weights) similar by minority/majority group?
-  - For black box models, are Shapley values similar?
-  
-    </summary>
-</details>
-
-<details>
-  <summary><strong>Aggregation Bias</strong></summary>
-  <hr/>
-  <em>Aggregation bias arises when a one-size-fits-all model is fit to data in which there are underlying groups or types of examples that should be considered differently. Aggregation bias refers to situations in which the average effect across groups does not reflect the within-group truth. For example, we may hope to estimate the average body weight of the adult population and use that to characterize people as under or overweight. If we were to average male and female weights together, we would calculate an average value that is between the average weight of a male and female. When using this average in assessments, females would nearly always appear to appear to be below the average, and males above the average. Aggregation bias would be corrected by calculating the average weights separately by sex.</em></br></br>
-
-- Fit models for each minority/majority group and determine if the independent variable effects are similar or different, or if the model fit is superior when stratified. This may be done by comparing model weights, Shapley values, model performance, etc. 
-  
-    </summary>
-</details>
-
-</br></br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Try the checklist for yourself
