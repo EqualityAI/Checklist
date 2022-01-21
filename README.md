@@ -42,12 +42,31 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
     2. [Fairness](#fairness)
 5. [Staged Deployment](#staged-deployment)
 
-### Define Problem <a name="define-problem" />
-### 1. Project
+### 1. Define Problem <a name="define-problem" />
+### i. Project
 
 <p align="center"><b>Project Title or Objective | Expected Stakeholders | Types of Harm | Trade Offs</b></center><br />
 
-2. Population & Setting <a name="population" />
+### ii. Population & Setting <a name="population" />
+
+- **Population** <a name="population"></a> : Population from which study sample was drawn
+- **Study setting** <a name="study-setting"></a> : The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
+- **Data source** <a name="data-source"></a> : The source from which data were collected
+- **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - **Expected Stakeholders** <a name="expected-stakeholders"></a> : 
 - **Types of harm** <a name="types-of-harm"></a> : 
