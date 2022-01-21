@@ -74,6 +74,17 @@ _**Footnote: Assessing separation and sufficiency criteria require the presence 
   
     </summary>
 </details>
+
+<details>
+  <summary><strong>Aggregation Bias</strong></summary>
+  <hr/>
+  <em>Aggregation bias arises when a one-size-fits-all model is fit to data in which there are underlying groups or types of examples that should be considered differently. Aggregation bias refers to situations in which the average effect across groups does not reflect the within-group truth. For example, we may hope to estimate the average body weight of the adult population and use that to characterize people as under or overweight. If we were to average male and female weights together, we would calculate an average value that is between the average weight of a male and female. When using this average in assessments, females would nearly always appear to appear to be below the average, and males above the average. Aggregation bias would be corrected by calculating the average weights separately by sex.</em></br></br>
+
+- Fit models for each minority/majority group and determine if the independent variable effects are similar or different, or if the model fit is superior when stratified. This may be done by comparing model weights, Shapley values, model performance, etc. 
+  
+    </summary>
+</details>
+
 </br></br>
 
 ## Fairness <a name="fairness"></a> 
