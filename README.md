@@ -31,17 +31,16 @@ To achieve the potential of AI to improve lives and achieve higher societal obje
 _**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
 
 ## Checklist components
-1. [Define Problem](#define-problem)
-    1. [Project](#project)
-    2. [Population & Setting](#population)
-2. [Construct & Prepare Data](#construct-&-explore-data)
-    1. [Demographics](#demographics)
-    2. [Data Bias Scanner](#scanner)
-3. [Build & Train](#build)
-    1. [Model Architecture](#architecture)
-    2. [Fairness](#fairness)
-5. [Staged Deployment](#staged-deployment)
-
+1. [Define Problem]
+    1. [Project]
+    2. [Population & Setting]
+2. [Construct & Prepare Data]
+    1. [Demographics]
+    2. [Data Bias Scanner]
+3. [Build & Train]
+    1. [Model Architecture]
+    2. [Fairness]
+5. [Staged Deployment]
 
 <details>
   <summary><strong>Define Problem</strong></summary>
@@ -71,19 +70,68 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
       </pre>
 </details>
 
+<details>
+  <summary><strong>Construct & Prepare Data</strong></summary>
+  <hr/>
+  <details open>
+    <summary>
+      <em>Demographics</em>
+    </summary>
+    <br/>
+      <pre>
+      Age: Age of patients included in the study
+      Sex: Sex breakdown of study cohort
+      Race: Race characteristics of patients included in the study
+      Ethnicity: Ethnicity breakdown of patients included in the study
+      Socioeconomic status: A measure or proxy measure of the socioeconomic status of patients included in the study
+      </pre>
+    <hr/>
+    <details>
+    <summary>
+        <em>Data Bias Scanner</em>
+    </summary>
+    <br/>
+      <pre>
+      **See Methodology README** for more details.
+      </pre>
+</details>
+      
+<details>
+  <summary><strong>Build & Train</strong></summary>
+  <hr/>
+  <details open>
+    <summary>
+      <em>Model Architecture</em>
+    </summary>
+    <br/>
+      <pre>
+      Model output: The computed result of the model
+      Target user:  The indented user of the model output (eg, clinician, hospital management team, insurance company)
+      Data splitting: How data were split for training, testing, and validation
+      Gold standard: Labeled data used to train and test the model
+      Model task: Classification or prediction
+      Model architecture: Algorithm type (eg, machine learning, deep learning, etc.)
+      Features: List of variables used in the model and how they were used in the model in terms of categories or transformation
+      Missingness: How missingness was addressed: reported, imputed, or corrected
+      </pre>
+    <hr/>
+    <details>
+    <summary>
+        <em>Fairness</em>
+    </summary>
+    <br/>
+      <pre>
+      **See Methodology README** for more details.
+      </pre>
+</details>
 
 <details>
-  <summary><strong>Define the Problem</strong></summary>
+  <summary><strong>Staged Deployment</strong></summary>
   <hr/>
-    
-- **Expected Stakeholders**  
-- **Types of harm** 
-- **Trade offs** 
-- **Cohort selection** 
-    
-    </br></br>
-
-- Fit models for each minority/majority group and determine if the independent variable effects are similar or different, or if the model fit is superior when stratified. This may be done by comparing model weights, Shapley values, model performance, etc. 
+  Optimization: Model or parameter tuning applied
+  Internal model validation: Study internal validation
+  External model validation: External validation using data from another setting
+  Transparency: How code and data are shared with the community
   
     </summary>
 </details>
@@ -95,54 +143,6 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 
 
-### 1. Define Problem <a name="define-problem" />
-### i. Project
-
-- **Expected Stakeholders** <a name="expected-stakeholders"></a> 
-- **Types of harm** <a name="types-of-harm"></a>
-- **Trade offs** <a name="trade-offs"></a>
-- **Cohort selection** <a name="team-members"></a>
-
-### ii. Population & Setting <a name="population" />
-
-- **Population** <a name="population"></a> : Population from which study sample was drawn
-- **Study setting** <a name="study-setting"></a> : The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
-- **Data source** <a name="data-source"></a> : The source from which data were collected
-- **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
-
-### 2. Construct & Prepare Data <a name="construct-&-explore-data" />
-
-### i. Demographics <a name="demographics" />
-- **Age** <a name="age"></a> : Age of patients included in the study
-- **Sex** <a name="sex"></a> : Sex breakdown of study cohort
-- **Race** <a name="race"></a> : Race characteristics of patients included in the study
-- **Ethnicity** <a name="ethnicity"></a> : Ethnicity breakdown of patients included in the study
-- **Socioeconomic status** <a name="socioeconomic-status"></a> : A measure or proxy measure of the socioeconomic status of patients included in the study
-
-### ii. Data Bias Scanner <a name="scanner" />
-- **See Methodology README** for more details.
-
-### 3. Build & Train <a name="build" />
-
-### i. Model Architecture <a name="architecture" />
-- **Model output** <a name="model-output"></a> : The computed result of the model
-- **Target user** <a name="target-user"></a> :  The indented user of the model output (eg, clinician, hospital management team, insurance company)
-- **Data splitting** <a name="data-splitting"></a> : How data were split for training, testing, and validation
-- **Gold standard** <a name="gold-standard"></a> : Labeled data used to train and test the model
-- **Model task** <a name="model-task"></a> : Classification or prediction
-- **Model architecture** <a name="model-architecture"></a> : Algorithm type (eg, machine learning, deep learning, etc.)
-- **Features** <a name="features"></a> : List of variables used in the model and how they were used in the model in terms of categories or transformation
-- **Missingness** <a name="missingness"></a> : How missingness was addressed: reported, imputed, or corrected
-
-### ii. Fairness <a name="fairness" />
-- **See Methodology README** for more details.
-
-
-### Staged Deployment <a name="staged-deployment" />
-- **Optimization** <a name="optimization"></a> : Model or parameter tuning applied
-- **Internal model validation** <a name="internal-model-validation"></a> : Study internal validation
-- **External model validation** <a name="external-model-validation"></a> : External validation using data from another setting
-- **Transparency** <a name="transparency"></a> : How code and data are shared with the community
 
 ## Try the checklist for yourself
 There are two ways to run these apps:
