@@ -87,6 +87,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 ## Try the checklist for yourself
 
 - Download and run app
+</br>
 
 ### Connect to a database
 
