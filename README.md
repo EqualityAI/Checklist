@@ -11,7 +11,7 @@ This repository contains the source code for the Equality AI MLOps Flow Checklis
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_scanner.png" align="center" alt="" width="900" /><br />
 
-We have included a Data Bias Scanner in the “Construct & Prepare Data” section of the MLOps Flow Checklist (see **Figure 2**). Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.<sup>15-16</sup> Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the Responsible AI lifecycle. The  Data Bias Scanner attempts to combine the existing literature and open source tools to scan data for biases.
+We have included a Data Bias Scanner in the “Construct & Prepare Data” section of the MLOps Flow Checklist (see **Figure 2**). Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.<sup>15-16</sup> Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the Responsible AI lifecycle. The  Data Bias Scanner attempts to combine the existing literature and open source tools to scan data for biases (see **Figure 3**).
 
 <p align="center"><b>Figure 3. Data Bias Scanner </b></center><br />
 
@@ -41,6 +41,29 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
     1. [Model Architecture](#architecture)
     2. [Fairness](#fairness)
 5. [Staged Deployment](#staged-deployment)
+
+<details>
+  <summary><strong>Define the Problem</strong></summary>
+  <hr/>
+    
+- **Expected Stakeholders**  
+- **Types of harm** 
+- **Trade offs** 
+- **Cohort selection** 
+    
+    </br></br>
+
+- Fit models for each minority/majority group and determine if the independent variable effects are similar or different, or if the model fit is superior when stratified. This may be done by comparing model weights, Shapley values, model performance, etc. 
+  
+    </summary>
+</details>
+
+</br></br>
+
+
+
+
+
 
 ### 1. Define Problem <a name="define-problem" />
 ### i. Project
