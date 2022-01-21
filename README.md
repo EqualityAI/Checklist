@@ -16,6 +16,8 @@ To achieve the potential of AI to improve lives and achieve higher societal obje
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
+_**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
+
 ## Table of contents
 1. [Frame ML problems](#frame-ml-problems)
     1. [Project title or objective](#project-title-or-objective)
