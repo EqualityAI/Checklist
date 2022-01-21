@@ -37,7 +37,34 @@ _**Footnote: Development Update. The data scanner described here and available i
 
 _**Footnote: The Data Bias Scanner will only scan for biases in source data. Learning and Evaluation bias will be addressed in other sections of the checklist in future versions._
 
-There are many types of bias, and addressing them is feasible to varying degrees. Suresh et al, demonstrated how biases that arise in throughout the MLOps workflow (e.g. misclassification, missing data, data imbalance) can be categorized into Historical bias, Representation bias, Measurement bias, Aggregation bias, and Evaluation bias.<sup>17</sup> For the biases related to the source of data (see Figure 7), the Data Bias Scanner identifies the presence of each bias (see below).
+There are many types of bias, and addressing them is feasible to varying degrees. Suresh et al, demonstrated how biases that arise in throughout the MLOps workflow (e.g. misclassification, missing data, data imbalance) can be categorized into Historical bias, Representation bias, Measurement bias, Aggregation bias, and Evaluation bias.<sup>17</sup> For the biases related to the source of data (see **Figure 3**), the Data Bias Scanner identifies the presence of each bias (see below).
+
+_**Footnote: Assessing separation and sufficiency criteria require the presence of models and selection of a parity metric. These metrics cannot be assessed using only the data, however, we are capable of assessing the independence criteria. Additionally we are researching, when possible, how to provide corrections and solutions._
+
+> ### Historical Bias 
+> ### Representation Bias
+
+<details open>
+  <summary><strong>InterpretML</strong></summary>
+  <hr/>
+  <details open>
+    <summary>
+      <em>"InterpretML: A Unified Framework for Machine Learning Interpretability" (H. Nori, S. Jenkins, P. Koch, and R.
+        Caruana 2019)</em>
+    </summary>
+    <br/>
+    <pre>
+@article{nori2019interpretml,
+  title={InterpretML: A Unified Framework for Machine Learning Interpretability},
+  author={Nori, Harsha and Jenkins, Samuel and Koch, Paul and Caruana, Rich},
+  journal={arXiv preprint arXiv:1909.09223},
+  year={2019}
+}
+</pre>
+    <a href="https://arxiv.org/pdf/1909.09223.pdf">Paper link</a>
+  </details>
+  <hr/>
+</details>
 
 ## Fairness <a name="fairness"></a> 
 
