@@ -57,10 +57,23 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
     <hr/>
   <strong>Data Bias Scanner: </strong></br>
   <em>
-    **See Methodology README** for more details.
+  <strong>See Methodology README</strong> for more details.
     </em></br></br>
 </details>
 
+<details>
+  <summary><strong>Build & Train</strong></summary>
+  <hr/>
+  <strong>Model Architecture: </strong></br>
+  <em>
+    Model output | Target user | Data splitting | Gold standard | Model task | Model architecture | Features | Missingness
+    </em></br></br>
+    <hr/>
+  <strong>Fairness: </strong></br>
+  <em>
+  <strong>See Methodology README</strong> for more details.
+    </em></br></br>
+</details>
 
 
 
