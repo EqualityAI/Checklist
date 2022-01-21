@@ -133,97 +133,8 @@ Selecting the optimal approach to fairness metric selection and application is a
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/fairnessapp.png" align="center" alt="" width="900" /><br />
 
+We expanded on Barocas et al to include recommendations from the Aequitas framework and the work of Paulus, et al to narrow down to four questions to guide fairness metric selection for the task at hand (see questions, **Figure 5**).
 
-
-
-
-
-
-
-
-
-
-
-## What is Responsible AI? <a name="what-is-responsible"></a> 
-AI brings extraordinary opportunities for great benefit, coupled with the responsibility to avoid harmful unintended consequences. AI products in healthcare directly impact health outcomes and lives, raising weighty questions about ethics, trust, fairness, safety, privacy and risk. <sup>1, 2-4</sup> As more healthcare decisions are placed in the hands of AI, institutions must accept more responsibility for these products and ensure their fair application. 
- 
-To achieve the potential of AI to improve lives and achieve higher societal objectives, AI tools require human-centered frameworks to prevent bias and unfairness. Responsible AI is an emerging framework that addresses this need and safeguards against potential risks of AI by guiding development of AI using principles that ensure standards are met for ethics, fairness, accuracy, security and privacy. Responsible AI frameworks will increasingly be used to mitigate the potential risks of harm from AI. Implementing Responsible AI in the development lifecycle, relies on three core principles of Responsible AI: fairness, transparency, and bias mitigation.  
-
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br/>
-
-_**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
-
-## Fairness <a name="fairness"></a>
-### Introduction <a name="introduction_f"></a>
-The Fairness metric section of the Responsible AI Checklist combines the existing literature (see Methodology), open source tools, and legal concepts to provide guidance on the selection of parity metrics when fairness is a concern. 
- 
-Traditionally, machine learning (ML) developers sought out high benchmark performance metrics (such as root mean squared error, logloss, accuracy, area under the ROC curve, etc.)<sup>5</sup> while overlooking the disparate impact of prediction errors for protected classes (such as race, ethnicity, and sex) which exacerbated and propagated existing inequalities.<sup>1, 2-4</sup> To achieve fairness in AI outcomes, protected classes such as race, ethnicity and sex must be considered. 
- 
-Responsible AI uses fairness metrics to assess the equity of models, rather than having a pure focus on task performance metrics. A fairness metric, similar to a performance metric, is a metric which is optimized in the process of fitting a model. The key difference is that it is a metric on which parity (equality) is created among levels of a protected class, to meet a standard of algorithmic fairness. When selected appropriately, fairness metrics create algorithmic equity of opportunity, outcome, or other criteria as determined appropriate to the task. 
-
-_**Footnote: Development Update. Demographic criteria for protected classes (e.g. race, ethhnicity, sex) have multiple response levels. Responsible AI seeks to use a fairness criteria to create parity among the levels of the protected class (LPC).<sup>6-8 </sup>_
-
-### The Challenge <a name="challenge_f"></a>
-Selecting the optimal approach to fairness metric selection is a daunting task. The literature on fairness metrics is expansive, uses non-standardized vocabulary, and is incomplete in it’s recommendations for application. Reviewing, collating, and curating the literature is an on-going process that will require a community of developers, academics and experts with the north star of patients' wellbeing and health outcomes in mind. The fairness metric selection portion of our checklist has been built based on the following approach. We welcome you to join us in the effort by using our tools and providing feedback. 
-
-### Methodology <a name="methodology_f"></a>
-**Figure 1** describes how we determined what metrics to use and when to use them. We expanded on the work of Barocas et al to include recommendations from the Aequitas framework. Barocas et al crosswalk fairness criteria into three main categories: Independence, Sufficiency, and Separation. (see full crosswalk in **Table 1.**) 
-
-Understanding that there are multiple potential fairness metrics, one must determine the correct fairness criteria to apply to the task at hand. An open source tool by Aequitas<sup>9</sup> describes real-world situations and uses a fairness logic tree to provide guidance on fairness metric selection. Paulus, et al. took this one step further by assessing healthcare provider and recipient incentive structures and how those should influence fairness metric selection. 
-
-These works helped us to narrow down to four questions in the Fairness metric section of the checklist that recommend an appropriate fairness metric for healthcare specific algorithms (see crosswalked questions to metrics in the [insert file name]).
- 
-**Figure 1:** Methodology for selecting a fairness metric
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/fairness_methodology.png" align="left" alt="" width="1000" />
- 
-**Table 1:** Crosswalk between fairness metrics
-
-| Publications                                   | Metric                           |Closest match |Note       |
-|:----------------------------------------------:|:--------------------------------:|:------------:|:---------:|
-|Aequitas                                        |Equal Selection Parity            |Independence  |Relaxation |
-|Dwork et al. (2011)                             |Statistical parity                |Independence  |Equivalent |
-|                                                |Group fairness                    |Independence  |Equivalent |
-|Aequitas                                        |Demographic parity                |Independence  |Equivalent |
-|Darlington (1971)                               |Darlington criterion (4)          |Independence  |Relaxation |
-|Corbett-Davies et al. (2017)                    |Conditional statistical parity    |Independence  |Equivalent |
-|Hardt, Price, Srebro (2016)                     |Equalized odds                    |Separation    |Equivalent |
-|Berk et al. (2017)                              |Conditional procedure accuracy    |Separation    |Equivalent |
-|Zafar et al. (2017)                             |Avoiding disparate mistreatment   |Separation    |Equivalent |
-|Aequitas                                        |False Negative Rate Parity        |Separation    |Relaxation |
-|Aequitas                                        |False Positive Rate Parity        |Separation    |Relaxation |
-|Hardt, Price, Srebro (2016)                     |Equal opportunity                 |Separation    |Relaxation |
-|Chouldechova (2016)                             |Predictive equality               |Separation    |Relaxation |
-|Kleinberg, Mullainathan, Raghavan (2016)        |Balance for the negative class    |Separation    |Relaxation |
-|Kleinberg, Mullainathan, Raghavan (2016)        |Balance for the positive class    |Separation    |Relaxation |
-|Woodworth (2017)                                |Equalized correlations            |Separation    |Relaxation |
-|Darlington (1971)                               |Darlington criterion (3)          |Separation    |Relaxation |
-|Cleary (1966)                                   |Cleary model                      |Sufficiency   |Relaxation |
-|Berk et al. (2017)                              |Conditional use accuracy          |Sufficiency   |Equivalent |
-|Chouldechova (2016)                             |Calibration within groups         |Sufficiency   |Equivalent |
-|Chouldechova (2016)                             |Predictive parity                 |Sufficiency   |Relaxation |
-|Darlington (1971)                               |Darlington criterion (1), (2)     |Sufficiency   |Relaxation |
-|Aequitas                                        |False Discovery Rate Parity       |Sufficiency   |Relaxation |
-|Aequitas                                        |False Omission Rate Parity        |Sufficiency   |Relaxation |
-|Aequitas                                        |False Positives/Group Size parity |Neither       |Neither    |
-|Aequitas                                        |False Negatives/Group Size parity |Neither       |Neither    |
-
-
-## Bias detection <a name="bias-detection"></a>
-### Introduction <a name="introduction_b"></a>
-Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.<sup>15-16</sup> Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the responsible AI lifecycle. Biases in the training data must be interrogated to create a world in which diversity and inclusion are thoughtfully considered. 
-
-### The Challenge <a name="challenge_b"></a>
-There are many types of bias, and addressing them is feasible to varying degrees. The Data bias scanner of the Responsible AI Checklist attempts to combine the existing literature (see **Methodology**), open source tools, and legal concepts to scan data for biases and provide solutions. This work is ongoing and we welcome everyone to join us to provide feedback to improve our tools.
- 
-_**Footnote: Development Update. Equality AI is currently partnered with University of Utah, Department of Biomedical Informatics to develop data type specific bias scanners, starting with Transcriptome data and EHR (i.e. structured) data. Ongoing partnerships are being explored to address Sensor, Claims, Imaging and Clinical Trials data types._
-
-### Methodology <a name="methodology_b"></a>
-For bias, as shown in Figure 2, we started by finding an overarching framework for bias with respect to the ML life cycle. In doing this we were able to organize biases such as misclassification, missing data, data imbalance into overarching categories of Historical bias, Representation bias, Measurement bias, Aggregation bias, and Evaluation bias.<sup>17</sup> For each of these biases, research is being done to determine statistical best practices for identifying the presence of each bias in a data source, and suggestions for corrections.
-
-_**Footnote: Development Update. Learning bias and Deployment bias are addressed in Monitoring tools, which are currently in development._
-
-**Figure 2:** Methodology for Data bias scanner
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" />
 
 ## Development <a name="development"></a>
 
@@ -234,8 +145,9 @@ the repository root directory and execute `renv::restore()` to download
 the package library.
 
 
+
 ## Citations <a name="citations"></a>
-1. Paulus, J.K., Kent, D.M. Predictably unequal: understanding and addressing concerns that algorithmic clinical prediction may increase health disparities. npj Digit. Med. 3, 99 (2020). https://doi.org/10.1038/s41746-020-0304-9 
+1. Paulus, J.K., Kent, D.M. Predictably unequal: understanding and addressing concerns that algorithmic clinical prediction may increase health disparities. npj Digit. Med. 3, 99 (2020). https://doi.org/10.1038/s41746-020-0304-9
 2. Vyas DA, Eisenstein LG, Jones DS. Hidden in plain sight-reconsidering the use of race correction in clinical algorithms. N Engl J Med 2020; 383: 874–882. doi:10.1056/NEJMms2004740
 3. Ahmed, S., Nutt, C.T., Eneanya, N.D. et al. Examining the Potential Impact of Race Multiplier Utilization in Estimated Glomerular Filtration Rate Calculation on African-American Care Outcomes. J GEN INTERN MED 36, 464–471 (2021). https://doi.org/10.1007/s11606-020-06280-5
 4. Obermeyer Z, Powers B, Vogeli C, Mullainathan S. Dissecting racial bias in an algorithm used to manage the health of populations. Science. 2019 Oct 25;366(6464):447-453. doi: 10.1126/science.aax2342. PMID: 31649194.
@@ -252,6 +164,7 @@ the package library.
 15. Ferryman K, Pitcan M. Fairness in precision medicine. Data & Society. 2018. https://datasociety.net/library/fairness-in-precision-medicine/ Accessed November 19, 2019.
 16. Gianfrancesco MA, Tamang S, Yazdany J, Schmajuk G. Potential biases in machine learning algorithms using electronic health record data. JAMA Intern Med 2018; 178 (11): 1544–7.
 17. H. Suresh, J.V. Guttag, A framework for understanding sources of harm throughout the machine learning lifecycle. arXiv preprint arXiv:1901.10002 (2019)
+18. C.F.R. § 1607.4. Available at https://www.law.cornell.edu/cfr/text/29/1607.4 
 
 
 ## Contributors <a name="contributors"></a>
