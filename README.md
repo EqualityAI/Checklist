@@ -30,32 +30,58 @@ To achieve the potential of AI to improve lives and achieve higher societal obje
 
 _**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
 
-## Table of contents
-1. [Define Problem](#frame-ml-problems)
-    1. [Project](#project-title-or-objective)
-    2. [Population & Setting](#expected-stakeholders)
-2. [Construct & Prepare Data](#acquire-&-explore-data)
-    1. [Demographics](#population)
-    2. [Data Bias Scanner](#study-setting)
-3. [Build & Train](#data-bias-scanner)
-    1. [Model Architecture](#model-output)
-    2. [Fairness]
-5. [Staged Deployment](#staged-deployment)
-  
 ## Checklist components
-### Frame ML Problems<a name="frame-ml-problems" />
-1. Does this resource need to be equally provisioned to each level of the protected class (same number or percent e.g. equal outcomes)?
-2. Is the healthcare provider incentivized to ration the resource?
-3. Is the patient incentivized to seek or avoid care?
-4. What is the population of concern?
+1. [Define Problem](#define-problem)
+    1. [Project](#project)
+    2. [Population & Setting](#population)
+2. [Construct & Prepare Data](#construct-&-explore-data)
+    1. [Demographics](#demographics)
+    2. [Data Bias Scanner](#scanner)
+3. [Build & Train](#build)
+    1. [Model Architecture](#architecture)
+    2. [Fairness](#fairness)
+5. [Staged Deployment](#staged-deployment)
+
+### Define Problem <a name="define-problem" />
+1. Project <a name="project" />
+2. Project <a name="population" />
 
 - **Expected Stakeholders** <a name="expected-stakeholders"></a> : 
 - **Types of harm** <a name="types-of-harm"></a> : 
 - **Trade offs** <a name="trade-offs"></a> : 
 - **Cohort selection** <a name="team-members"></a> : 
 
-### Acquire & Explore Data<a name="acquire-&-explore-data" />
+### Construct & Prepare Data <a name="construct-&-explore-data" />
 Population | Study setting
+
+1. Demographics <a name="demographics" />
+2. Data Bias Scanner <a name="scanner" />
+
+### Build & Train <a name="build" />
+Population | Study setting
+
+1. Model Architecture <a name="architecture" />
+2. Fairness <a name="fairness" />
+
+### Build & Train <a name="staged-deployment" />
+Population | Study setting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 - **Population** <a name="population"></a> : Population from which study sample was drawn
