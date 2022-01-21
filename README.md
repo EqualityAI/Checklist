@@ -43,7 +43,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 5. [Staged Deployment](#staged-deployment)
 
 ### Define Problem <a name="define-problem" />
-1. Project
+### 1. Project
 
 <p align="center"><b>Project Title or Objective | Expected Stakeholders | Types of Harm | Trade Offs</b></center><br />
 
