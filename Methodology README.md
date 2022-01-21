@@ -41,11 +41,16 @@ There are many types of bias, and addressing them is feasible to varying degrees
 
 _**Footnote: Assessing separation and sufficiency criteria require the presence of models and selection of a parity metric. These metrics cannot be assessed using only the data, however, we are capable of assessing the independence criteria. Additionally we are researching, when possible, how to provide corrections and solutions._
 
-> ### Historical Bias 
-> ### Representation Bias
-
 <details open>
   <summary><strong>Historical Bias</strong></summary>
+  <hr/>
+  <em>"InterpretML: A Unified Framework for Machine Learning Interpretability" (H. Nori, S. Jenkins, P. Koch, and R.
+        Caruana 2019)</em>
+    </summary>
+</details>
+
+<details>
+  <summary><strong>Representation Bias</strong></summary>
   <hr/>
   <em>"InterpretML: A Unified Framework for Machine Learning Interpretability" (H. Nori, S. Jenkins, P. Koch, and R.
         Caruana 2019)</em>
