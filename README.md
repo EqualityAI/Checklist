@@ -45,10 +45,10 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 ### 1. Define Problem <a name="define-problem" />
 ### i. Project
 
-- **Expected Stakeholders** <a name="expected-stakeholders"></a> : 
-- **Types of harm** <a name="types-of-harm"></a> : 
-- **Trade offs** <a name="trade-offs"></a> : 
-- **Cohort selection** <a name="team-members"></a> : 
+- **Expected Stakeholders** <a name="expected-stakeholders"></a> 
+- **Types of harm** <a name="types-of-harm"></a>
+- **Trade offs** <a name="trade-offs"></a>
+- **Cohort selection** <a name="team-members"></a>
 
 ### ii. Population & Setting <a name="population" />
 
