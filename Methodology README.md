@@ -45,25 +45,11 @@ _**Footnote: Assessing separation and sufficiency criteria require the presence 
 > ### Representation Bias
 
 <details open>
-  <summary><strong>InterpretML</strong></summary>
+  <summary><strong>Historical Bias</strong></summary>
   <hr/>
-  <details open>
-    <summary>
-      <em>"InterpretML: A Unified Framework for Machine Learning Interpretability" (H. Nori, S. Jenkins, P. Koch, and R.
+  <em>"InterpretML: A Unified Framework for Machine Learning Interpretability" (H. Nori, S. Jenkins, P. Koch, and R.
         Caruana 2019)</em>
     </summary>
-    <br/>
-    <pre>
-@article{nori2019interpretml,
-  title={InterpretML: A Unified Framework for Machine Learning Interpretability},
-  author={Nori, Harsha and Jenkins, Samuel and Koch, Paul and Caruana, Rich},
-  journal={arXiv preprint arXiv:1909.09223},
-  year={2019}
-}
-</pre>
-    <a href="https://arxiv.org/pdf/1909.09223.pdf">Paper link</a>
-  </details>
-  <hr/>
 </details>
 
 ## Fairness <a name="fairness"></a> 
