@@ -131,7 +131,7 @@ Selecting the optimal approach to fairness metric selection and application is a
 
 <p align="center"><b>Figure 5. Fairness Section of Checklist</b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_fairnessapp.png" align="center" alt="" width="900" /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/fairnessapp.png" align="center" alt="" width="900" /><br />
 
 
 
