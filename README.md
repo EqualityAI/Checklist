@@ -51,23 +51,25 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
       <em>Project</em>
     </summary>
     <br/>
-    <pre>
-    Expected Stakeholders  
-    Types of harm
-    Trade offs
-    Cohort selection
-    </pre>
-  <hr/>
+      <pre>
+      Expected Stakeholders  
+      Types of harm
+      Trade offs
+      Cohort selection
+      </pre>
+    <hr/>
     <details>
     <summary>
         <em>Population & Setting</em>
-      - **Population** <a name="population"></a> : Population from which study sample was drawn
-      - **Study setting** <a name="study-setting"></a> : The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
-      - **Data source** <a name="data-source"></a> : The source from which data were collected
-      - **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
     </summary>
     <br/>
-      </details>
+      <pre>
+      Expected Stakeholders  
+      Types of harm
+      Trade offs
+      Cohort selection
+      </pre>
+</details>
 
 
 <details>
