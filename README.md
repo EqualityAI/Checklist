@@ -44,7 +44,9 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 ### Define Problem <a name="define-problem" />
 1. Project <a name="project" />
-2. Project <a name="population" />
+**Parameters**: Project Title or Objective | Expected Stakeholders | Types of Harm | Trade Offs
+
+2. Population & Setting <a name="population" />
 
 - **Expected Stakeholders** <a name="expected-stakeholders"></a> : 
 - **Types of harm** <a name="types-of-harm"></a> : 
