@@ -38,6 +38,11 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
   <em>
     Expected Stakeholders | Types of harm | Trade offs | Cohort selection
     </em></br></br>
+    <hr/>
+  <strong>Population & Setting: </strong></br>
+  <em>
+    Population | Study setting | Data source | Cohort selection
+    </em></br></br>
 </details>
 
 <details>
