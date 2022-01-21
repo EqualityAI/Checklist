@@ -31,20 +31,6 @@ To achieve the potential of AI to improve lives and achieve higher societal obje
 _**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
 
 ## Checklist components
-1. [Define Problem]
-    1. [Project]
-    2. [Population & Setting]
-2. [Construct & Prepare Data]
-    1. [Demographics]
-    2. [Data Bias Scanner]
-3. [Build & Train]
-    1. [Model Architecture]
-    2. [Fairness]
-5. [Staged Deployment]
-
-
-
-
 <details open>
   <summary><strong>Define Problem</strong></summary>
   <hr/>
@@ -59,7 +45,6 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
       Trade offs
       Cohort selection
       </pre>
-    <hr/>
     <details>
     <summary>
         <em>Population & Setting</em>
