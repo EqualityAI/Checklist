@@ -71,6 +71,9 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - **Cohort selection** <a name="team-members"></a> : 
 
 ### Acquire & Explore Data<a name="acquire-&-explore-data" />
+Population | Study setting
+
+
 - **Population** <a name="population"></a> : Population from which study sample was drawn
 - **Study setting** <a name="study-setting"></a> : The setting in which the study was conducted (e.g., academic medical left, community healthcare system, rural healthcare clinic)
 - **Data source** <a name="data-source"></a> : The source from which data were collected
