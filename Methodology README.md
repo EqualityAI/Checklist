@@ -88,6 +88,45 @@ _**Footnote: Assessing separation and sufficiency criteria require the presence 
 </br></br>
 
 ## Fairness <a name="fairness"></a> 
+<p align="center"><b>Figure 4. Location of Fairness</b></center><br />
+
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_fairness.png" align="center" alt="" width="900" /><br />
+
+We have included a Fairness section in the “Build & Train'' section of the MLOps Flow Checklist (see **Figure 4**) to provide guidance on the selection of parity metrics when fairness is a concern. Traditionally, ML developers seek out high benchmark performance metrics (such as root mean squared error, log loss, accuracy, area under the ROC curve, etc.)5 while overlooking the disparate impact of prediction errors for minority subpopulations (such as certain races, ethnicities, and sexes) which exacerbated and propagated existing inequalities.<sup>1, 2-4</sup> 
+
+To achieve fairness in AI outcomes, metrics to assess the equity of models (i.e. otherwise known as fairness metrics) must be considered in addition to evaluating performance metrics. A fairness metric, similar to a performance metric, is a metric which is optimized in the process of fitting a model. The key difference is that it is a metric on which parity (equality) is created among levels of a minority population to meet a standard of algorithmic fairness. When selected appropriately, fairness metrics create algorithmic equity of opportunity, outcome, or other criteria as determined appropriate to the task.
+
+<p align="center"><b>Table 1. Crosswalk of Fairness Metrics</b></center><br />
+
+| Publications                                   | Metric                           |Closest match |Note       |
+|:----------------------------------------------:|:--------------------------------:|:------------:|:---------:|
+|Aequitas                                        |Equal Selection Parity            |Independence  |Relaxation |
+|Dwork et al. (2011)                             |Statistical parity                |Independence  |Equivalent |
+|                                                |Group fairness                    |Independence  |Equivalent |
+|Aequitas                                        |Demographic parity                |Independence  |Equivalent |
+|Darlington (1971)                               |Darlington criterion (4)          |Independence  |Relaxation |
+|Corbett-Davies et al. (2017)                    |Conditional statistical parity    |Independence  |Equivalent |
+|Hardt, Price, Srebro (2016)                     |Equalized odds                    |Separation    |Equivalent |
+|Berk et al. (2017)                              |Conditional procedure accuracy    |Separation    |Equivalent |
+|Zafar et al. (2017)                             |Avoiding disparate mistreatment   |Separation    |Equivalent |
+|Aequitas                                        |False Negative Rate Parity        |Separation    |Relaxation |
+|Aequitas                                        |False Positive Rate Parity        |Separation    |Relaxation |
+|Hardt, Price, Srebro (2016)                     |Equal opportunity                 |Separation    |Relaxation |
+|Chouldechova (2016)                             |Predictive equality               |Separation    |Relaxation |
+|Kleinberg, Mullainathan, Raghavan (2016)        |Balance for the negative class    |Separation    |Relaxation |
+|Kleinberg, Mullainathan, Raghavan (2016)        |Balance for the positive class    |Separation    |Relaxation |
+|Woodworth (2017)                                |Equalized correlations            |Separation    |Relaxation |
+|Darlington (1971)                               |Darlington criterion (3)          |Separation    |Relaxation |
+|Cleary (1966)                                   |Cleary model                      |Sufficiency   |Relaxation |
+|Berk et al. (2017)                              |Conditional use accuracy          |Sufficiency   |Equivalent |
+|Chouldechova (2016)                             |Calibration within groups         |Sufficiency   |Equivalent |
+|Chouldechova (2016)                             |Predictive parity                 |Sufficiency   |Relaxation |
+|Darlington (1971)                               |Darlington criterion (1), (2)     |Sufficiency   |Relaxation |
+|Aequitas                                        |False Discovery Rate Parity       |Sufficiency   |Relaxation |
+|Aequitas                                        |False Omission Rate Parity        |Sufficiency   |Relaxation |
+|Aequitas                                        |False Positives/Group Size parity |Neither       |Neither    |
+|Aequitas                                        |False Negatives/Group Size parity |Neither       |Neither    |
+
 
 
 
