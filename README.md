@@ -35,7 +35,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
   <summary><strong>Define Problem</strong></summary>
   <hr/>
   
-  <summary><strong>`Project`</strong></summary>
+  <summary>Project
 Expected Stakeholders | Types of harm | Trade offs | Cohort selection
 
 - To assess the independence criteria, we determine if the proportions of outcomes are approximately equal for each minority/majority group. For instance, our Data Bias Scanner calculates incidence rate ratios to compare the minority class(es) to the majority class. If the difference in incidence rate ratios is large (or greater than 20%),18 there is evidence of disparate (unequal) outcomes by group or Historical Bias has been detected.
