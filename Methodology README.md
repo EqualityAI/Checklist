@@ -1,21 +1,52 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
 
-# Responsible Application of Checklist and Scanner
+# Methodology of MLOps Flow Checklist w/Data Bias Scanner
 1. [What is Responsible AI?](#what-is-responsible-ai)
-2. [Fairness](#fairness)
-    1. [Introduction](#introduction_f)
-    2. [The challenge](#challenge_f)
-    3. [Methodology](#methodology_f)
-3. [Transparency](#transparency)
-    1. [Introduction](#introduction_t)
-    2. [Methodology](#methodology_t)
-4. [Bias detection](#bias-detection)
-    1. [Introduction](#introduction_b)
-    2. [The challenge](#challenge_b)
-    3. [Methodology](#methodology_b)
-5. [Development](#development)
-6. [Citations](#citations)
-7. [Contributors](#contributors)
+2. [Transparency](#transparency)
+3. [Bias detection](#bias-detection)
+4. [Fairness](#fairness)
+
+## What is Responsible AI? <a name="what-is-responsible"></a> 
+AI brings extraordinary opportunities for great benefit, coupled with the responsibility to avoid harmful, unintended consequences. AI products in healthcare directly impact health outcomes and lives, raising weighty questions about ethics, trust, fairness, safety, privacy and risk.<sup>1, 2-4</sup> As more healthcare decisions are placed in the hands of AI, institutions must accept more responsibility for these products and ensure their fair application.
+
+To achieve the potential of AI to improve lives and achieve higher societal objectives, AI tools require a human-centered approach. Responsible AI is an emerging framework that addresses this need and safeguards against potential risks of AI by guiding development using principles that ensure standards are met for ethics, fairness, accuracy, security and privacy. Responsible AI frameworks will increasingly be used to mitigate the potential risks of harm from AI. Implementing Responsible AI in the development lifecycle, relies on three core principles of Responsible AI: transparency, bias detection, and fairness (see **Figure 1** for the full framework).
+
+<p align="center"><b>Figure 1. Responsible AI Framework</b></center><br />
+
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
+
+_**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
+
+## Transparency <a name="transparency"></a> 
+We developed the MLOps Flow Checklist to implement the MINimum Information for Medical AI Reporting (MINIMAR) standard. MINIMAR is an ongoing initiative to create minimal reporting standards that facilitate the transparent dissemination of algorithms across healthcare systems. We applied these standards in the checklist sections: “Construct & Prepare Data”, “Data bias scanner”, “Build & Train”, and “Staged deployment”. The use of this standard addresses potential biases and unintended consequences of AI algorithms.<sup>10</sup> Reporting standards including CONSORT, SPIRIT, and TRIPOD-ML are also extending their checklists to include an ML or AI component, and we look forward to their development and impact.<sup>10,14</sup>
+
+
+## Bias Detection <a name="bias-detection"></a> 
+
+<p align="center"><b>Figure 2. Location of Data Bias Scanner </b></center><br />
+
+<img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_scanner.png" align="center" alt="" width="900" /><br />
+
+We have included a Data Bias Scanner in the “Construct & Prepare Data” section of the MLOps Flow Checklist (see **Figure 2**). Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.15-16 Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the Responsible AI lifecycle. The  Data Bias Scanner attempts to combine the existing literature and open source tools to scan data for biases.
+
+_**Footnote: Development Update. The data scanner described here and available in our open source tool kit is a generic data scanner. Currently we have partnered with University of Utah, Department of Biomedical Informatics to develop enterprise data scanners by data type (e.g. EHR structured, Omics, etc.), starting with a Transcriptome data specific scanner._
+
+
+
+## Fairness <a name="fairness"></a> 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## What is Responsible AI? <a name="what-is-responsible"></a> 
 AI brings extraordinary opportunities for great benefit, coupled with the responsibility to avoid harmful unintended consequences. AI products in healthcare directly impact health outcomes and lives, raising weighty questions about ethics, trust, fairness, safety, privacy and risk. <sup>1, 2-4</sup> As more healthcare decisions are placed in the hands of AI, institutions must accept more responsibility for these products and ensure their fair application. 
