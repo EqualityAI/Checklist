@@ -48,17 +48,16 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
   <hr/>
   <details open>
     <summary>
-      <em>"Project</em>
+      <em>Project</em>
     </summary>
     <br/>
     <pre>
-- **Expected Stakeholders**  
-- **Types of harm** 
-- **Trade offs** 
-- **Cohort selection** 
+Expected Stakeholders  
+Types of harm
+Trade offs
+Cohort selection
 </pre>
-  </details>
-     <summary><strong>Population & SettingL</strong></summary>
+  <summary><strong>Population & SettingL</strong></summary>
   <hr/>
 </details>
     <summary>
@@ -71,7 +70,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - **Data source** <a name="data-source"></a> : The source from which data were collected
 - **Cohort selection** <a name="cohort-selection"></a> : Exclusion/inclusion criteria
 </pre>
-
+</details>
 
 
 <details>
