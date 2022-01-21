@@ -3,9 +3,8 @@
 # MLOps Flow Checklist
 This repository contains the source code for the Equality AI MLOps Flow Checklist and integrate Data Bias Scanner, an R Shiny based library that is one component of the Equality AI Responsible AI Toolkit. The Responsible AI Checklist Application provides a framework to guide the design, development, and deployment of machine learning (ML) models with good intention to empower healthcare organizations, patients, and employees, allowing companies to engender trust and to scale AI with confidence.
 
-<p align="center"> **Figure 1. MLOps Flow Checklist** </center>
+<p align="center"><b>Figure 1. MLOps Flow Checklist</b></center>
 
-<p style="text-align: center;">Centered text</p>
 
 
 
