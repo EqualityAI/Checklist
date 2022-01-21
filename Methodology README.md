@@ -68,9 +68,9 @@ _**Footnote: Assessing separation and sufficiency criteria require the presence 
 - Compare model calibration by minority/majority group to assess if the proportion of outcomes reflects the probability of the outcome assigned by the model. 
 - Compare distributions of variables to see if the minority/majority groups have the same distributions.
   - Perform Kolmogorov-Smirnof tests, etc.
-Fit stratified models for each minority/majority group and look for effect modification.
-  - <em>Are model coefficients (weights) similar by minority/majority group?</em>
-  - <em>For black box models, are Shapley values similar?</em>
+- Fit stratified models for each minority/majority group and look for effect modification.
+  - Are model coefficients (weights) similar by minority/majority group?
+  - For black box models, are Shapley values similar?
   
     </summary>
 </details>
