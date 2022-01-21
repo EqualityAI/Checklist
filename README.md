@@ -42,6 +42,31 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
     2. [Fairness](#fairness)
 5. [Staged Deployment](#staged-deployment)
 
+
+<details open>
+  <summary><strong>InterpretML</strong></summary>
+  <hr/>
+  <details open>
+    <summary>
+      <em>"InterpretML: A Unified Framework for Machine Learning Interpretability" (H. Nori, S. Jenkins, P. Koch, and R.
+        Caruana 2019)</em>
+    </summary>
+    <br/>
+    <pre>
+@article{nori2019interpretml,
+  title={InterpretML: A Unified Framework for Machine Learning Interpretability},
+  author={Nori, Harsha and Jenkins, Samuel and Koch, Paul and Caruana, Rich},
+  journal={arXiv preprint arXiv:1909.09223},
+  year={2019}
+}
+</pre>
+    <a href="https://arxiv.org/pdf/1909.09223.pdf">Paper link</a>
+  </details>
+  <hr/>
+</details>
+
+
+
 <details>
   <summary><strong>Define the Problem</strong></summary>
   <hr/>
