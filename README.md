@@ -48,7 +48,43 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 </details>
 
 <details>
-  <summary><strong>Representation Bias</strong></summary>
+  <summary><strong>Construct & Prepare Data</strong></summary>
+  <hr/>
+  <strong>Demographics: </strong></br>
+  <em>
+    Age | Sex | Race | Ethnicity | Socioeconomic status
+    </em></br></br>
+    <hr/>
+  <strong>Data Bias Scanner: </strong></br>
+  <em>
+    **See Methodology README** for more details.
+    </em></br></br>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details>
+  <summary><strong>Construct & Prepare Data</strong></summary>
   <hr/>
   <em>Representation bias exists when the data a model is trained on does not reflect the real world use case of the application of the model. For instance, a model trained on data at the Veterans Affairs (a population dominated by males), will not perform well when deployed to a population with equal representation of the sexes due to the difference in the proportion of the minority/majority group. </em></br></br>
 
