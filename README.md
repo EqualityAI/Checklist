@@ -11,7 +11,7 @@ This repository contains the source code for the Equality AI MLOps Flow Checklis
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_scanner.png" align="center" alt="" width="900" /><br />
 
-We have included a Data Bias Scanner in the “Construct & Prepare Data” section of the MLOps Flow Checklist (see **Figure 2**). Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.<sup>15-16</sup> Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the responsible AI lifecycle. The  Data Bias Scanner attempts to combine the existing literature and open source tools to scan data for biases.
+We have included a Data Bias Scanner in the “Construct & Prepare Data” section of the MLOps Flow Checklist (see **Figure 2**). Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.<sup>15-16</sup> Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the Responsible AI lifecycle. The  Data Bias Scanner attempts to combine the existing literature and open source tools to scan data for biases.
 
 <p align="center"><b>Figure 3. Data Bias Scanner </b></center><br />
 
@@ -19,36 +19,25 @@ We have included a Data Bias Scanner in the “Construct & Prepare Data” secti
 
 _**Footnote: Development Update. The data scanner described here and available in our open source tool kit is a generic data scanner. Currently we have partnered with University of Utah, Department of Biomedical Informatics to develop enterprise data scanners by data type (e.g. EHR structured, Omics, etc.), starting with a Transcriptome data specific scanner._
 
-
-
-
-
-
-
-
-
-
-
-
 ## What is Responsible AI?
 AI brings extraordinary opportunities for great benefit, coupled with the responsibility to avoid harmful, unintended consequences. AI products in healthcare directly impact health outcomes and lives, raising weighty questions about ethics, trust, fairness, safety, privacy and risk.<sup>1, 2-4</sup> As more healthcare decisions are placed in the hands of AI, institutions must accept more responsibility for these products and ensure their fair application.
 
-To achieve the potential of AI to improve lives and achieve higher societal objectives, AI tools require a human-centered approach. Responsible AI is an emerging framework that addresses this need and safeguards against potential risks of AI by guiding development using principles that ensure standards are met for ethics, fairness, accuracy, security and privacy. Responsible AI frameworks will increasingly be used to mitigate the potential risks of harm from AI. Implementing Responsible AI in the development lifecycle, relies on three core principles of Responsible AI: transparency, bias detection, and fairness (see **Figure 2** for the full framework).
+To achieve the potential of AI to improve lives and achieve higher societal objectives, AI tools require a human-centered approach. Responsible AI is an emerging framework that addresses this need and safeguards against potential risks of AI by guiding development using principles that ensure standards are met for ethics, fairness, accuracy, security and privacy. Responsible AI frameworks will increasingly be used to mitigate the potential risks of harm from AI. Implementing Responsible AI in the development lifecycle, relies on three core principles of Responsible AI: transparency, bias detection, and fairness (see **Figure 4** for the full framework).
 
-<p align="center"><b>Figure 2. Responsible AI Framework</b></center><br />
+<p align="center"><b>Figure 4. Responsible AI Framework</b></center><br />
 
 <img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
 
 _**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
 
 ## Table of contents
-1. [Frame ML problems](#frame-ml-problems)
+1. [Define Problem](#frame-ml-problems)
     1. [Project title or objective](#project-title-or-objective)
     2. [Expected stakeholders](#expected-stakeholders)
     3. [Types of harm](#types-of-harm)
     4. [Trade offs](#trade-offs)
     5. [Team members](#team-members)
-2. [Acquire & Explore Data](#acquire-&-explore-data)
+2. [Construct & Prepare Data](#acquire-&-explore-data)
     1. [Population](#population)
     2. [Study setting](#study-setting)
     3. [Data source](#data-source)
