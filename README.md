@@ -100,6 +100,8 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 # To install the Shiny Direct Input package
 install.packages("remotes")
 remotes::install_github("wleepang/shiny-directory-input")
+
+# If you are running into problems, try running as an administrator.
 ```
 - Below are code snippets to add a database to the back-end of the app (still testing)
 
