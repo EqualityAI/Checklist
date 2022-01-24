@@ -92,7 +92,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 ### Connect to a database
 
-Edit this in the global.R OR use the login made available on the ui.R
+Edit this in the global.R or connect the login page made available on the ui.R
 
 ```r
 options(mysql = list(
