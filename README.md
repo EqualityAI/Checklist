@@ -94,6 +94,12 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - Install R, and R studio
 - Copy and download the respository
 - Run locally
+- Install and load libraries in the global.R
+
+```r
+install.packages("remotes")
+remotes::install_github("wleepang/shiny-directory-input")
+```
 - Below are code snippets to add a database to the back-end of the app (still testing)
 
 ### Connect to a database
