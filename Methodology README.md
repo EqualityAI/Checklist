@@ -1,4 +1,4 @@
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="right" alt="" width="120" />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="right" alt="" width="120" />
 
 # Methodology of MLOps Flow Checklist w/Data Bias Scanner
 1. [What is Responsible AI?](#what-is-responsible-ai)
@@ -13,7 +13,7 @@ To achieve the potential of AI to improve lives and achieve higher societal obje
 
 <p align="center"><b>Figure 1. Responsible AI Framework</b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/framework.png" align="center" alt="" width="900" /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/framework.png" align="center" alt="" width="900" /><br />
 
 _**Footnote: Development Update. Additional principles of Responsible AI including privacy and security, accountability, reliability and safety will be addressed in future Equality AI Responsible AI Checklist versions._
 
@@ -25,7 +25,7 @@ We developed the MLOps Flow Checklist to implement the MINimum Information for M
 
 <p align="center"><b>Figure 2. Location of Data Bias Scanner </b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_scanner.png" align="center" alt="" width="900" /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/location_scanner.png" align="center" alt="" width="900" /><br />
 
 We have included a Data Bias Scanner (i.e. bias detection) in the “Construct & Prepare Data” section of the MLOps Flow Checklist (see **Figure 2**). Including bias detection in AI development is crucial to address issues of ethics, fairness and inclusion. Biases hidden in the training data used for model development are known to have negative consequences in certain populations.<sup>15-16</sup> Potential biases in training data must be exposed to prevent algorithms that exacerbate or perpetuate inequality. Ensuring that measurement of protected classes occurs is fundamental to the Responsible AI lifecycle. The  Data Bias Scanner attempts to combine the existing literature and open source tools to scan data for biases.
 
@@ -33,7 +33,7 @@ _**Footnote: Development Update. The data scanner described here and available i
 
 <p align="center"><b>Figure 3. Biases in Source Data </b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/bias_methodology.png" align="left" alt="" width="1000" />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/bias_methodology.png" align="left" alt="" width="1000" />
 
 _**Footnote: The Data Bias Scanner will only scan for biases in source data. Learning and Evaluation bias will be addressed in other sections of the checklist in future versions._
 
@@ -90,7 +90,7 @@ _**Footnote: Assessing separation and sufficiency criteria require the presence 
 ## Fairness <a name="fairness"></a> 
 <p align="center"><b>Figure 4. Location of Fairness</b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/location_fairness.png" align="center" alt="" width="900" /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/location_fairness.png" align="center" alt="" width="900" /><br />
 
 We have included a Fairness section in the “Build & Train'' section of the MLOps Flow Checklist (see **Figure 4**) to provide guidance on the selection of parity metrics when fairness is a concern. Traditionally, ML developers seek out high benchmark performance metrics (such as root mean squared error, log loss, accuracy, area under the ROC curve, etc.)5 while overlooking the disparate impact of prediction errors for minority subpopulations (such as certain races, ethnicities, and sexes) which exacerbated and propagated existing inequalities.<sup>1, 2-4</sup> 
 
@@ -131,19 +131,9 @@ Selecting the optimal approach to fairness metric selection and application is a
 
 <p align="center"><b>Figure 5. Fairness Section of Checklist</b></center><br />
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/fairnessapp.png" align="center" alt="" width="900" /><br />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/fairnessapp.png" align="center" alt="" width="900" /><br />
 
 We expanded on Barocas et al to include recommendations from the Aequitas framework and the work of Paulus, et al to narrow down to four questions to guide fairness metric selection for the task at hand (see questions, **Figure 5**).
-
-
-## Development <a name="development"></a>
-
-Contributions are welcome\! This application uses the
-[`renv`](https://rstudio.github.io/renv/) package to manage the versions
-of dependencies. After cloning the repository, launch a new session in
-the repository root directory and execute `renv::restore()` to download
-the package library.
-
 
 
 ## Citations <a name="citations"></a>
@@ -171,7 +161,7 @@ the package library.
 
 - Equality AI (https://equality-ai.com/)
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="left" alt="" width="120" />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="left" alt="" width="120" />
 
 [Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community!  We are dedicated to making progress in the development of Responsible AI standards by providing trustworthy services and a collection of open source resources and tools for the ML Healthcare community, starting with our Responsible AI checklist and Data bias scanner.
 

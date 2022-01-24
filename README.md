@@ -1,7 +1,12 @@
-<img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="right" alt="" width="120" />
+# Welcome to Equality AI!
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="left" alt="" width="120" />
+
+[Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community!  We are dedicated to making progress in the development of Responsible AI standards by providing trustworthy services and a collection of open source resources and tools for the ML Healthcare community, starting with our Responsible AI checklist and Data bias scanner.  
+<br/>
+<br/>
 
 # MLOps Flow Checklist w/Data Bias Scanner
-This repository contains the source code for the Equality AI MLOps Flow Checklist and integrate Data Bias Scanner, an R Shiny based library that is one component of the Equality AI Responsible AI Toolkit. The Responsible AI Checklist Application provides a framework to guide the design, development, and deployment of machine learning (ML) models with good intention to empower healthcare organizations, patients, and employees, allowing companies to engender trust and to scale AI with confidence.
+This repository contains the source code for the Equality AI MLOps Flow Checklist and integrate Data Bias Scanner, an R Shiny based library that is one component of the Equality AI Responsible AI Toolkit. The Responsible AI Checklist Application provides a framework to guide the design, development, and deployment of machine learning (ML) models with good intention to empower healthcare organizations, patients, and employees, allowing companies to engender trust and to scale AI with confidence.<br />
 
 <p align="center"><b>Figure 1. MLOps Flow Checklist</b></center><br />
 
@@ -86,11 +91,14 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 ## Try the checklist for yourself
 
-- Download and run app
+- Install R, and R studio
+- Copy and download the respository
+- Run locally
+- Below are code snippets to add a database to the back-end of the app (still testing)
 
 ### Connect to a database
 
-Edit this in the global.R
+Edit this in the global.R or connect the login page made available on the ui.R
 
 ```r
 options(mysql = list(
@@ -117,7 +125,7 @@ query <- sprintf(
 ### Save to .txt
 
 ```r
-Add code
+write.csv(df, file.path('path', 'filename.csv'), append = T)
 ```
 
 ## Save & use data
@@ -132,11 +140,7 @@ Add code
 
 ## Development
 
-Contributions are welcome\! This application uses the
-[`renv`](https://rstudio.github.io/renv/) package to manage the versions
-of dependencies. After cloning the repository, launch a new session in
-the repository root directory and execute `renv::restore()` to download
-the package library.
+Contributions are welcome\!  Reviewing, collating, and curating the literature is an on-going process that will require a community of developers, academics and experts with the north star of patients' wellbeing and health outcomes in mind. Users may open Issues using the github web ui by first selecting the `Issues tab`, then clicking `New Issue`, filling out the prompts and clicking `Submit new issue`. 
 
 
 ## Citations <a name="citations"></a>
@@ -160,10 +164,8 @@ the package library.
 18. C.F.R. § 1607.4. Available at https://www.law.cornell.edu/cfr/text/29/1607.4 
 
 ## Contributors 
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="right" alt="" width="120" />
 
-- Equality AI (https://equality-ai.com/)
+- [Equality AI](https://equality-ai.com/)
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="left" alt="" width="120" />
-
-[Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community!  We are dedicated to making progress in the development of Responsible AI standards by providing trustworthy services and a collection of open source resources and tools for the ML Healthcare community, starting with our Responsible AI checklist and Data bias scanner.
 
