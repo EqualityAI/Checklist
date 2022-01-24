@@ -135,11 +135,7 @@ write.csv(df, file.path('path', 'filename.csv'), append = T)
 
 ## Development
 
-Contributions are welcome\! This application uses the
-[`renv`](https://rstudio.github.io/renv/) package to manage the versions
-of dependencies. After cloning the repository, launch a new session in
-the repository root directory and execute `renv::restore()` to download
-the package library.
+Contributions are welcome\! Users may open Issues using the github web ui by first selecting the "Issues" tab, then clicking "New Issue", filling out the prompts and clicking "Submit new issue". 
 
 
 ## Citations <a name="citations"></a>
