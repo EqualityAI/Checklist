@@ -19,6 +19,8 @@ library(tableone)
 # databaseName <- "myshinydatabase"
 # table <- "responses"
 
+
+
 # bring in metric guidance table
 dffair <- readxl::read_excel('table.xlsx', skip = 2)
 
