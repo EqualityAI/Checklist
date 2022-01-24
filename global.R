@@ -8,6 +8,16 @@ library(markdown)
 library(shinyDirectoryInput)
 library(DT)
 library(tableone)
+library(shinyalert)
+library(shinythemes)
+library(shinycssloaders)
+library(plotly)
+library(timevis)
+library(Hmisc)
+
+
+# install.packages("remotes")
+# remotes::install_github("wleepang/shiny-directory-input")
 
 # INPUT DATABASE INFORMATION
 # options(mysql = list(
