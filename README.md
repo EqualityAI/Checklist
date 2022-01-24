@@ -135,7 +135,7 @@ write.csv(df, file.path('path', 'filename.csv'), append = T)
 
 ## Development
 
-Contributions are welcome\! Users may open Issues using the github web ui by first selecting the "Issues" tab, then clicking "New Issue", filling out the prompts and clicking "Submit new issue". 
+Contributions are welcome\! Users may open Issues using the github web ui by first selecting the `Issues tab`, then clicking `New Issue`, filling out the prompts and clicking `Submit new issue`. 
 
 
 ## Citations <a name="citations"></a>
