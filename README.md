@@ -86,11 +86,13 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 
 ## Try the checklist for yourself
 
-- Download and run app
+- Install R, and R studio
+- Copy and download the respository
+- Run locally
 
 ### Connect to a database
 
-Edit this in the global.R
+Edit this in the global.R OR use the login made available on the ui.R
 
 ```r
 options(mysql = list(
@@ -117,7 +119,7 @@ query <- sprintf(
 ### Save to .txt
 
 ```r
-Add code
+write.csv(df, file.path('path', 'filename.csv'), append = T)
 ```
 
 ## Save & use data
