@@ -89,6 +89,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - Install R, and R studio
 - Copy and download the respository
 - Run locally
+- Below are code snippets to add a database to the back-end of the app (still testing)
 
 ### Connect to a database
 
