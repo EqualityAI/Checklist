@@ -135,7 +135,7 @@ write.csv(df, file.path('path', 'filename.csv'), append = T)
 
 ## Development
 
-Contributions are welcome\! Users may open Issues using the github web ui by first selecting the `Issues tab`, then clicking `New Issue`, filling out the prompts and clicking `Submit new issue`. 
+Contributions are welcome\!  Reviewing, collating, and curating the literature is an on-going process that will require a community of developers, academics and experts with the north star of patients' wellbeing and health outcomes in mind. Users may open Issues using the github web ui by first selecting the `Issues tab`, then clicking `New Issue`, filling out the prompts and clicking `Submit new issue`. 
 
 
 ## Citations <a name="citations"></a>
