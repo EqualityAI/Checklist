@@ -164,9 +164,7 @@ Contributions are welcome\!  Reviewing, collating, and curating the literature i
 18. C.F.R. § 1607.4. Available at https://www.law.cornell.edu/cfr/text/29/1607.4 
 
 ## Contributors 
-
-[Equality AI](https://equality-ai.com/)
-
 <img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="left" alt="" width="120" />
+[Equality AI](https://equality-ai.com/)
 
 
