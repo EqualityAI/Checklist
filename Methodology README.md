@@ -161,7 +161,7 @@ We expanded on Barocas et al to include recommendations from the Aequitas framew
 
 - Equality AI (https://equality-ai.com/)
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="left" alt="" width="120" />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="left" alt="" width="120" />
 
 [Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community!  We are dedicated to making progress in the development of Responsible AI standards by providing trustworthy services and a collection of open source resources and tools for the ML Healthcare community, starting with our Responsible AI checklist and Data bias scanner.
 
