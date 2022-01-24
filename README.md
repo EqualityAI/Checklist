@@ -1,5 +1,6 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="right" alt="" width="120" />
 # Welcome!
+
 [paste in]
 
 
