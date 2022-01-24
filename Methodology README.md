@@ -136,16 +136,6 @@ Selecting the optimal approach to fairness metric selection and application is a
 We expanded on Barocas et al to include recommendations from the Aequitas framework and the work of Paulus, et al to narrow down to four questions to guide fairness metric selection for the task at hand (see questions, **Figure 5**).
 
 
-## Development <a name="development"></a>
-
-Contributions are welcome\! This application uses the
-[`renv`](https://rstudio.github.io/renv/) package to manage the versions
-of dependencies. After cloning the repository, launch a new session in
-the repository root directory and execute `renv::restore()` to download
-the package library.
-
-
-
 ## Citations <a name="citations"></a>
 1. Paulus, J.K., Kent, D.M. Predictably unequal: understanding and addressing concerns that algorithmic clinical prediction may increase health disparities. npj Digit. Med. 3, 99 (2020). https://doi.org/10.1038/s41746-020-0304-9
 2. Vyas DA, Eisenstein LG, Jones DS. Hidden in plain sight-reconsidering the use of race correction in clinical algorithms. N Engl J Med 2020; 383: 874–882. doi:10.1056/NEJMms2004740
