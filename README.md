@@ -1,7 +1,7 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="right" alt="" width="120" />
-# Welcome!
 
-[paste in]
+# Welcome to Equality AI
+
 
 
 # MLOps Flow Checklist w/Data Bias Scanner
