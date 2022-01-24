@@ -97,6 +97,7 @@ _**Footnote: Development Update. Additional principles of Responsible AI includi
 - Install and load libraries in the global.R
 
 ```r
+# To install the Shiny Direct Input package
 install.packages("remotes")
 remotes::install_github("wleepang/shiny-directory-input")
 ```
