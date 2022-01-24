@@ -1,6 +1,8 @@
 # Welcome to Equality AI 
 <img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="left" alt="" width="120" /><br /><br />
+[Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community!  We are dedicated to making progress in the development of Responsible AI standards by providing trustworthy services and a collection of open source resources and tools for the ML Healthcare community, starting with our Responsible AI checklist and Data bias scanner.
 <br/>
+
 # MLOps Flow Checklist w/Data Bias Scanner
 This repository contains the source code for the Equality AI MLOps Flow Checklist and integrate Data Bias Scanner, an R Shiny based library that is one component of the Equality AI Responsible AI Toolkit. The Responsible AI Checklist Application provides a framework to guide the design, development, and deployment of machine learning (ML) models with good intention to empower healthcare organizations, patients, and employees, allowing companies to engender trust and to scale AI with confidence.<br />
 
@@ -163,7 +165,6 @@ Contributions are welcome\!  Reviewing, collating, and curating the literature i
 
 - Equality AI (https://equality-ai.com/)
 
-<img src="https://github.com/EqualityAI/Checklist/blob/main/img/collogo.png" align="left" alt="" width="120" />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="left" alt="" width="120" />
 
-[Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to improving AI standards for Healthcare with solutions to support Responsible AI development in the machine learning community. To do this, we welcome all academics and developers to join our open source community!  We are dedicated to making progress in the development of Responsible AI standards by providing trustworthy services and a collection of open source resources and tools for the ML Healthcare community, starting with our Responsible AI checklist and Data bias scanner.
 
