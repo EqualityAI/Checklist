@@ -165,6 +165,7 @@ Contributions are welcome\!  Reviewing, collating, and curating the literature i
 
 ## Contributors 
 <img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="left" alt="" width="120" />
+
 [Equality AI](https://equality-ai.com/)
 
 
