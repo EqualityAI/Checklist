@@ -149,7 +149,11 @@ write.csv(df, file.path('path', 'filename.csv'), append = T)
 
 ## Contributing to the Checklist
 
-Contributions are welcome\!  Reviewing, collating, and curating the literature is an on-going process that will require a community of developers, academics and experts with the north star of patients' wellbeing and health outcomes in mind. If you are interested in participating, users may open Issues using the github web ui by first selecting the `Issues tab`, then clicking `New Issue`, filling out the prompts and clicking `Submit new issue`. 
+Contributions are welcome\!  Reviewing, collating, and curating the literature is an on-going process that will require a community of developers, academics and experts with the north star of patients' wellbeing and health outcomes in mind. If you are interested in participating, users may open Issues by first selecting the `Issues tab`, then clicking `New Issue`, filling out the prompts and clicking `Submit new issue`. Please share bugs you experience, code improvements, comments, and even new ideas using Issues. 
+
+A few examples of how you can participate are:
+1.	Contribute code to the shiny app to make it easy to use, improve user experience, update functionality, debug, etc.
+2.	Review and increase the rigor of our statistical methods (i.e. fairness metrics, or bias detection). For example, do you have a better method for determining a bias and/or correcting a bias.
 
 ## Citations <a name="citations"></a>
 1. Paulus, J.K., Kent, D.M. Predictably unequal: understanding and addressing concerns that algorithmic clinical prediction may increase health disparities. npj Digit. Med. 3, 99 (2020). https://doi.org/10.1038/s41746-020-0304-9
