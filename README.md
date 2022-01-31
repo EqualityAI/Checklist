@@ -147,10 +147,9 @@ write.csv(df, file.path('path', 'filename.csv'), append = T)
 5. **Determine what metrics are most likely to be successfully deployed.** Maybe some model metrics are associated with successful deployment (low deployment bias), and others are not.  We can learn this from the data.<br /> 
 6. **Determine what the "true" barriers are to model success.** Generic scientific questions can be answered using this data. Someone may answer the question "What models are most likely to be deployed successfully?"
 
-## Development
+## Contributing to the Checklist
 
-Contributions are welcome\!  Reviewing, collating, and curating the literature is an on-going process that will require a community of developers, academics and experts with the north star of patients' wellbeing and health outcomes in mind. Users may open Issues using the github web ui by first selecting the `Issues tab`, then clicking `New Issue`, filling out the prompts and clicking `Submit new issue`. 
-
+Contributions are welcome\!  Reviewing, collating, and curating the literature is an on-going process that will require a community of developers, academics and experts with the north star of patients' wellbeing and health outcomes in mind. If you are interested in participating, users may open Issues using the github web ui by first selecting the `Issues tab`, then clicking `New Issue`, filling out the prompts and clicking `Submit new issue`. 
 
 ## Citations <a name="citations"></a>
 1. Paulus, J.K., Kent, D.M. Predictably unequal: understanding and addressing concerns that algorithmic clinical prediction may increase health disparities. npj Digit. Med. 3, 99 (2020). https://doi.org/10.1038/s41746-020-0304-9
