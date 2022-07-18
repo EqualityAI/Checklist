@@ -8,7 +8,9 @@ As the developers that make the models, we must accept more responsibility and e
 Equality AI is the first organization to begin assembling the Responsible AI framework into an end-to-end Responsible MLOPs Studio. The technology behind our Responsible MLOPs Studio is an open source ML software framework and tool, called `responsible_mlops’, with additional functions  that can be selectively incorporated to create various workflows for fitting responsible models.<br />
 
 ## `responsible_mlops` 
-To make steps in our `responsible_mlops` easy to follow, we have likened these various workflows to something everyone can understand—a recipe. These recipes outline the “ingredients” you need and the exact steps to take to ensure you’ve cooked up a fair AI system. Our first recipe is a fair preprocessing ML recipe and the main goal of this recipe is to repair the data set on which the model is run (pre-processing).<br />
+To make steps in our `responsible_mlops` easy to follow, we have likened these various workflows to something everyone can understand—a recipe. These recipes outline the “ingredients” you need and the exact steps to take to ensure you’ve cooked up a fair AI system. [Our first recipe is a fair preprocessing ML recipe]() and the main goal of this recipe is to repair the data set on which the model is run (pre-processing).<br />
 
 Sign up to hear when we release recipes that will tackle adjustments to the model (in processing) and the predictions (post-processing).
 
+## Highlighted functions
+`fairness_tree_metric` and `mitigation_method_mapping`
