@@ -12,7 +12,7 @@ To make steps in our `responsible_mlops` easy to follow, we have likened these v
 
 Sign up to hear when we release recipes that will tackle adjustments to the model (in processing) and the predictions (post-processing).
 
-## Highlighted functions
+## Highlights
 `fairness_tree_metric` 
 `mitigation_method_mapping`
 
