@@ -13,4 +13,10 @@ To make steps in our `responsible_mlops` easy to follow, we have likened these v
 Sign up to hear when we release recipes that will tackle adjustments to the model (in processing) and the predictions (post-processing).
 
 ## Highlighted functions
-`fairness_tree_metric` and `mitigation_method_mapping`
+`fairness_tree_metric` 
+`mitigation_method_mapping`
+
+## Responsible AI Takes a Community
+We are starting with fairness, and it doesn’t end there. We have much more in the works,  and we want to know—what do you need? Do you have a Responsible AI challenge you need to solve? Drop us a line and let’s see how we can help!
+
+## Contributing to the project
