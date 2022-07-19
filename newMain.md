@@ -8,8 +8,6 @@ In 2019, [Obermeyer et al.]() revealed a Healthcare commercial prediction algori
   <summary><font size="2"><i>More studies ...</i></font></summary>
   <hr/>
   </details>
-  
-<br></br>
 
 As the developers that make the models, we must accept more responsibility and ensure these products are being applied fairly.  The way to do that is a human-centered approach.  Responsible AI is an emerging framework that addresses this need and helps mitigate the potential risks of harm from AI and includes ethics, fairness, accuracy, security, and privacy.  
 
