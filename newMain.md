@@ -51,13 +51,6 @@ Let’s assemble the "ingredients" and get started!
 [Sign up]() to hear when we release recipes that will tackle adjustments to the model (in processing) and the predictions (post-processing).
 
 ## Highlighted functions
-We recognize and correct the missing pieces in traditional MLOps:
-
-* Fairness metrics
-* Bias mitigation methods and strategies
-* Transparency and oversight
-* Updated end-to-end MLOps workflows
-
 <details>
   <summary><font size="4"> fairness_tree_metric() </font></summary>
   <b>Arguments</b>
