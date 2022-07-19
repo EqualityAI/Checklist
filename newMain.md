@@ -7,9 +7,27 @@ In 2019, [Obermeyer et al.]() revealed a Healthcare commercial prediction algori
   <hr/>
   </details>
 
-As the developers that make the models, we must accept more responsibility and ensure these products are being applied fairly.  The way to do that is a human-centered approach.  Responsible AI is an emerging framework that addresses this need and helps mitigate the potential risks of harm from AI and includes ethics, fairness, accuracy, security, and privacy.  
+Data scientists are the newest members of the healthcare team, and as such, the Hippocratic Oath applies:  First do no harm.  Developers must accept greater responsibility to ensure the ML models they develop do no harm.  Unfortunately, the typical tools and MLOps workflows available to developers have proven to be insufficient for this task. Responsible AI is an emerging framework that addresses this need and helps mitigate the potential risks of harm from AI and includes ethics, fairness, accuracy, security, and privacy.  
+
+<details>
+  <summary><font size="2"><i>See full framework ...</i></font></summary>
+  <img src="img/framework.png" align="center" alt="" width="900" />
+  </details>
 
 Equality AI is the first organization to begin assembling the Responsible AI framework into an end-to-end Responsible MLOPs Studio. The technology behind our Responsible MLOPs Studio is an open source ML software framework and tool, called `responsible_mlops’, with additional functions  that can be selectively incorporated to create various workflows for fitting responsible models.<br />
+
+We recognize and correct the missing pieces in traditional MLOps:
+
+* Fairness metrics
+* Bias mitigation methods and strategies
+* Transparency and oversight
+* Updated end-to-end MLOps workflows
+* 
+Our tools ensure the healthcare MLOps workflow includes bias reduction and fair modeling - Every algorithm, every time.  
+Equality AI believes in AI for good, AI that is fair, and AI for equity.  Will you join us and become a health care hero in your development journey?
+
+
+
 
 ## `responsible_mlops` 
 To make steps in our `responsible_mlops` easy to follow, we have likened these various workflows to something everyone can understand—a recipe. These recipes outline the “ingredients” you need and the exact steps to take to ensure you’ve cooked up a fair AI system. [Our first recipe is a fair preprocessing ML recipe]() and the main goal of this recipe is to repair the data set on which the model is run (pre-processing).<br />
