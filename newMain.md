@@ -34,6 +34,15 @@ Sign up to hear when we release recipes that will tackle adjustments to the mode
 `fairness_tree_metric()` 
 `mitigation_method_mapping()`
 `data_prepare_nhamcs()`
+  <details>
+  <summary> <font size="4">`data_prepare_nhamcs()`</font></summary>
+  
+  <b>Arguments</b>
+
+&emsp; .data </br>
+&emsp;&emsp; A data frame, data frame extension (e.g. a tibble), or a lazy data frame (e.g. from dbplyr or dtplyr). See Methods, below, for more details.
+</details>
+
 `train_test_split()`
 `data_balancing()`
 
