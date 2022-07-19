@@ -1,4 +1,5 @@
-# Welcome to <img src="https://github.com/EqualityAI/Checklist/blob/master/img/color logo with words.PNG" align="left" alt="" width="100" />
+# Welcome to Equality AI MLOps Toolkit
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/color logo with words.PNG" align="left" alt="" width="100" />
 
 [Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to helping data scientists close the health disparity gap by assembling a Responsible AI framework into tools that include modernized, end-to-end MLOps with functions that can be selectively incorporated to create various workflows designed to produced equitable, responsible models. <br></br>  
 
