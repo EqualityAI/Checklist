@@ -91,6 +91,14 @@ We are starting with fairness, and it doesn’t end there. We have much more in 
 
 ## Contributing to the project
 Equality AI uses both GitHib and Slack to manage our open source community. To participate:
+
+1. Item 1
+2. Item 2
+3. Item 3
+    + Item 3a
+    + Item 3b
+
+
 1. Join the Slack community (equalityai.slack.com)
   + Introduce yourself in the #Introductions channel. We're all friendly people!
 3. Check out the [CONTRIBUTING]() file to learn how to contribute to our project, report bugs, or make feature requests. 
