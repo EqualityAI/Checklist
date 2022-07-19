@@ -1,7 +1,7 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/master/img/color logo only.PNG" align="left" alt="EqualityAI Logo" width="65" />
 
 # Equality AI `responsible_mlops`
-[Equality AI (EAI)](https://equality-ai.com/) is the first organization to begin assembling the Responsible AI framework into an end-to-end Responsible MLOPs Studio. The technology behind our Responsible MLOPs Studio is an open source ML software framework and tool, called `responsible_mlops`, with additional functions that can be selectively incorporated to create various workflows for <b>fitting responsible models.</b>
+[Equality AI (EAI)](https://equality-ai.com/) is the first organization to begin assembling the [Responsible AI framework]() into an end-to-end Responsible MLOPs Studio. The technology behind our Responsible MLOPs Studio is an open source ML software framework and tool, called `responsible_mlops`, with additional functions that can be selectively incorporated to create various workflows designed to produced <b>equitable, responsible models.</b>
 
 ## What is Responsible AI?
 In 2019, [Obermeyer et al.]() revealed a Healthcare commercial prediction algorithm <font size="5"><i>exhibiting significant racial bias</i></font> that had gone <b><font size="5">undetected</font></b>, resulting in <b><font size="5">millions of Black patients</font></b> with complex medical needs not qualifying for extra care, despite being considerably sicker than White patients. Recent scrutiny of machine learning (ML) usage in healthcare systems has revealed numerous examples of harmful medical decisions made at the <b><font size="5">expense of minority and vulnerable populations.</font></b> Medical professionals and researchers relying on ML models to assist in decision making are often unaware of the bias unintentionally introduced into algorithms by real-world data that incorporates inherent unfairness and produces biased outcomes that widen the gap in healthcare inequity.   
@@ -18,6 +18,35 @@ Data scientists are the newest members of the healthcare team, and as such, the 
   <img src="img/framework.png" align="center" alt="" width="900" />
   </details>
 
+## `responsible_mlops` 
+To make steps in our `responsible_mlops` easy to follow, our expert statisticians, academic partners and machine learning experts have likened these various workflows to something everyone can understand—a recipe. These recipes outline the “ingredients” you need and the exact steps to take to ensure you’ve cooked up a fair machine learning model. [Our first recipe is a fair preprocessing ML recipe]() and the main goal of this recipe is to repair the data set on which the model is run (pre-processing).</br>
+
+<details>
+  <summary><font size="2"><i>Sneak peak ...</i></font></summary>
+  To create a fair preprocessing ML algorithm, you will need to incorporate two crucial functions into your ML workflow:  a mitigation method and a fairness metric.  Mitigation methods are employed to address bias in data and/or machine learning models and achieve fairness in output.  Fairness metrics are needed to mathematically represent the fairness or bias levels of a machine learning model. <br />
+Let’s assemble the “ingredients” and get started!
+
+  #### **Ingredients**
+* Your research question (or run our use case)
+* Source data (or use our sample data)
+* Fairness metric
+* Mitigation method
+* Integrated development environment (IDE), such as R studio
+* R programming language, Python version coming soon
+* Access to the Equality AI GitHub repository
+  
+  
+  
+  
+  </details>
+
+
+
+
+[Our first recipe is a fair preprocessing ML recipe]() and the main goal of this recipe is to repair the data set on which the model is run (pre-processing).<br />
+
+Sign up to hear when we release recipes that will tackle adjustments to the model (in processing) and the predictions (post-processing).
+
 We recognize and correct the missing pieces in traditional MLOps:
 
 * Fairness metrics
@@ -25,10 +54,6 @@ We recognize and correct the missing pieces in traditional MLOps:
 * Transparency and oversight
 * Updated end-to-end MLOps workflows
 
-## `responsible_mlops` 
-To make steps in our `responsible_mlops` easy to follow, we have likened these various workflows to something everyone can understand—a recipe. These recipes outline the “ingredients” you need and the exact steps to take to ensure you’ve cooked up a fair AI system. [Our first recipe is a fair preprocessing ML recipe]() and the main goal of this recipe is to repair the data set on which the model is run (pre-processing).<br />
-
-Sign up to hear when we release recipes that will tackle adjustments to the model (in processing) and the predictions (post-processing).
 
 ## Highlighted functions
 `fairness_tree_metric()` 
