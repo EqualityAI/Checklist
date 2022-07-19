@@ -76,7 +76,7 @@ We recognize and correct the missing pieces in traditional MLOps:
   &emsp;&emsp; A data frame, data frame extension (e.g. a tibble), or a lazy data frame (e.g. from dbplyr or dtplyr). See Methods, below, for more details.
   </details>
   
-    <details>
+   <details>
   <summary><font size="4"> data_balancing() </font></summary>
   <b>Arguments</b>
   &emsp; .data </br>
