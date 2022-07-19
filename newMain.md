@@ -3,6 +3,8 @@
 # Equality AI `responsible_mlops`
 [Equality AI (EAI)](https://equality-ai.com/) is the first organization to begin assembling the [Responsible AI framework]() into an end-to-end Responsible MLOPs Studio. The technology behind our Responsible MLOPs Studio is an open source ML software framework and tool, called `responsible_mlops`, with additional functions that can be selectively incorporated to create various workflows designed to produced <b>equitable, responsible models.</b>
 
+[Read our EAI Manifesto](https://equality-ai.com/) and star this repo if you support our mission!
+
 <details open>
   <summary><font size="2"><i>Sneak peak ...</i></font></summary>
   Using our responsible_mlops toolkit, we <b>decreased the disparity</b> in the proportion of hospitalization between whites and blacks from 11.23% (pre-mitigation) to 7.93% (post-mitigation).
