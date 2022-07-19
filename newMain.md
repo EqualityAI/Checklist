@@ -1,7 +1,14 @@
 <img src="https://github.com/EqualityAI/Checklist/blob/master/img/collogo.png" align="right" alt="EqualityAI Logo" width="120" />
 
-# Equality AI Responsible MLOps Toolkit 
-In 2019, a [major research study]() revealed that millions of Black patients with complex medical needs did not qualify for extra care, despite being considerably sicker than White patients. This groundbreaking study confirmed the unfortunate truth that healthcare decision-making is not always fair and access to healthcare is often unequal. Medical professionals and researchers are beginning to use machine learning algorithms (ML), a subset of artificial intelligence, to assist in their medical decisions. However, ML models built on real-world data might unintentionally incorporate inherent unfairness and strengthen the disparity in medical decisions. 
+`responsible_mlops`
+In 2019, [Obermeyer et al.]() revealed a Healthcare commercial prediction algorithm <font size="3"><i>exhibiting significant racial bias</i></font> that had gone <b><font size="3">undetected</font></b>, resulting in <b><font size="3">millions of Black patients</font></b> with complex medical needs not qualifying for extra care, despite being considerably sicker than White patients. Recent scrutiny of machine learning (ML) usage in healthcare systems has revealed numerous examples of harmful medical decisions made at the <b><font size="3">expense of minority and vulnerable populations.</font></b> Medical professionals and researchers relying on ML models to assist in decision making are often unaware of the bias unintentionally introduced into algorithms by real-world data that incorporates inherent unfairness and produces biased outcomes that widen the gap in healthcare inequity.   
+
+<details>
+  <summary><font size="2"><i>More studies ...</i></font></summary>
+  <hr/>
+  </details>
+  
+<br></br>
 
 As the developers that make the models, we must accept more responsibility and ensure these products are being applied fairly.  The way to do that is a human-centered approach.  Responsible AI is an emerging framework that addresses this need and helps mitigate the potential risks of harm from AI and includes ethics, fairness, accuracy, security, and privacy.  
 
