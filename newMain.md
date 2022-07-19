@@ -97,7 +97,7 @@ Equality AI uses both GitHib and Slack to manage our open source community. To p
 3. Try out the [Responsible Machine Learning Toolkit](https://github.com/EqualityAI/ResponsibleMachineLearningToolkit)
   + Hit the top right "star" button on GitHub to show your love!
   + Watch the repo so that you get notifications when changes are made. 
-  + <img src="img/framework.png" align="center" alt="" width="900" />
+  <img src="img/watch.png" align="center" alt="" width="900" />
   + Follow the recipe above to use the code. 
 4. Provide feedback on your experience using the GitHub discussions or the Slack #support channel
   + For any questions or problems, send @Andy LaHart a message on Slack, or send an email to andy@equalityai.com.
