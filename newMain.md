@@ -1,4 +1,4 @@
-<img src="https://github.com/EqualityAI/Checklist/blob/master/img/color logo only.PNG" align="right" alt="EqualityAI Logo" width="100" />
+<img src="https://github.com/EqualityAI/Checklist/blob/master/img/color logo only.PNG" align="right" alt="EqualityAI Logo" width="75" />
 
 # Welcome to Equality AI `responsible_mlops`
 
