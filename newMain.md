@@ -38,13 +38,9 @@ Let’s assemble the "ingredients" and get started!
 </hr>
   </details>
 
-
-
-
-[Our first recipe is a fair preprocessing ML recipe]() and the main goal of this recipe is to repair the data set on which the model is run (pre-processing).<br />
-
 Sign up to hear when we release recipes that will tackle adjustments to the model (in processing) and the predictions (post-processing).
 
+## Highlighted functions
 We recognize and correct the missing pieces in traditional MLOps:
 
 * Fairness metrics
@@ -52,21 +48,40 @@ We recognize and correct the missing pieces in traditional MLOps:
 * Transparency and oversight
 * Updated end-to-end MLOps workflows
 
-
-## Highlighted functions
-`fairness_tree_metric()` 
-`mitigation_method_mapping()` </br>
-
-  <details>
-  <summary><font size="4"> data_prepare_nhamcs() </font></summary>
-  
+<details>
+  <summary><font size="4"> fairness_tree_metric() </font></summary>
   <b>Arguments</b>
   &emsp; .data </br>
   &emsp;&emsp; A data frame, data frame extension (e.g. a tibble), or a lazy data frame (e.g. from dbplyr or dtplyr). See Methods, below, for more details.
   </details>
 
-`train_test_split()`
-`data_balancing()`
+<details>
+  <summary><font size="4"> mitigation_method_mapping() </font></summary>
+  <b>Arguments</b>
+  &emsp; .data </br>
+  &emsp;&emsp; A data frame, data frame extension (e.g. a tibble), or a lazy data frame (e.g. from dbplyr or dtplyr). See Methods, below, for more details.
+  </details>
+
+  <details>
+  <summary><font size="4"> data_prepare_nhamcs() </font></summary>
+  <b>Arguments</b>
+  &emsp; .data </br>
+  &emsp;&emsp; A data frame, data frame extension (e.g. a tibble), or a lazy data frame (e.g. from dbplyr or dtplyr). See Methods, below, for more details.
+  </details>
+
+  <details>
+  <summary><font size="4"> train_test_split() </font></summary>
+  <b>Arguments</b>
+  &emsp; .data </br>
+  &emsp;&emsp; A data frame, data frame extension (e.g. a tibble), or a lazy data frame (e.g. from dbplyr or dtplyr). See Methods, below, for more details.
+  </details>
+  
+    <details>
+  <summary><font size="4"> data_balancing() </font></summary>
+  <b>Arguments</b>
+  &emsp; .data </br>
+  &emsp;&emsp; A data frame, data frame extension (e.g. a tibble), or a lazy data frame (e.g. from dbplyr or dtplyr). See Methods, below, for more details.
+  </details>
 
 ## Responsible AI Takes a Community
 We are starting with fairness, and it doesn’t end there. We have much more in the works,  and we want to know—what do you need? Do you have a Responsible AI challenge you need to solve? Drop us a line and let’s see how we can help! 
