@@ -23,10 +23,11 @@ To make steps in our `responsible_mlops` easy to follow, our expert statistician
 
 <details>
   <summary><font size="2"><i>Sneak peak ...</i></font></summary>
-  To create a fair preprocessing ML algorithm, you will need to incorporate two crucial functions into your ML workflow:  a mitigation method and a fairness metric.  Mitigation methods are employed to address bias in data and/or machine learning models and achieve fairness in output.  Fairness metrics are needed to mathematically represent the fairness or bias levels of a machine learning model. <br />
-Let’s assemble the “ingredients” and get started!
+  To create a fair preprocessing ML algorithm, you will need to incorporate two crucial functions into your ML workflow:  a mitigation method and a fairness metric.  Mitigation methods are employed to address bias in data and/or machine learning models and achieve fairness in output.  Fairness metrics are needed to mathematically represent the fairness or bias levels of a machine learning model. <br></br>
 
-  #### **Ingredients**
+Let’s assemble the "ingredients" and get started! <br></br>
+
+**Ingredients**
 * Your research question (or run our use case)
 * Source data (or use our sample data)
 * Fairness metric
@@ -34,10 +35,7 @@ Let’s assemble the “ingredients” and get started!
 * Integrated development environment (IDE), such as R studio
 * R programming language, Python version coming soon
 * Access to the Equality AI GitHub repository
-  
-  
-  
-  
+
   </details>
 
 
