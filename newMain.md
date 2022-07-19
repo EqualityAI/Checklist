@@ -4,7 +4,7 @@
 [Equality AI (EAI)](https://equality-ai.com/) is the first organization to begin assembling the [Responsible AI framework]() into an end-to-end Responsible MLOPs Studio. The technology behind our Responsible MLOPs Studio is an open source ML software framework and tool, called `responsible_mlops`, with additional functions that can be selectively incorporated to create various workflows designed to produced <b>equitable, responsible models.</b>
 
 <details open>
-  <summary><font size="2"><i>Fair Preprocessing Machine Learning Recipe</i></font></summary>
+  <summary><font size="2"><i>Sneak peak ...</i></font></summary>
   Using our responsible_mlops toolkit, we <b>decreased the disparity</b> in the proportion of hospitalization between whites and blacks from 11.23% (pre-mitigation) to 7.93% (post-mitigation).
   <img src="img/results.PNG" align="center" alt="" width="75%" />
 
@@ -31,7 +31,7 @@ Data scientists are the newest members of the healthcare team, and as such, the 
 To make steps in our `responsible_mlops` easy to follow, our expert statisticians, academic partners and machine learning experts have likened these various workflows to something everyone can understand—a recipe. These recipes outline the “ingredients” you need and the exact steps to take to ensure you’ve cooked up a fair machine learning model. [Our first recipe is a fair preprocessing ML recipe]() and the main goal of this recipe is to repair the data set on which the model is run (pre-processing).</br>
 
 <details>
-  <summary><font size="2"><i>Sneak peak ...</i></font></summary>
+  <summary><font size="2"><i>Learn more ...</i></font></summary>
   To create a fair preprocessing ML algorithm, you will need to incorporate two crucial functions into your ML workflow:  a mitigation method and a fairness metric.  Mitigation methods are employed to address bias in data and/or machine learning models and achieve fairness in output.  Fairness metrics are needed to mathematically represent the fairness or bias levels of a machine learning model. <br></br>
 
 Let’s assemble the "ingredients" and get started!
