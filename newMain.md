@@ -32,7 +32,7 @@ Sign up to hear when we release recipes that will tackle adjustments to the mode
 
 ## Highlighted functions
 `fairness_tree_metric()` 
-`mitigation_method_mapping()`
+`mitigation_method_mapping()` </br>
 `data_prepare_nhamcs()`
   <details>
   <summary> <font size="4">`data_prepare_nhamcs()`</font></summary>
