@@ -93,8 +93,9 @@ We are starting with fairness, and it doesn’t end there. We have much more in 
 Equality AI uses both GitHib and Slack to manage our open source community. To participate:
 
 1. Item 1
-2. Item 2
-3. Item 3
+    + Item 3a
+3. Item 2
+4. Item 3
     + Item 3a
     + Item 3b
 
