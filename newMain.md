@@ -9,7 +9,7 @@ In 2019, [Obermeyer et al.]() revealed a Healthcare commercial prediction algori
 
 Data scientists are the newest members of the healthcare team, and as such, the Hippocratic Oath applies:  First do no harm.  Developers must accept greater responsibility to ensure the ML models they develop do no harm.  Unfortunately, the typical tools and MLOps workflows available to developers have proven to be insufficient for this task. Responsible AI is an emerging framework that addresses this need and helps mitigate the potential risks of harm from AI and includes ethics, fairness, accuracy, security, and privacy.  
 
-<details>
+<details open>
   <summary><font size="2"><i>See full framework ...</i></font></summary>
   <img src="img/framework.png" align="center" alt="" width="900" />
   </details>
