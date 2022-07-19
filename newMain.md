@@ -6,7 +6,7 @@
 ### **Fair Preprocessing Machine Learning Recipe**
 
 <details open>
-  <summary><font size="2"><i>Sneak peak ...</i></font></summary>
+  <summary><font size="2"><i>Fair Preprocessing Machine Learning Recipe</i></font></summary>
   Using our `responsible_mlops` toolkit, we <b>decreased the disparity</b> in the proportion of hospitalization between whites and blacks from 11.23% (pre-mitigation) to 7.93% (post-mitigation).
   <img src="img/results.png" align="center" alt="" width="75%" />
 
