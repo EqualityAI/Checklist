@@ -22,7 +22,7 @@ We recognize and correct the missing pieces in traditional MLOps:
 * Bias mitigation methods and strategies
 * Transparency and oversight
 * Updated end-to-end MLOps workflows
-* 
+
 Our tools ensure the healthcare MLOps workflow includes bias reduction and fair modeling - Every algorithm, every time.  
 Equality AI believes in AI for good, AI that is fair, and AI for equity.  Will you join us and become a health care hero in your development journey?
 
