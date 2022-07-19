@@ -87,6 +87,16 @@ We recognize and correct the missing pieces in traditional MLOps:
 We are starting with fairness, and it doesn’t end there. We have much more in the works,  and we want to know—what do you need? Do you have a Responsible AI challenge you need to solve? Drop us a line and let’s see how we can help! 
 
 ## Contributing to the project
+Equality AI uses both GitHib and Slack to manage our open source community. To participate:
+1. Join the Slack community (equalityai.slack.com)
+  * Introduce yourself in the #Introductions channel. We're all friendly people!
+2. Check out the [CONTRIBUTING]() file to learn how to contribute to our project, report bugs, or make feature requests. 
+3. Try out the [Responsible Machine Learning Toolkit](https://github.com/EqualityAI/ResponsibleMachineLearningToolkit)
+  * Hit the top right "star" button on GitHub to show your love!
+  * Watch the repo so that you get notifications when changes are made. 
+  * Follow the recipe above to use the code. 
+4. Provide feedback on your experience using the GitHub discussions or the Slack #support channel
+  * For any questions or problems, send @Andy LaHart a message on Slack, or send an email to andy@equalityai.com.
 
 
 ## Authors
