@@ -110,3 +110,13 @@ Equality AI uses both GitHib and Slack to manage our open source community. To p
 <img src="https://github.com/EqualityAI/Checklist/blob/master/img/color logo only.PNG" align="left" alt="" width="75" />
 
 [Equality AI](https://equality-ai.com/) is a public benefit corporation dedicated to helping data scientists close the health disparity gap by assembling a Responsible AI framework into tools that include modernized, end-to-end MLOps with functions that can be selectively incorporated to create various workflows designed to produced equitable, responsible models. <br></br>  
+
+`fairness_metric_tree()` <br></br>
+`mitigation_mapping_info()` <br></br>
+`data_prepare_nhamcs()` <br></br>
+`train_test_split()` <br></br>
+`data_balancing()` <br></br>
+`ml_model()` <br></br>
+`ml_results()` <br></br>
+`fairness_metric()` <br></br>
+`bias_mitigation()` <br></br>
